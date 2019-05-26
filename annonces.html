@@ -12,19 +12,17 @@
     <meta name="Keywords" content="bourse de fret gratuite, bourse de transport">
     <meta name="robots" content="index, follow, all">
     <meta name="Language" content="fr">
-    <meta name="Author" content="FretBay.com">
+    
     <meta name="revisit-after" content="3">
-    <meta name="Identifier-URL" content="https://fretbay.com/">
     <meta name="Classification" content="Transport et déménagement">
-    <meta name="Creation_Date" content="23/01/2008">
-    <meta name="verify-v1" content="tNz0ODT49ruqP+0vtQerZIxCtVrZwKacOLhGmkce/z8=" >
-    <meta name="google-site-verification" content="Q0xsUwljztwvKZzNB0e48NeVhh4RM4Vfk1e_ii_f7UY" />
-    <title>Déménagement – bourse de transport – bourse de fret gratuite – FretBay</title>
-	<!-- <base href="" /> -->
-    <link href="https://fretbay.com/fr/css/iconFBGood.ico" rel="shortcut icon" >
+    <title>Déménagement – bourse de transport – bourse de fret gratuite – </title>
+    
+    <link rel="shortcut icon" href="HatchfulExport-All/favicon.png">
+
+
     <link type="text/css" rel="stylesheet" href="https://fretbay.com/fr/css/bootstrap.min.css">
     <link href="https://fretbay.com/fr/css/redmondGood/jquery-ui-1.8.14.customGood.css" rel="stylesheet" type="text/css">
-    <link href="https://fretbay.com/fr/css/fretbayGood.css?ver=1.8" rel="stylesheet" type="text/css">
+    <link href="css/fretbayGood.css" rel="stylesheet" type="text/css">
     <!--[if IE]><link href="https://fretbay.com/fr/css/fretbay_ieGood.css" rel="stylesheet" type="text/css"  /><![endif]-->
     <link rel="stylesheet" type="text/css" media="screen" href="https://fretbay.com/fr/css/fonts.css?ver=2" />
 	<link rel="stylesheet" type="text/css" media="all" href="https://fretbay.com/fr/css/normalize.css?ver=2" />
@@ -32,7 +30,19 @@
 	<link rel="stylesheet" type="text/css" media="all" href="https://fretbay.com/fr/css/presentation.css?ver=2.2" />
 	<link rel="stylesheet" type="text/css" media="all" href="https://fretbay.com/fr/css/modalbox.css?ver=2" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://fretbay.com/fr/css/condition.css" />
-	<script type="text/javascript" src="https://fretbay.com/fr/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://fretbay.com/fr/js/jquery-1.11.1.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
 </head>
 <body class="annonces-page">
 	<div id="site">
@@ -70,72 +80,35 @@ function loadNotifications(){
         <header id="header" class="btnNav inPHeader">
           <div class="container">
             <div class="row">
-    <div id="logo" class="col-sm-1"> <a href="https://fretbay.com/fr/index.php">
+    <div id="logo" class="col-sm-1"> <a href="#">
          <img src="HatchfulExport-All/logo_transparent.png"" widht="68" height="79" alt="Logo"> </a>
                 <button class="btn" id="menu-btn2"> <i class="fa fa-bars"></i> </button>
               </div>
               <!-- Begin Navigation Wrapper -->
               <div id="nav2" class="col-md-8 col-sm-11">
                 <ul class="list-unstyled list-inline">
-                  <li class="buttoNu"> <a href="https://fretbay.com/fr/shipper/trouver-un-transporteur">Demande de devis</a></li>
-                  <li> <a href="https://fretbay.com/fr/annonces.php">Trouver des chargements</a></li>
+                  <li class="buttoNu"> <a href="#">Demande de devis</a></li>
+                  <li> <a href="annonces.html>Trouver des chargements</a></li>
 
-                                    <li> <a href="https://fretbay.com/fr/le-déménagement-FretBay" >Comment ça marche ?</a></li>
+                                    <li> <a href="#" >Comment ça marche ?</a></li>
                   
-                  <li> <a target="_blank"  href="http://blog.fretbay.com">Blog</a></li>                </ul>
+                  <li> <a target="_blank"  href="#">Blog</a></li>                </ul>
               </div>
               <!-- Ends Navigation Wrapper -->
               <div class="col-md-3 notifiMenu text-right">
                 <ul class="list-unstyled list-inline">
-                  <li> <a href="https://fretbay.com/fr/etape.php">S'inscrire</a></li>
-                  <li> <a href="https://fretbay.com/fr/conec.php">Se connecter</a></li>
+                  <li> <a href="#">S'inscrire</a></li>
+                  <li> <a href="#">Se connecter</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </header>
 		
-        <input type="hidden" id="mapKey"   value="" />
-        <input type="hidden" id="mapStyles"   value="" />
-        <input type="hidden" id="globalRestApiUrl"   value="https://fretbay.com/api/v1/" />
-        <input type="hidden" id="googleApiKey"   value="AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0" />
-        <input type="hidden" id="globalSiteUrl"   value="https://fretbay.com" />
-        <input type="hidden" id="globalNodeServerUrl"   value="https://frs.fretbay.com" />
-        <input type="hidden" id="currentLoggedInUserId" 	value="" />
-        <input type="hidden" id="currentLoggedInUserIdsess" value="" />
-        <noscript>
-         <img height="1" width="1" 
-        src="https://www.facebook.com/tr?id=1175508309142096&ev=PageView
-        &noscript=1"/>
-        </noscript>
+     
                 
 
 		
-<script type="text/javascript">
-	(function(){
-	var service = "GS.d";
-	var config = {
-	pa : "21828",
-	si : "1",
-	u : document.location.href,
-	r : document.referrer,
-	uf_postal_code : "",
-	hd_m : "",/* EMAIL HASH MD5 */
-
-	//DO NOT CHANGE BELOW
-	rand : (new Date()).getTime()
-	};
-	var configParams = [];
-	for(var v in config){
-	configParams .push(v+'='+encodeURIComponent(config[v]));
-	}
-	var sddanJS=document.createElement('script');
-	sddanJS.async = true;
-	sddanJS.type = "text/javascript"; 
-	sddanJS.src='https://js.sddan.com/'+service+'?'+ configParams.join('&');
-	document.getElementsByTagName('head')[0].appendChild(sddanJS);
-	})();
-</script>
 
 		<!-- Header End -->
 
@@ -168,20 +141,16 @@ function loadNotifications(){
                             <div class="col-sm-7">
                                 <div class="banner-left-content">
                                     <h1>TROUVEZ DES CHARGEMENTS AUGMENTEZ VOS REVENUS</h1>
-                                    <h4>BOURSE DE FRET GRATUITE</h4>
-                                   <a href=" https://fretbay.com/fr/transporter/inscription-transporteur" class="btn">JE M'INSCRIS</a>
+                                    
+                                   <a href="#"  style="
+                                   margin-top: 10px;
+                                   border-radius: 15px;
+                                   background-color: #732cd0;
+                               " class="btn">JE M'INSCRIS</a>
                                     <img class="devices-img" src="images/annonces_new/devices.png" alt="" />
                                 </div>
                             </div>
-                            <div class="col-sm-5">
-                                <ul class="features list-unstyled">
-                                    <li>GRATUIT</li>
-                                    <li>VISIBILITÉ IMMÉDIATE</li>
-                                    <li>PAS D’ABONNEMENT</li>
-                                    <li>AUGMENTEZ VOTRE CHIFFRE D’AFFAIRE</li>
-                                    <li>ASSISTANCE TÉLÉPHONIQUE</li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -510,32 +479,7 @@ function countDownTimerListings(element, countDown) {
 				</div>
 
 			
-				<div class="col-md-2">
-					<div class="titleOffre">
-						<h3>Mes Offres :</h3>
-					</div>
-					<div class="control">
-						<input type="hidden" name="special" id="special" value="0"/>
-						<div class="control_bet">
-							<div class="carreBleu"></div>
-							<span class="textBleu">Offre plac&eacute;e</span>
-						</div>
-						
-						<div class="both"></div>
-						
-						<div class="control_exp">
-							<div class="carreOrange"></div>
-							<span class="textOrange">Offre expir&eacute;e</span>
-						</div>
-						
-						<div class="both"></div>
-						
-						<div class="control_win">
-							<div class="carreCian"></div>
-							<span class="textCian">Offre gagn&eacute;e</span>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 			<!-- row end -->
             
@@ -562,7 +506,228 @@ function countDownTimerListings(element, countDown) {
 		<div class="container">
 		
 			        
-	       	    <div class="listing-pagination clearfix"><div class="left" style="padding: 7px;padding-left:0px"><a class="buttonCurrentPage" href="annonces.php?&page=1" class="textbl">1</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl">2</a><a class="buttonPage" href="annonces.php?&page=3" class="textbl">3</a><a class="buttonPage" href="annonces.php?&page=4" class="textbl">4</a><a class="buttonPage" href="annonces.php?&page=5" class="textbl">5</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl"><i class="fa fa-angle-right"></i></a><a class="buttonPage" href="annonces.php?&page=96" class="textbl"><i class="fa fa-angle-double-right"></i></a></div><div class="right" style="position: relative;top: 7px;">1 - 25 sur 2393</div></div><div class="ui-widget ui-widget-content" style="position: static;border:0px"><div  class="ui-dialog-content ui-widget-content" id="dialog" style="border: none;"><div><table id="donnees" class="priority-listings offer-listings textbl main-tbl"><tr class="darkgrayLine thead"><th class="th-publication">Publication</th><th class="th-title">Nom</th><th class="th-activity">Activit&eacute;</th><th class="th-loading" style="text-align: right;padding-right: 5px;">Chargement</th><th class="th-delivery" style="text-align: left;padding-left: 5px;">Livraison</th><th class="th-distance">Distance</th><th class="th-expireation">Expiration</th></tr><tr class="indication text-center"><td colspan="7"><h5><span>ANNONCES PRIORITAIRES</span></h5></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-20 07:45:40">5 jours</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/equipement.svg"/> <a style="text-decoration: underline;" title="Meubles" href="Equipement-de-la-maison/Equipement-de-la-maison/Meubles-329249-.html">Meubles</a><br><em>Équipement de la maison</td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>2</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">35</strong><em>Bretagne</em><br><span>Le</span> <strong class="dateOffer">07/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">44</strong><em>Pays de la Loire</em><br><span>Le</span> <strong class="dateOffer">07/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>111 <span>km</span></strong>1<em>h</em>16</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>24 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-22 13:28:42">3 jours</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 1m3" href="Déménagements/Déménagements/Demenagement-1m3-329610-.html">Demenagement 1m3</a><br><em>Déménagements</td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>1</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">37</strong><em>Centre-Val de Loire</em><br><span>Entre</span> <strong class="dateOffer">22/05</strong> <span>et le</span> <strong class="dateOffer">28/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">88</strong><em>Grand Est</em><br><span>Le</span> <strong class="dateOffer">22/05</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>556 <span>km</span></strong>5<em>h</em>10</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>26 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-04-24 18:32:57">1 mois</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 1m3" href="Déménagements/Autre-déménagement/Demenagement-1m3-326296-.html">Demenagement 1m3</a><br><em>Déménagements</td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>2</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">RO</strong><em>ROME</em><br><span>Entre</span> <strong class="dateOffer">27/08</strong> <span>et le</span> <strong class="dateOffer">27/08</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">PA</strong><em>PARIS</em><br><span>Entre</span> <strong class="dateOffer">28/08</strong> <span>et le</span> <strong class="dateOffer">31/08</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1424 <span>km</span></strong>14<em>h</em>12</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>12 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-03-23 12:46:08">2 mois</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/palette.svg"/> <a style="text-decoration: underline;" title="Palette" href="Palette/Palette/Palette-322707-.html">Palette</a><br><em>Palette</td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>2</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">46</strong><em>Occitanie</em><br><span>Entre</span> <strong class="dateOffer">29/04</strong> <span>et le</span> <strong class="dateOffer">24/05</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">31</strong><em>Occitanie</em><br><span>Entre</span> <strong class="dateOffer">29/04</strong> <span>et le</span> <strong class="dateOffer">24/05</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>171 <span>km</span></strong>1<em>h</em>59</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>20 jours</strong></td></tr></table></div></div></div><div class="ui-widget ui-widget-content listings last-widget-content" style="position: static;"><div  class="ui-dialog-content ui-widget-content last-widget-content" id="dialog" style="border: none;"><table id="donnees" class="textbl normal-listings offer-listings"><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-26 04:29:00">18 minutes</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/bateaux.svg"/> <a style="text-decoration: underline;" title="Bateaux a moteur" href="Bateaux-and-volumineux/Bateaux-and-volumineux/Bateaux-a-moteur-330050-.html">Bateaux a moteur</a><br><em>Bateaux & volumineux</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">83</strong><em>Provence-Alpes-Cote d'Azur</em><br><span>Le</span> <strong class="dateOffer">30/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode"></strong><em>Nouvelle-Aquitaine</em><br><span>Le</span> <strong class="dateOffer">30/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>865 <span>km</span></strong>7<em>h</em>54</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-26 01:50:27">2 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 4m3" href="Déménagements/Déménagements/Demenagement-4m3-330049-.html">Demenagement 4m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>1</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">13</strong><em>Provence-Alpes-Côte d'Azur</em><br><span>Entre</span> <strong class="dateOffer">06/06</strong> <span>et le</span> <strong class="dateOffer">12/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">76</strong><em>Haute-Normandie</em><br><span>Entre</span> <strong class="dateOffer">06/06</strong> <span>et le</span> <strong class="dateOffer">12/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>951 <span>km</span></strong>8<em>h</em>44</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-26 01:28:44">3 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/motos.svg"/> <a style="text-decoration: underline;" title="Motos et cyclomoteurs" href="Motos/Motos/Motos-et-cyclomoteurs-330048-.html">Motos et cyclomoteur...</a><br><em>Motos</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">13</strong><em>Provence-Alpes-Cote d'Azur</em><br><span>Entre</span> <strong class="dateOffer">20/10</strong> <span>et le</span> <strong class="dateOffer">30/10</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">02</strong><em>Hauts-de-France</em><br><span>Entre</span> <strong class="dateOffer">20/10</strong> <span>et le</span> <strong class="dateOffer">30/10</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>886 <span>km</span></strong>8<em>h</em>14</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-26 01:02:04">3 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/bateaux.svg"/> <a style="text-decoration: underline;" title="Bateaux a moteur" href="Bateaux-and-volumineux/Bateaux-and-volumineux/Bateaux-a-moteur-330047-.html">Bateaux a moteur</a><br><em>Bateaux & volumineux</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode"></strong><em>Brabant-Septentrional</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">07/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode"></strong><em>District de Porto</em><br><span>Entre</span> <strong class="dateOffer">28/05</strong> <span>et le</span> <strong class="dateOffer">07/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1962 <span>km</span></strong>18<em>h</em>20</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 23:57:06">4 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/motos.svg"/> <a style="text-decoration: underline;" title="Motos et vehicules de sport" href="Motos/Motos/Motos-et-vehicules-de-sport-330046-.html">Motos et vehicules d...</a><br><em>Motos</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">29</strong><em>Bretagne</em><br><span>Entre</span> <strong class="dateOffer">26/05</strong> <span>et le</span> <strong class="dateOffer">07/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">25</strong><em>Bourgogne-Franche-Comte</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">07/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1018 <span>km</span></strong>9<em>h</em>50</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 23:47:14">5 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 15m3" href="Déménagements/Déménagements/Demenagement-15m3-330045-.html">Demenagement 15m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">26</strong><em>Rhône-Alpes</em><br><span>Le</span> <strong class="dateOffer">01/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">26</strong><em>Rhône-Alpes</em><br><span>Le</span> <strong class="dateOffer">01/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>8 <span>km</span></strong>11 <span>min</span></td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 23:30:16">5 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 20m3" href="Déménagements/Déménagements/Demenagement-20m3-330044-.html">Demenagement 20m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>3</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>35</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">93</strong><em>Ile-de-France</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">01/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">13</strong><em>Provence-Alpes-Cote d'Azur</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">01/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>787 <span>km</span></strong>7<em>h</em>24</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 23:19:10">5 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 16m3" href="Déménagements/Déménagements/Demenagement-16m3-330043-.html">Demenagement 16m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">27</strong><em>Normandie</em><br><span>Le</span> <strong class="dateOffer">01/07</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">12</strong><em>Occitanie</em><br><span>Le</span> <strong class="dateOffer">01/07</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>700 <span>km</span></strong>6<em>h</em>25</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 23:16:07">5 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 20m3" href="Déménagements/Déménagements/Demenagement-20m3-330042-.html">Demenagement 20m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>2</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>1</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">24</strong><em>Aquitaine</em><br><span>Le</span> <strong class="dateOffer">08/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">64</strong><em>64</em><br><span>Le</span> <strong class="dateOffer">08/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>317 <span>km</span></strong>3<em>h</em>13</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 22:21:35">6 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 8m3" href="Déménagements/Déménagements/Demenagement-8m3-330041-.html">Demenagement 8m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">74</strong><em>Rhône-Alpes</em><br><span>Le</span> <strong class="dateOffer">28/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">23</strong><em>Schleswig-Holstein</em><br><span>Le</span> <strong class="dateOffer">28/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1124 <span>km</span></strong>11<em>h</em>14</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 22:12:16">6 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/motos.svg"/> <a style="text-decoration: underline;" title="Motos et cyclomoteurs" href="Motos/Motos/Motos-et-cyclomoteurs-330040-.html">Motos et cyclomoteur...</a><br><em>Motos</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">42</strong><em>Auvergne-Rhone-Alpes</em><br><span>Entre</span> <strong class="dateOffer">30/05</strong> <span>et le</span> <strong class="dateOffer">06/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">06</strong><em>Provence-Alpes-Cote d'Azur</em><br><span>Entre</span> <strong class="dateOffer">30/05</strong> <span>et le</span> <strong class="dateOffer">13/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>449 <span>km</span></strong>4<em>h</em>17</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 22:11:39">6 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 37.43m3" href="Déménagements/Déménagements/Demenagement-37.43m3-330039-.html">Demenagement 37.43m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">69</strong><em>Auvergne-Rhone-Alpes</em><br><span>Entre</span> <strong class="dateOffer">19/07</strong> <span>et le</span> <strong class="dateOffer">02/08</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">30</strong><em>Occitanie</em><br><span>Entre</span> <strong class="dateOffer">19/07</strong> <span>et le</span> <strong class="dateOffer">03/08</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>210 <span>km</span></strong>2<em>h</em>13</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 22:07:51">6 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 13m3" href="Déménagements/Déménagements/Demenagement-13m3-330038-.html">Demenagement 13m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>8</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">36</strong><em>Centre</em><br><span>Le</span> <strong class="dateOffer">30/05</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">36</strong><em>Centre</em><br><span>Le</span> <strong class="dateOffer">31/05</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>13 <span>km</span></strong>12 <span>min</span></td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 21:50:48">6 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement " href="Déménagements/Déménagements/Demenagement-330037-.html">Demenagement </a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">51</strong><em>Champagne-Ardenne</em><br><span>Le</span> <strong class="dateOffer">15/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">51</strong><em>Champagne-Ardenne</em><br><span>Le</span> <strong class="dateOffer">15/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:">-</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 21:36:23">7 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 3m3" href="Déménagements/Autre-déménagement/Demenagement-3m3-330036-.html">Demenagement 3m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>1</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">82</strong><em>Tarn et garonne</em><br><span>Entre</span> <strong class="dateOffer">22/06</strong> <span>et le</span> <strong class="dateOffer">24/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">14</strong><em>Basse-Normandie</em><br><span>Entre</span> <strong class="dateOffer">22/06</strong> <span>et le</span> <strong class="dateOffer">24/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>744 <span>km</span></strong>6<em>h</em>41</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 21:23:05">7 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 20m3" href="Déménagements/Déménagements/Demenagement-20m3-330035-.html">Demenagement 20m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>5</strong> (<strong>5</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">75</strong><em>Ile-de-France</em><br><span>Le</span> <strong class="dateOffer">22/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">93</strong><em>Ile-de-France</em><br><span>Le</span> <strong class="dateOffer">22/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>21 <span>km</span></strong>29 <span>min</span></td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:54:10">7 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 13m3" href="Déménagements/Déménagements/Demenagement-13m3-330034-.html">Demenagement 13m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>4</strong> (<strong>4</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode"></strong><em>Gelderland</em><br><span>Le</span> <strong class="dateOffer">31/05</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">13</strong><em>Provence-Alpes-Cote d'Azur</em><br><span>Le</span> <strong class="dateOffer">02/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1223 <span>km</span></strong>11<em>h</em>24</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:52:19">7 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 50m3" href="Déménagements/Déménagements/Demenagement-50m3-330033-.html">Demenagement 50m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">34</strong><em>Languedoc-Roussillon</em><br><span>Le</span> <strong class="dateOffer">06/07</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">13</strong><em>Provence-Alpes-Côte d'Azur</em><br><span>Le</span> <strong class="dateOffer">06/07</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>174 <span>km</span></strong>1<em>h</em>51</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:44:08">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 1m3" href="Déménagements/Déménagements/Demenagement-1m3-330032-.html">Demenagement 1m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">08</strong><em>Catalunya</em><br><span>Entre</span> <strong class="dateOffer">25/06</strong> <span>et le</span> <strong class="dateOffer">29/06</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">20</strong><em>Casablanca-Settat</em><br><span>Entre</span> <strong class="dateOffer">25/06</strong> <span>et le</span> <strong class="dateOffer">29/06</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1539 <span>km</span></strong>16<em>h</em>23</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:42:38">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 60m3" href="Déménagements/Déménagements/Demenagement-60m3-330031-.html">Demenagement 60m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">77</strong><em>Ile-de-France</em><br><span>Le</span> <strong class="dateOffer">10/07</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">79</strong><em>Poitou-Charentes</em><br><span>Le</span> <strong class="dateOffer">10/07</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>427 <span>km</span></strong>4<em>h</em>01</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:31:16">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 2m3" href="Déménagements/Déménagements/Demenagement-2m3-330030-.html">Demenagement 2m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>2</strong> (<strong>2</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>2</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">76</strong><em>Haute-Normandie</em><br><span>Le</span> <strong class="dateOffer">27/05</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">94</strong><em>Ile-de-France</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">31/05</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>156 <span>km</span></strong>1<em>h</em>51</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 20:16:46">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 20m3" href="Déménagements/Déménagements/Demenagement-20m3-330029-.html">Demenagement 20m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">95</strong><em>Ile-de-France</em><br><span>Le</span> <strong class="dateOffer">16/07</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">33</strong><em>Aquitaine</em><br><span>Le</span> <strong class="dateOffer">16/07</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>617 <span>km</span></strong>5<em>h</em>45</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 19:57:47">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/equipement.svg"/> <a style="text-decoration: underline;" title="Fauteuils" href="Equipement-de-la-maison/Equipement-de-la-maison/Fauteuils-330028-.html">Fauteuils</a><br><em>Équipement de la maison</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>2</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>15</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode"></strong><em>Centre-Val de Loire</em><br><span>Le</span> <strong class="dateOffer">27/05</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode"></strong><em>Nouvelle-Aquitaine</em><br><span>Le</span> <strong class="dateOffer">31/05</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>534 <span>km</span></strong>5<em>h</em>01</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr class="grayLine"><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 19:54:13">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/motos.svg"/> <a style="text-decoration: underline;" title="Motos et cyclomoteurs" href="Motos/Motos/Motos-et-cyclomoteurs-330027-.html">Motos et cyclomoteur...</a><br><em>Motos</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>0</strong> (<strong>0</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>0</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">60</strong><em>Hauts-de-France</em><br><span>Entre</span> <strong class="dateOffer">27/05</strong> <span>et le</span> <strong class="dateOffer">11/07</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode"></strong><em>Valence</em><br><span>Entre</span> <strong class="dateOffer">15/07</strong> <span>et le</span> <strong class="dateOffer">19/07</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>1575 <span>km</span></strong>14<em>h</em>57</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>29 jours</strong></td></tr><tr><td class="td-publication"><em>Depuis</em> <strong title="2019-05-25 19:48:46">8 heures</strong></td><td class="td-nom"><img class="category-icon" src="images/svg/demenagement.svg"/> <a style="text-decoration: underline;" title="Demenagement 27m3" href="Déménagements/Déménagements/Demenagement-27m3-330026-.html">Demenagement 27m3</a><br><em>Déménagements</em></td><td class="td-activity" ><span class='bid-info'><img src='images/notificationIcon/bidPlace-icon.png' alt='' ><strong>1</strong> (<strong>1</strong> <em>en cours</em>)</span><span class='msg-info'><img src='images/chat-icon-blue.svg' alt='' ><strong>2</strong> <em>messages</em></span></td><td class="td-loading" data-title="Chargement:"><strong class="zipCode">59</strong><em>NORD</em><br><span>Entre</span> <strong class="dateOffer">26/08</strong> <span>et le</span> <strong class="dateOffer">30/08</strong></td><td class="td-delivery" data-title="Livraison:"><strong class="zipCode">03</strong><em>Auvergne</em><br><span>Entre</span> <strong class="dateOffer">26/08</strong> <span>et le</span> <strong class="dateOffer">30/08</strong></td><td class="divider-td visible-xs"></td><td class="td-distance" data-title="Distance:"><strong>558 <span>km</span></strong>5<em>h</em>18</td><td class="td-expiration" data-title="Expiration:"><span>Dans</span> <strong>44 jours</strong></td></tr></table></div></div><div class="listing-pagination clearfix"><div class="left" style="padding : 7px;padding-left:0px"><a class="buttonCurrentPage" href="annonces.php?&page=1" class="textbl">1</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl">2</a><a class="buttonPage" href="annonces.php?&page=3" class="textbl">3</a><a class="buttonPage" href="annonces.php?&page=4" class="textbl">4</a><a class="buttonPage" href="annonces.php?&page=5" class="textbl">5</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl"><i class="fa fa-angle-right"></i></a><a class="buttonPage" href="annonces.php?&page=96" class="textbl"><i class="fa fa-angle-double-right"></i></a></div><div class="right" style="position: relative;top: 7px;">1 - 25 sur 2393</div></div>				</div>
+	       	    <div class="listing-pagination clearfix"><div class="left" style="padding: 7px;padding-left:0px"><a class="buttonCurrentPage" href="annonces.php?&page=1" class="textbl">1</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl">2</a><a class="buttonPage" href="annonces.php?&page=3" class="textbl">3</a><a class="buttonPage" href="annonces.php?&page=4" class="textbl">4</a><a class="buttonPage" href="annonces.php?&page=5" class="textbl">5</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl"><i class="fa fa-angle-right"></i></a><a class="buttonPage" href="annonces.php?&page=96" class="textbl"><i class="fa fa-angle-double-right"></i></a></div><div class="right" style="position: relative;top: 7px;">1 - 25 sur 2393</div></div><div class="ui-widget ui-widget-content" style="position: static;border:0px"><div  class="ui-dialog-content ui-widget-content" id="dialog" style="border: none;"><div>
+                        
+                        <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Publication</th>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Activité</th>
+                                    <th scope="col">Chargement</th>
+                                    <th scope="col">Livraison</th>  
+                                    <th scope="col">Distance</th>
+                                    <th scope="col">Expiration</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"> Depuis
+                                            6 jours 
+                                        
+                                        </th>
+                                    <td>
+                                        
+                                            <img src="img/2.svg" class=""> 
+                                            Meubles
+                                            Équipement de la maison</td>
+                                    <td>0 (0 en cours)</td>
+                                    <td>  35
+                                            Bretagne
+                                            Le 07/06</td>
+
+                                     <td>  44
+                                       Pays de la Loire
+                                        Le 07/06</td>
+                                     <td>  111 km
+                                            1h16</td>    
+                                     <td> Dans 23 jours</td>
+
+
+                                  </tr>
+                                  <tr>
+                                        <th scope="row"> Depuis
+                                                6 jours 
+                                            
+                                            </th>
+                                        <td>
+                                            
+                                                <img src="img/2.svg" class=""> 
+                                                Meubles
+                                                Équipement de la maison</td>
+                                        <td>0 (0 en cours)</td>
+                                        <td>  35
+                                                Bretagne
+                                                Le 07/06</td>
+    
+                                         <td>  44
+                                           Pays de la Loire
+                                            Le 07/06</td>
+                                         <td>  111 km
+                                                1h16</td>    
+                                         <td> Dans 23 jours</td>
+    
+    
+                                      </tr>
+                                      <tr>
+                                            <th scope="row"> Depuis
+                                                    6 jours 
+                                                
+                                                </th>
+                                            <td>
+                                                
+                                                    <img src="img/2.svg" class=""> 
+                                                    Meubles
+                                                    Équipement de la maison</td>
+                                            <td>0 (0 en cours)</td>
+                                            <td>  35
+                                                    Bretagne
+                                                    Le 07/06</td>
+        
+                                             <td>  44
+                                               Pays de la Loire
+                                                Le 07/06</td>
+                                             <td>  111 km
+                                                    1h16</td>    
+                                             <td> Dans 23 jours</td>
+        
+        
+                                          </tr>
+                                          <tr>
+                                                <th scope="row"> Depuis
+                                                        6 jours 
+                                                    
+                                                    </th>
+                                                <td>
+                                                    
+                                                        <img src="img/2.svg" class=""> 
+                                                        Meubles
+                                                        Équipement de la maison</td>
+                                                <td>0 (0 en cours)</td>
+                                                <td>  35
+                                                        Bretagne
+                                                        Le 07/06</td>
+            
+                                                 <td>  44
+                                                   Pays de la Loire
+                                                    Le 07/06</td>
+                                                 <td>  111 km
+                                                        1h16</td>    
+                                                 <td> Dans 23 jours</td>
+            
+            
+                                              </tr>
+                                              <tr>
+                                                    <th scope="row"> Depuis
+                                                            6 jours 
+                                                        
+                                                        </th>
+                                                    <td>
+                                                        
+                                                            <img src="img/2.svg" class=""> 
+                                                            Meubles
+                                                            Équipement de la maison</td>
+                                                    <td>0 (0 en cours)</td>
+                                                    <td>  35
+                                                            Bretagne
+                                                            Le 07/06</td>
+                
+                                                     <td>  44
+                                                       Pays de la Loire
+                                                        Le 07/06</td>
+                                                     <td>  111 km
+                                                            1h16</td>    
+                                                     <td> Dans 23 jours</td>
+                
+                
+                                                  </tr>
+                                                  <tr>
+                                                        <th scope="row"> Depuis
+                                                                6 jours 
+                                                            
+                                                            </th>
+                                                        <td>
+                                                            
+                                                                <img src="img/2.svg" class=""> 
+                                                                Meubles
+                                                                Équipement de la maison</td>
+                                                        <td>0 (0 en cours)</td>
+                                                        <td>  35
+                                                                Bretagne
+                                                                Le 07/06</td>
+                    
+                                                         <td>  44
+                                                           Pays de la Loire
+                                                            Le 07/06</td>
+                                                         <td>  111 km
+                                                                1h16</td>    
+                                                         <td> Dans 23 jours</td>
+                    
+                    
+                                                      </tr>
+                                                      <tr>
+                                                            <th scope="row"> Depuis
+                                                                    6 jours 
+                                                                
+                                                                </th>
+                                                            <td>
+                                                                
+                                                                    <img src="img/2.svg" class=""> 
+                                                                    Meubles
+                                                                    Équipement de la maison</td>
+                                                            <td>0 (0 en cours)</td>
+                                                            <td>  35
+                                                                    Bretagne
+                                                                    Le 07/06</td>
+                        
+                                                             <td>  44
+                                                               Pays de la Loire
+                                                                Le 07/06</td>
+                                                             <td>  111 km
+                                                                    1h16</td>    
+                                                             <td> Dans 23 jours</td>
+                        
+                        
+                                                          </tr>
+                                                          <tr>
+                                                                <th scope="row"> Depuis
+                                                                        6 jours 
+                                                                    
+                                                                    </th>
+                                                                <td>
+                                                                    
+                                                                        <img src="img/2.svg" class=""> 
+                                                                        Meubles
+                                                                        Équipement de la maison</td>
+                                                                <td>0 (0 en cours)</td>
+                                                                <td>  35
+                                                                        Bretagne
+                                                                        Le 07/06</td>
+                            
+                                                                 <td>  44
+                                                                   Pays de la Loire
+                                                                    Le 07/06</td>
+                                                                 <td>  111 km
+                                                                        1h16</td>    
+                                                                 <td> Dans 23 jours</td>
+                            
+                            
+                                                              </tr>
+                                </tbody>
+                              </table>
+                              
+    </div>
+</div>
+<div class="listing-pagination clearfix">
+    <div class="left" style="padding : 7px;padding-left:0px"><a class="buttonCurrentPage" href="annonces.php?&page=1"
+            class="textbl">1</a><a class="buttonPage" href="annonces.php?&page=2" class="textbl">2</a><a class="buttonPage"
+            href="annonces.php?&page=3" class="textbl">3</a><a class="buttonPage" href="annonces.php?&page=4" class="textbl">4</a><a
+            class="buttonPage" href="annonces.php?&page=5" class="textbl">5</a><a class="buttonPage" href="annonces.php?&page=2"
+            class="textbl"><i class="fa fa-angle-right"></i></a><a class="buttonPage" href="annonces.php?&page=96"
+            class="textbl"><i class="fa fa-angle-double-right"></i></a></div>
+    <div class="right" style="position: relative;top: 7px;">1 - 25 sur 2393</div>
+</div>
+</div>
 </div>
 <!-- select speciality box start -->   
  <!-- @ speciality box end -->
@@ -602,283 +767,202 @@ $(document).ready(function() {
 });
 
 </script>        
-		<!-- Footer Start -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/footer.css?v=1.2"/>
-    <!-- Begin Footer Wrapper -->
-    <div id="fretbayfooter">
-        <div class="footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="row">
-                            <div class="col-lg-12 footerLogo">
-                                <a href="https://fretbay.com/fr/index.php"><img src="https://fretbay.com/fr/images/footer-logo.svg" width="143" height="165" alt="Logo" class="f-logo"></a>
-                            </div>
-                        </div>
-                    </div><!--/ Footer Column -->
-                    
-                    <div class="col-md-10 top-right-footersection">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <h2> FretBay vous aide </h2>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="https://fretbay.com/fr/recherche-transporteur">Rechercher un transporteur</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/avantage-transporteur">Je suis un transporteur</a>
-                                    </li>
-                                    <li>
-                                        <!--<a class="pageS" href="#stepsNew">Comment ça marche ?</a>-->
-                                        <a  href="https://fretbay.com/fr/le-déménagement-FretBay">Comment ça marche ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/foire-aux-questions">Foire aux questions</a>
-                                    </li>
-                                </ul>
-                            </div><!--/ Footer Column -->
-                            
-                            <div class="col-sm-3"> 
-                                <h2>L'entreprise</h2>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="https://fretbay.com/fr/qui-sommes-nous">Qui sommes-nous ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/combattre-marche-noir.php">Combattre le marché noir</a>
-                                    </li>
-                                                                        <li>
-                                        <a href="https://fretbay.com/fr/presse.php">Presse et médias</a>
-                                    </li>
-                                                                    <li>
-                                        <a href="https://fretbay.com/fr/recrutement.php">Recrutement</a>
-                                    </li>
-                                                                        <li>
-                                        <a target="_blank" href="https://fretbay.com/fr/blog/index.html">Blog</a>
-                                    </li>
-                                                                </ul>
-                            </div><!--/ Footer Column -->
-                            
-                            <div class="col-sm-3">
-                                <h2>Nos conseils</h2>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="https://fretbay.com/fr/conseil-demenagement.php">Conseils déménagement</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/demenagement-entreprise.php">Déménagement d'entreprise</a>
-                                    </li><!--
-                                    <li>
-                                        <a href="#">Check-list déménagement</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Conseils transporteurs</a>
-                                    </li>-->
-                                    <li>
-                                        <a href="https://fretbay.com/fr/demenageurs-professionnels.php">Déménageurs</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/ebay-vendeurs/">eBay Vendeurs</a>
-                                    </li>
-                                    <!-- no available link for prevention-arnaque -->
-                                    <li>
-                                        <a href="https://fretbay.com/fr/prevention-arnaque">Prévention Arnaque</a>
-                                    </li>
-                                </ul>
-                            </div><!--/ Footer Column -->
-                            
-                            <div class="col-sm-3">
-                                <h2>Service Client</h2>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="https://fretbay.com/fr/temoignages-expediteurs-FretBay.html">Témoignages clients</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/quality.php">Charte qualité</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/vie-privee">Vie privée</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://fretbay.com/fr/contact">Nous contacter</a>
-                                    </li>
-                                </ul>
-                            </div><!--/ Footer Column -->
+	  <!-- Begin Footer Wrapper -->
+<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+<!-- Begin Footer Wrapper -->
+<div id="fretbayfooter">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col-lg-12 footerLogo">
+                            <a href="https://fretbay.com/fr/index.php"><img src="HatchfulExport-All/logo_transparent.png" width="143" height="165" alt="Logo" class="f-logo"></a>
                         </div>
                     </div>
-                </div>
-            </div> 
-        </div><!--/ Footer Main -->
-        
-        <div class="footer-middle">
-            <div class="container">
-                <div class="footer-middle-inner">
-                    <span>Les autres services de FretBay</span>
-                    <a class="fretbay-pro-link" target="_blank" href="https://fretbay.com/fr/pro/"><img src="https://fretbay.com/fr/images/fretbaypro-logo.svg" alt="fretbaypro logo"></a>
-                    <a class="fretbay-now-link" target="_blank" href="https://now.fretbay.com"><img src="https://fretbay.com/fr/images/fretbaynow-logo-w.svg" alt="fretbaynow logo"></a>
-                    <a target="_blank" href="https://myboxman.com"><img src="https://fretbay.com/fr/images/mbm-logo-w.svg" alt="myboxman logo"></a>
+                </div><!--/ Footer Column -->
+                
+                <div class="col-md-10 top-right-footersection">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h2> FretBay vous aide </h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://fretbay.com/fr/recherche-transporteur">Rechercher un transporteur</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/avantage-transporteur">Je suis un transporteur</a>
+                                </li>
+                                <li>
+                                    <!--<a class="pageS" href="#stepsNew">Comment ça marche ?</a>-->
+                                    <a  href="https://fretbay.com/fr/le-déménagement-FretBay">Comment ça marche ?</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/foire-aux-questions">Foire aux questions</a>
+                                </li>
+                            </ul>
+                        </div><!--/ Footer Column -->
+                        
+                        <div class="col-sm-3"> 
+                            <h2>L'entreprise</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://fretbay.com/fr/qui-sommes-nous">Qui sommes-nous ?</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/combattre-marche-noir.php">Combattre le marché noir</a>
+                                </li>
+                                                                    <li>
+                                    <a href="https://fretbay.com/fr/presse.php">Presse et médias</a>
+                                </li>
+                                                                <li>
+                                    <a href="https://fretbay.com/fr/recrutement.php">Recrutement</a>
+                                </li>
+                                                                    <li>
+                                    <a target="_blank" href="https://fretbay.com/fr/blog/index.html">Blog</a>
+                                </li>
+                                                            </ul>
+                        </div><!--/ Footer Column -->
+                        
+                        <div class="col-sm-3">
+                            <h2>Nos conseils</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://fretbay.com/fr/conseil-demenagement.php">Conseils déménagement</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/demenagement-entreprise.php">Déménagement d'entreprise</a>
+                                </li><!--
+                                <li>
+                                    <a href="#">Check-list déménagement</a>
+                                </li>
+                                <li>
+                                    <a href="#">Conseils transporteurs</a>
+                                </li>-->
+                                <li>
+                                    <a href="https://fretbay.com/fr/demenageurs-professionnels.php">Déménageurs</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/ebay-vendeurs/">eBay Vendeurs</a>
+                                </li>
+                                <!-- no available link for prevention-arnaque -->
+                                <li>
+                                    <a href="https://fretbay.com/fr/prevention-arnaque">Prévention Arnaque</a>
+                                </li>
+                            </ul>
+                        </div><!--/ Footer Column -->
+                        
+                        <div class="col-sm-3">
+                            <h2>Service Client</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://fretbay.com/fr/temoignages-expediteurs-FretBay.html">Témoignages clients</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/quality.php">Charte qualité</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/vie-privee">Vie privée</a>
+                                </li>
+                                <li>
+                                    <a href="https://fretbay.com/fr/contact">Nous contacter</a>
+                                </li>
+                            </ul>
+                        </div><!--/ Footer Column -->
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
+    </div><!--/ Footer Main -->
+        
+       
 
         <div class="footer-copyright"> 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                   
                     
-                        <div itemtype="http://data-vocabulary.org/Organization" itemscope=""> 
-                          <p>
-                            <span itemprop="name"><a itemprop="url" href="https://fretbay.com/fr">FretBay</a></span>
-                             SAS au capital de 431 546&euro; &copy; 2019 Tous droits réserves<br>
-                            L'utilisation de ce site Web implique l'acceptation des<a href="https://fretbay.com/fr/condition.php"> Conditions Générales</a><br>                        
-                        
-                            <span itemtype="http://data-vocabulary.org/Address" itemscope="" itemprop="address"> 
-                                <span itemprop="street-address">31 rue de Reuilly 75012 Paris, France</span>, 
-                                <!-- <span itemprop="region"> Ile-de-France </span>, 
-                                <span itemprop="country-name"> FRANCE </span> - -->
-                            </span> 
-                                                        <span itemprop="tel" itemscope="" >
-                                <span itemprop="value">(0)825.422.423</span>
-                            </span> &nbsp;
-                            <span style="font-size: 10px;">0,18€ ttc/minute</span>
-                                                         <br>
-                            <span>N° SIRET : 502.134.208.00037 | N° TVA : FR08502134208</span>
-                          </p>
-                        </div>
-                        
-                                                <div itemtype="http://data-vocabulary.org/Review-aggregate" itemscope="">
-                          <p class="no-margin">
-
-
-                            <a target="_blank" href="https://fr.trustpilot.com/review/www.fretbay.com" title="">
-                                Commentaires &amp; Avis clients certifiés par TrustPilot - 
-                                <span itemprop="itemreviewed">FretBay</span>
-                                <span itemprop="votes" id="trustPilot-totalReviews">3467</span>
-évaluations: 
-                                <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating"><span itemprop="average" id="trustPilot-trustScore">8.6</span>/<span itemprop="best">10</span> 
-                            </span>
-                            </a>
-
+                    <div class="footer-copyright"> 
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                    
+                                         <h1> Kawai International </h1>
+                                    </div>
+                                    
+                                    <!-- Begin Social Icon Wrapper -->
+                                    <div class="col-lg-6 no-padding fretbaysocial-ico">
+                                        <ul class="list-unstyled list-inline">
+                                            <li class="li">
+                                                <a href="# target="_blank">LinkedIn</a>
+                                            </li>
+                                            <li class="tw">
+                                                <a href="#" target="_blank">Twitter</a>
+                                            </li>
+                                            <li class="fb">
+                                                <a href="#" target="_blank">Facebook</a>
+                                            </li>
+                                            <li class="gp">
+                                                <a href="#" target="_blank">Google Plus</a>
+                                            </li>
+                                            <li class="yt">
+                                                <a href="#" target="_blank">YouTube</a>
+                                            </li>
+                                            <li class="wp">
+                                                <a href="#" target="_blank">WikiPedia</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Ends Social Icon Wrapper -->
+                                <div class="clearfix"></div>
+                                                            </div>
+                        </div><!--/ Copyrights -->
+                    </div>
+                    <!-- Ends Footer Wrapper -->
+                    <!--Mobile Footer Start-->
+                    <div id="fretbaymobFooter" class="homeFoot">
+                        <div class="container text-center">
+                            <div class="logo">
+                                <img src="https://fretbay.com/fr/images/logo-video.png"  width="68" height="79">
+                            </div>
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <a href="#">Presse</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Qui sommes-nous ?</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nous contacter</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Conditions Générales</a>
+                                </li>
+                            </ul>
+                            <!-- Begin Social Icon Wrapper -->
+                            <!-- mob footer start -->
                             
-                          </p>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-google"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                            
+                            <!-- mob footer end -->
+                            <!-- Ends Social Icon Wrapper -->
+                            
                         </div>
                     </div>
+                    <!--Mobile Footer Ends-->
                     
-                    <!-- Begin Social Icon Wrapper -->
-                    <div class="col-lg-6 no-padding fretbaysocial-ico">
-                        <ul class="list-unstyled list-inline">
-                            <li class="li">
-                                <a href="https://www.linkedin.com/company/fretbay" target="_blank">LinkedIn</a>
-                            </li>
-                            <li class="tw">
-                                <a href="https://twitter.com/#!/fretbay" target="_blank">Twitter</a>
-                            </li>
-                            <li class="fb">
-                                <a href="https://www.facebook.com/168472786500639" target="_blank">Facebook</a>
-                            </li>
-                            <li class="gp">
-                                <a href="https://plus.google.com/+fretbay" target="_blank">Google Plus</a>
-                            </li>
-                            <li class="yt">
-                                <a href="https://www.youtube.com/user/fretbaytv" target="_blank">YouTube</a>
-                            </li>
-                            <li class="wp">
-                                <a href="https://fr.wikipedia.org/wiki/FretBay" target="_blank">WikiPedia</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Ends Social Icon Wrapper -->
-                <div class="clearfix"></div>
-                                            </div>
-        </div><!--/ Copyrights -->
-    </div>
-    <!-- Ends Footer Wrapper -->
-    <!--Mobile Footer Start-->
-    <div id="fretbaymobFooter" class="homeFoot">
-        <div class="container text-center">
-            <div class="logo">
-                <img src="https://fretbay.com/fr/images/home/logo-video.png"  width="68" height="79">
-            </div>
-            <ul class="list-unstyled list-inline">
-                <li>
-                    <a href="https://fretbay.com/fr/presse.php">Presse</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://fretbay.com/fr/blog/index.html">Blog</a>
-                </li>
-                <li>
-                    <a href="https://fretbay.com/fr/qui-sommes-nous">Qui sommes-nous ?</a>
-                </li>
-                <li>
-                    <a href="https://fretbay.com/fr/contact">Nous contacter</a>
-                </li>
-                <li>
-                    <a href="https://fretbay.com/fr/condition.php"> Conditions Générales</a>
-                </li>
-            </ul>
-            <!-- Begin Social Icon Wrapper -->
-            <!-- mob footer start -->
-            <div class="fretbaysocial-ico">
-                <ul class="list-unstyled list-inline">
-                    <li class="li">
-                        <a href="https://www.linkedin.com/company/fretbay" target="_blank">LinkedIn</a>
-                    </li>
-                    <li class="tw"> 
-                        <a href="https://twitter.com/#!/fretbay" target="_blank">Twitter</a>
-                    </li>
-                    <li class="fb">
-                        <a href="https://www.facebook.com/168472786500639" target="_blank">Facebook</a>
-                    </li>
-                    <li class="gp">
-                        <a href="https://plus.google.com/+fretbay" target="_blank">Google Plus</a>
-                    </li>
-                    <li class="yt">
-                        <a href="https://www.youtube.com/user/fretbaytv" target="_blank">YouTube</a>
-                    </li>
-                    <li class="wp">
-                        <a href="https://fr.wikipedia.org/wiki/FretBay" target="_blank">WikiPedia</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- mob footer end -->
-            <!-- Ends Social Icon Wrapper -->
-            <p>FreBay SAS &copy; 2019<br>
-            Paris, FRANCE 
-                        - (0)825.422.423 0,18€ ttc/minute                    </p>
-        </div>
-    </div>
-    <!--Mobile Footer Ends-->
     
     
     
-    <script type="text/javascript">
-    adroll_adv_id = "ZZO6B2HY75EEHM6AYG3EEZ";
-    adroll_pix_id = "ZB7VAQCP3ZHTFDRG5YIZW7";
-    (function () {
-        var _onload = function(){
-            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
-            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
-            var scr = document.createElement("script");
-            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com":"http://a.adroll.com");
-            scr.setAttribute('async', 'true');
-            scr.type = "text/javascript";
-            scr.src = host + "/j/roundtrip.js";
-            ((document.getElementsByTagName('head') || [null])[0] ||
-                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-        };
-        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
-        else {window.attachEvent('onload', _onload)}
-    }());
-    jQuery(document).ready(function($) {
-      if (typeof jQuery.ajax != "undefined" && typeof fetchTrustPilotStatistics != "undefined"){
-        fetchTrustPilotStatistics();
-      }
-    });
-    window.globalSiteUrl = 'https://fretbay.com';
-</script>
     <!-- Market Shot scripts --> 
     <script type="text/javascript" src="https://fretbay.com/fr/js/marketshot/marketshot.js?v=0.3"/></script>
     <script async src="//live.marketshot.com/js/mics/pixel-track.js?partner=fry0417"></script>
@@ -902,7 +986,20 @@ $(document).ready(function() {
     <!-- <script type="text/javascript" src="https://fretbay.com/fr/javascript/jquery-ui-1.8.14.custom.minGood.js" ></script> -->
     <script type="text/javascript" src="https://fretbay.com/fr/javascript/jwplayer.js"></script>
     <script type="text/javascript" src="v3/javascript/common-fb.js"></script>
-	
+    
+    
+
+    
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="js/main2.js"></script>
+    
 	
 </body>
 </html>
