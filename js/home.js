@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 
 	//Go Down
 	var scrolled=0;
-	jQuery('#goDown').on('click' ,function(){
+	jQuery('#Down').on('click' ,function(){
 		jQuery('html,body').animate({
 			scrollTop: h - 47
 		},500);

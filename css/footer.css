@@ -1,0 +1,125 @@
+/*
+Footer Wrapper Start
+----------------------------------------------------------*/
+#fretbayfooter{font-family: "Lato", sans-serif;}
+#fretbayfooter ul{margin-bottom: 10px;}
+#fretbayfooter .footer-main .top-right-footersection{padding-left: 40px;}
+#fretbayfooter .footer-main{background:#1a69c4;padding:8px 0;}
+#fretbayfooter .footer-main .f-logo{display:inline-block;margin:18px 0 2px;}
+#fretbayfooter .footer-main h5{color:#cfd3da;border-bottom:#808792 solid 1px;line-height:38px; font-size: 18px; font-family: "Lato", sans-serif; margin: 10px 0}
+#fretbayfooter .footer-main h2{color:#cfd3da;border-bottom:#808792 solid 1px;line-height:38px; font-size: 18px; font-family: "Lato", sans-serif; margin: 10px 0}
+#fretbayfooter .footer-main p{color:#a4adba;font-weight:300;}
+#fretbayfooter .footer-main ul li{font-size:15px;line-height:36px;font-weight:300;}
+#fretbayfooter .footer-main ul li a{color:#cfd3da;}
+#fretbayfooter .footer-main ul li a:hover{text-decoration:none;color:#2db2d3;}
+#fretbayfooter .footer-copyright{background:#004ca5;padding:28px 0;}
+#fretbayfooter .footer-copyright p{font-weight:300;font-size:12px;color:#cfd3da;margin:16px 0 0;line-height:22px;}
+#fretbayfooter .footer-copyright p a{font-weight:400;color:#2db2d3;}
+/* Footer middle section */
+.footer-middle{
+	background: #004ca5;
+}
+.footer-middle-inner{
+	position: relative;
+	padding: 50px 0 15px;
+}
+.footer-middle-inner:after{
+	content: '';
+	width: 300px;
+	border-bottom: 1px solid #69717d;
+	position: absolute;
+	top: 100%;
+	margin-top: 20px;
+	left: 0;
+}
+.footer-middle span{
+	display: inline-block;
+	vertical-align: middle;
+	color: #cfd3da;
+	font-weight: 700;
+	margin-right: 16px;
+}
+.footer-middle a{
+	display: inline-block;
+	margin: 0 15px;
+	vertical-align: middle;
+}
+.footer-middle img{
+	height: 35px;
+}
+.footer-middle .fretbay-pro-link img{
+	height: 55px;
+}
+/* Social Icons Start */
+.fretbaysocial-ico ul{margin-bottom:-10px;float:right;}
+.fretbaysocial-ico ul li{padding:0;margin-left:12px;height:75px;padding:10px 0 0;}
+.fretbaysocial-ico ul li a{width:65px;height:65px;float:left;text-indent:-99999px;background:url('../img/social-iconz.png') no-repeat;}
+.fretbaysocial-ico ul li,.fretbaysocial-ico ul li:hover{-o-transition:padding .3s;-ms-transition:padding .3s;-moz-transition:padding .3s;-webkit-transition:padding .3s;transition:padding .3s;}
+.fretbaysocial-ico ul li.li	a{background-position:0px -65px;}
+.fretbaysocial-ico ul li.li:hover a{background-position:0px 0px;}
+.fretbaysocial-ico ul li:hover{padding-top:0;}
+.fretbaysocial-ico ul li.tw	a	{background-position:-65px -65px;}
+.fretbaysocial-ico ul li.tw:hover a	{background-position:-65px 0px;}
+.fretbaysocial-ico ul li.fb	a{background-position:-130px -65px;}
+.fretbaysocial-ico ul li.fb:hover a{background-position:-130px 0px;}
+.fretbaysocial-ico ul li.gp	a{background-position:-195px -65px;}
+.fretbaysocial-ico ul li.gp:hover a{background-position:-195px 0;}
+.fretbaysocial-ico ul li.yt	a{background-position:-325px -65px;}
+.fretbaysocial-ico ul li.yt:hover a{background-position:-325px 0;}
+.fretbaysocial-ico ul li.wp	a{background-position:-390px -65px;}
+.fretbaysocial-ico ul li.wp:hover a{background-position:-390px 0;}
+.fretbaysocial-ico ul li:hover a,
+.fretbaysocial-ico ul li a,.social-ico ul li a:hover{-o-transition:0s;-ms-transition:0s;-moz-transition:0s;-webkit-transition:0s;transition:0s;}
+/*
+Mobile Footer Start
+----------------------------------------------------------*/
+#fretbaymobFooter{width:100%;background-color:#49515e;background-image:url('../images/home/mobFootBg.png');background-repeat:repeat;float:left;padding:20px 0;display:none;font-size:16px;}
+#fretbaymobFooter .logo{display:inline-block;margin-bottom:10px;}
+#fretbaymobFooter ul>li:before{content:'|';display:inline-block;vertical-align:middle;padding:5px 15px 5px 6px;line-height:10px;}
+#fretbaymobFooter ul>li:first-child:before{display:none;}
+#fretbaymobFooter ul>li,
+#fretbaymobFooter ul>li>a{color:#32a3c1;line-height:30px;display:inline-block;vertical-align:middle;}
+#fretbaymobFooter ul>li>a:hover{color:#32a3c1;text-decoration:underline;}
+#fretbaymobFooter p{color:#fff;margin:0;}
+#fretbaymobFooter .fretbaysocial-ico ul{margin:0 0 10px;}
+#fretbaymobFooter .fretbaysocial-ico ul li a{background-image:url('../images/home/mobSocial.png');width: 40px;height: 40px;}
+#fretbaymobFooter .fretbaysocial-ico ul li:before{display:none;}
+#fretbaymobFooter .fretbaysocial-ico ul li:first-child { margin-left: 0; } 
+#fretbaymobFooter .fretbaysocial-ico ul li {margin-left: 2px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.li a {background-position: 0px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.li:hover a {background-position: 0px -40px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.tw a {background-position: -40px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.tw:hover a {background-position: -40px -40px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.fb a {background-position: -80px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.fb:hover a {background-position: -80px -40px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.gp a {background-position: -120px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.gp:hover a {background-position: -120px -40px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.yt a {background-position: -200px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.yt:hover a {background-position: -200px -40px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.wp a {background-position: -240px 0px; }
+#fretbaymobFooter .fretbaysocial-ico ul li.wp:hover a {background-position: -240px -40px; }
+/*
+Mobile Footer Ends
+----------------------------------------------------------*/
+@media (max-width:991px) {
+	#fretbayfooter .footer-main .footerLogo{text-align:center;}
+	#fretbayfooter .footer-main .top-right-footersection{padding-left: 15px;}
+	#fretbayfooter .footer-copyright .col-lg-7,
+	#fretbayfooter .footer-copyright .col-lg-5 {
+		width: 100%; } 
+	#fretbayfooter .footer-copyright p {text-align: center; }
+	.fretbaysocial-ico ul {float: none; text-align: center; }
+	#fretbayfooter .footer-main ul li{line-height: 1.5; margin-bottom: 15px; }
+}
+@media (max-width: 767px){
+	#fretbayfooter{display:none;}
+	#fretbaymobFooter{display: block}
+	.fretbaysocial-ico ul{margin-bottom: 10px; float: none; }
+	#fretbaymobFooter .fretbaysocial-ico ul li:before{display: none; } 
+	.fretbaysocial-ico ul li {height: 51px; }
+}
+/* Max Screen 639px
+---------------------------*/
+@media (max-width:639px) {
+	#fretbaymobFooter p{font-size:14px;}
+}

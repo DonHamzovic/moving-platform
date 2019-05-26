@@ -178,7 +178,8 @@ Welcome Block Start
 ----------------------------------------------------------*/
 #welcome{width:100%;position:relative;float:left;padding-top:95px;display:table;height:665px;}
 #welcome .welcome-block{text-align:center;padding:15px;z-index:0;display:table-cell;vertical-align:middle;}
-#welcome .welcome-block h1{color:#fff;margin:0px 0px 15px 0px;text-shadow:0 1px 1px #49515e;font-size:50px;line-height:1;text-transform:uppercase;font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;text-rendering: optimizelegibility;}
+#welcome .welcome-block h1{color:#fff;margin:0px 0px 0px -131px;text-shadow:0 1px 1px #49515e;font-size:50px;line-height:1;text-transform:uppercase;font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;text-rendering: optimizelegibility;font-size: 68px;
+    width: 132%;}
 #welcome .welcome-block h1 .h3{clear:both;color:#fff;text-transform:none;display:inline-block;text-shadow:none;background:hsla(353,100%,60%,.8);padding:4px 18px;font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;text-rendering:optimizelegibility;}
 #welcome .welcome-block h1 .h3.border{border-color:#fff;background-color:transparent;margin:20px 0;border:none;text-shadow:0 1px 1px #49515e;}
 
@@ -412,8 +413,17 @@ WorkSteps-2 Section Ends
 
 /*
 Treval Section Start
+background: url(../images/landing-pages/main-bot-bg.jpg) center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
 ----------------------------------------------------------*/
-#treval{width:100%;float:left;background:#323d50 url('../images/home/treval-bg.png') no-repeat;background-position:center center;background-size:cover;color:#fff;padding:16px 0 82px;}
+#treval{
+	background: url(../img/main-bot-bg.jpg) center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
 #treval h2{margin-top:74px;}
 #treval h2 .h5,
 #treval p.h5{font-weight:300;line-height:26px;margin-bottom:26px;}
@@ -492,7 +502,7 @@ Footer Wrapper Start
 /* Social Icons Start */
 .social-ico ul{margin-bottom:-10px;float:right;}
 .social-ico ul li{padding:0;margin-left:12px;height:75px;padding:10px 0 0;}
-.social-ico ul li a{width:65px;height:65px;float:left;text-indent:-99999px;background:url('../images/home/social-iconz.png') no-repeat;}
+.social-ico ul li a{width:65px;height:65px;float:left;text-indent:-99999px;background:url('../img/social-iconz.png') no-repeat;}
 .social-ico ul li,.social-ico ul li:hover{-o-transition:padding .3s;-ms-transition:padding .3s;-moz-transition:padding .3s;-webkit-transition:padding .3s;transition:padding .3s;}
 .social-ico ul li:hover{padding-top:0;}
 .social-ico ul li.tw		a	{background-position:0 0;}
@@ -556,7 +566,7 @@ Recent List Section Start
 #recentList .recenListingSlider:hover,
 #recentList .recenListingSlider *,
 #recentList .recenListingSlider:hover *{-o-transition:none;-ms-transition:none;-moz-transition:none;-webkit-transition:none;}
-#recentList li{border-bottom:#d7d5d0 solid 1px;background-color:#fff;float:left;z-index:0;position:relative;width:100%;min-height:80px;}
+#recentList li{border-radius: 20px;border-bottom:#d7d5d0 solid 1px;background-color:#fff;float:left;z-index:0;position:relative;width:100%;min-height:80px;}
 #recentList li:first-child{border-top:#d7d5d0 solid 1px;}
 #recentList .optionalList{position:absolute;top:0;left:30px;right:30px;list-style:none;z-index:0;width:auto;}
 #recentList li>div{padding:10px;float:left;position:relative;}
@@ -564,7 +574,7 @@ Recent List Section Start
 #recentList li>div.categoryInfo{width:40%;}
 #recentList li>div.locationInfo{text-align:center;width:20%;}
 #recentList li>div.trasporterIfo{width:28%;}
-#recentList li>div.price{width:12%;text-align:center;padding:19px 0;}
+#recentList li>div.price{width:12%;text-align:center;padding:19px 0;font-weight:bold}
 #recentList li p{margin:0;}
 #recentList li>div>.marginImg{margin-left:54px;}
 #recentList li a{font-size:15px;color:#717780;}
@@ -620,7 +630,7 @@ WoekSteps New Section Start
 #stepsNew h1{color:#2db2d1;font-size:64px;margin-bottom:0;line-height:64px;}
 #stepsNew h4{color:#aba99e;margin:0 0 18px;}
 #stepsNew img{max-width:100%;}
-#stepsNew .btn{margin-top:24px;}
+#stepsNew .btn{margin-top:24px; border-radius: 15px}
 /*
 WoekSteps New Section Ends
 ----------------------------------------------------------*/
@@ -628,8 +638,16 @@ WoekSteps New Section Ends
 /*
 Treval New Section Start
 ----------------------------------------------------------*/
-#trevalNew{width:100%;float:left;background:#2db2d1 url('../images/home/tagBackgrounds.png') repeat;position:relative;padding:30px 0 50px;}
-#trevalNew:before{content:'';position:absolute;top:62px;bottom:70px;left:50%;margin-left:-1px;width:2px;
+#trevalNew{
+  width:100%;float:left; background:url('../img/main-bot-bg.jpg') repeat;position:relative;padding:30px 0 50px;
+
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+
+}
+
+	#trevalNew:before{content:'';position:absolute;top:62px;bottom:70px;left:50%;margin-left:-1px;width:2px;
 background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.8) 80%, rgba(255,255,255,0) 100%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,0.8)), color-stop(50%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,0.8)), color-stop(100%,rgba(255,255,255,0)));
 background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 20%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.8) 80%,rgba(255,255,255,0) 100%);
@@ -1122,4 +1140,50 @@ font-weight: 600 !important;
 	#embed_Banner{
 		margin-top:0px;
 	}
+}
+
+  /*  scroll icon  */
+
+  .icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50% 
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll{
+  0% {
+    opacity: 1 ;
+    opacity: 0;
+	transform: translateY(46px) }
+}
+
+
+.multi-bg {
+	color: white;
+    background: #0296ff;
+    background: -webkit-linear-gradient(145deg, #0296ff, #21d267);
+	background: linear-gradient(145deg, #0296ff, #21d267);
 }

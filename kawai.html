@@ -29,9 +29,9 @@
     <link href="css/home.css" rel="stylesheet" type="text/css">
     <link href="css/space.css" rel="stylesheet" type="text/css">
     
-    <link rel="icon" href="https://fretbay.com/fr/favicon.ico?v=1.1" type="image/x-icon">
-	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    
+    <script src="js/jquery-1.11.1.js"></script>
     
    
 
@@ -42,10 +42,10 @@
     <div class="home-lainding">
     	<!-- Begin Video Banner -->
         <section id="embed_Banner" class="section-video">
-            <video id="FertByvideo"  class="video" preload autoplay loop>
-                <source src="videos/HD.mp4"    type="video/mp4">
-                <source src="https://s3.eu-central-1.amazonaws.com/fretbay-media/HD.ogv" type="video/ogg">
-                <source src="https://s3.eu-central-1.amazonaws.com/fretbay-media/HD.webm" type="video/webm">
+                <video id="FertByvideo" poster="https://fretbay.com/fr/images/home/video-bg.png" class="video" preload autoplay loop>
+                    <source src="https://s3.eu-central-1.amazonaws.com/fretbay-media/HD.mp4" type="video/mp4">
+                    <source src="https://s3.eu-central-1.amazonaws.com/fretbay-media/HD.ogv" type="video/ogg">
+                    <source src="https://s3.eu-central-1.amazonaws.com/fretbay-media/HD.webm" type="video/webm">     
             </video><!-- /video -->
         </section>
     	<!-- Ends Video Banner -->
@@ -54,41 +54,160 @@
     
 
 
-<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/notificationHeader.css" />
-<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/space.css?v=1.0" />
-<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/font-awesome.min.css" />
-<script type="text/javascript" src="https://fretbay.com/fr/js/notificationHeader.js?v=0.0.6" ></script>
-<script type="text/javascript" src="https://fretbay.com/fr/js/smartlook.js?v=0.0.6" ></script>
-<script type="text/javascript" src="https://fretbay.com/fr/js/facebook-pixel.js?v=0.0.6" ></script>
+        <link rel="stylesheet" type="text/css" href="css/notificationHeader.css" />
+        <link rel="stylesheet" type="text/css" href="css/space.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <script type="text/javascript" src="js/notificationHeader.js" ></script>
 
-        <div class="headSpace "></div>
-        <header id="header" class="btnNav ">
-          <div class="container">
-            <div class="row">
-              <div id="logo" class="col-sm-1"> <a href="https://fretbay.com/fr/index.php"> <img src="https://fretbay.com/fr/images/logo.svg" widht="68" height="79" alt="Logo"> </a>
-                <button class="btn" id="menu-btn2"> <i class="fa fa-bars"></i> </button>
-              </div>
-              <!-- Begin Navigation Wrapper -->
-              <div id="nav2" class="col-md-8 col-sm-11">
-                <ul class="list-unstyled list-inline">
-                  <li class="buttoNu"> <a href="https://fretbay.com/fr/shipper/trouver-un-transporteur">Demande de devis</a></li>
-                  <li> <a href="https://fretbay.com/fr/annonces.php">Trouver des chargements</a></li>
-
-                                    <li> <a  href="https://fretbay.com/fr/le-déménagement-FretBay">Comment ça marche ?</a></li>
-                  
-                  <li> <a target="_blank"  href="http://blog.fretbay.com">Blog</a></li>                </ul>
-              </div>
-              <!-- Ends Navigation Wrapper -->
-              <div class="col-md-3 notifiMenu text-right">
-                <ul class="list-unstyled list-inline">
-                  <li> <a href="https://fretbay.com/fr/etape.php">S'inscrire</a></li>
-                  <li> <a href="https://fretbay.com/fr/conec.php">Se connecter</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </header>
-		
+        <style>
+            .fa {
+              padding: 20px;
+              font-size: 30px;
+              width: 30px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+              border-radius: 50%;
+            }
+            
+            .fa:hover {
+                opacity: 0.7;
+            }
+            
+            .fa-facebook {
+              background: #3B5998;
+              color: white;
+            }
+            
+            .fa-twitter {
+              background: #55ACEE;
+              color: white;
+            }
+            
+            .fa-google {
+              background: #dd4b39;
+              color: white;
+            }
+            
+            .fa-linkedin {
+              background: #007bb5;
+              color: white;
+            }
+            
+            .fa-youtube {
+              background: #bb0000;
+              color: white;
+            }
+            
+            .fa-instagram {
+              background: #125688;
+              color: white;
+            }
+            
+            .fa-pinterest {
+              background: #cb2027;
+              color: white;
+            }
+            
+            .fa-snapchat-ghost {
+              background: #fffc00;
+              color: white;
+              text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+            
+            .fa-skype {
+              background: #00aff0;
+              color: white;
+            }
+            
+            .fa-android {
+              background: #a4c639;
+              color: white;
+            }
+            
+            .fa-dribbble {
+              background: #ea4c89;
+              color: white;
+            }
+            
+            .fa-vimeo {
+              background: #45bbff;
+              color: white;
+            }
+            
+            .fa-tumblr {
+              background: #2c4762;
+              color: white;
+            }
+            
+            .fa-vine {
+              background: #00b489;
+              color: white;
+            }
+            
+            .fa-foursquare {
+              background: #45bbff;
+              color: white;
+            }
+            
+            .fa-stumbleupon {
+              background: #eb4924;
+              color: white;
+            }
+            
+            .fa-flickr {
+              background: #f40083;
+              color: white;
+            }
+            
+            .fa-yahoo {
+              background: #430297;
+              color: white;
+            }
+            
+            .fa-soundcloud {
+              background: #ff5500;
+              color: white;
+            }
+            
+            .fa-reddit {
+              background: #ff5700;
+              color: white;
+            }
+            
+            .fa-rss {
+              background: #ff6600;
+              color: white;
+            }
+            </style>
+        
+                <div class="headSpace "></div>
+                <header id="header" class="btnNav ">
+                  <div class="container">
+                    <div class="row">
+                      <div id="logo" class="col-sm-1"> <a href="#"> <img src="HatchfulExport-All/logo_transparent.png" widht="68" height="79" alt="Logo"> </a>
+                        <button class="btn" id="menu-btn2"> <i class="fa fa-bars"></i> </button>
+                      </div>
+                      <!-- Begin Navigation Wrapper -->
+                      <div id="nav2" class="col-md-8 col-sm-11">
+                        <ul class="list-unstyled list-inline">
+                          <li class="buttoNu"> <a href="#">Demande de devis</a></li>
+                          <li> <a href="#">Trouver des chargements</a></li>
+        
+                                            <li> <a  href="#">Comment ça marche ?</a></li>
+                          
+                          <li> <a target="_blank"  href="#">Blog</a></li>                </ul>
+                      </div>
+                      <!-- Ends Navigation Wrapper -->
+                      <div class="col-md-3 notifiMenu text-right">
+                        <ul class="list-unstyled list-inline">
+                          <li> <a href="#">S'inscrire</a></li>
+                          <li> <a href="#">Se connecter</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </header>
         
                 
 
@@ -104,10 +223,10 @@
                         <div class="col-md-12">
                             <div class="col-lg-1"></div>
                             <div class="col-lg-10">
-                                <h1>Trouvez votre transporteur</h1>
+                                <h1 style="font-size: 68px;">Trouvez votre transporteur</h1>
                                 <h2 class="h3 border">Première place de marché de transport et de déménagement pas cher</h2>
                                 
-                                <a href="https://fretbay.com/fr/shipper/trouver-un-transporteur?idsess=" class="btn">DEMANDE DE DEVIS</a>
+                                <a href="#" class="btn">DEMANDE DE DEVIS</a>
                             </div>
                             <div class="col-lg-1"></div>
                         </div>
@@ -115,8 +234,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 go-down">
-                        <a id="goDown">
-                            <i class="fa fa-caret-down"></i>
+                        <a id="Down">
+                            <i class="icon-scroll"></i>
                         </a>
                     </div>
                 </div>
@@ -164,11 +283,11 @@
         <section id="recentList">
         	<div class="container">
             	<div class="row">
-                    <div class="col-md-4">
-                    	<h2>Top transporteurs</h2>
+                    <div class="col-md-3" style="margin-left: -135px;width: 34%;">
+                    	<h2 style="color: black">Top transporteurs</h2>
                         <div class="row margin-bottom-20">
-                            <div class="col-lg-12">
-                            
+                            <div class="col-lg-12 ticker1  ">
+                             
                                                         	
                                 <div class="postBlock">
                                     <div class="col-md-3 col-sm-4 no-padding">
@@ -217,6 +336,7 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
                                         </div>
                                     </div>
                                 </div>
+                                
 
                                 
                                 
@@ -224,8 +344,8 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                    	<h2>Dernières transactions</h2>
+                    <div class="col-md-8" style="width: 77%;padding-right: 0px;">
+                    	<h2 style="color: black">Dernières transactions</h2>
                         <div class="row margin-bottom-20">
                             <div class="col-lg-12 recenListingSlider">
                                 <ul class="list-unstyled recenListing">
@@ -540,7 +660,7 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
         </section>
     	<!-- Ends Recent Listing Section -->
                 <!-- Begin Partner Section -->
-        <section id="ourPartners">
+       <!-- <section id="ourPartners">
             <div class="container">
                 <div id="clientLogos" class="slider partners-logos">
                     <div>
@@ -594,9 +714,9 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
         <!-- Ends Partner Section -->
                 
         <!-- Begin WorkSteps Section -->
-        <section id="stepsNew" class="text-center">
+        <section id="stepsNew" class=" multi-bg text-center">
         	<div class="container">            
-                            	<h2 class="bold" id="commentCaMarche">Comment ça marche?</h2>
+                            	<h2 class="  bold" id="commentCaMarche">Comment ça marche?</h2>
                 <div class="videoBox" >
                     <a href="javascript:void(0);" onclick="managePartnersVideoPopup('LECONCEPT')">
                     	<img src="transporter/images/video-clip-n.png" alt="Video">
@@ -626,7 +746,7 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-12 margin-bottom-40 text-center">
-                	<a href="https://fretbay.com/fr/shipper/trouver-un-transporteur?idsess=" class="btn">DEMANDE DE DEVIS</a>
+                	<a href="#" class="btn">DEMANDE DE DEVIS</a>
                 </div>
             </div>
         </section>
@@ -658,145 +778,11 @@ Déménagement satisfaisant au niveau ponctualité et régula..</p>
         <!-- Ends Treval Section -->
         
         <!-- Begin Testimonial Section -->
-        <section id="testimonialNew"></section>
+        <section id="tesstimonialNew"></section>
         <!-- Ends Testimonial Section -->
 
                 
-        <!-- Begin Blog-News Section --> 
-        <section id="blogNews">
-        	<div class="container">
-            	<div class="row">                	
-                	<div class="col-md-6">
-                    	<h3><a style="all:unset; cursor: pointer; cursor: hand;" href="blog.fretbay.com">Blog</a></h3>
-                        <div class="blogContainer">
-                        	<div id="blogItem">
-                                <!-- Carousel items -->
-                                <div>
-                                    <div class="item active">
-                                    	<div class="row">
-                                            <div class="col-md-4 col-sm-4 postImg">
-                                                <a href="javascript:void(0);">
-                                                    <img src="transporter/images/article11pic.gif">
-                                                </a>
-                                            </div>
-                                            <div class="col-md-8 col-sm-8">
-                                                <h4 class="blog-item"><a href="https://fretbay.com/fr/blog/FretBay-a-d%C3%A9m%C3%A9nag%C3%A9-Tous-ensemble-sur-TF1.html" target="_blank">FretBay a déménagé « Tous ensemble » sur TF1</a></h4>
-                                                <p>Fort de son succès, FretBay tient à cœur d’<strong>aider</strong> ceux qui sont dans le besoin.</p>
-                                                <p>
-                                                    <a href="https://fretbay.com/fr/blog/FretBay-a-d%C3%A9m%C3%A9nag%C3%A9-Tous-ensemble-sur-TF1.html" class="pull-right btn" target="_blank">Voir l'article</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="item active">
-                                    	<div class="row">
-                                            <div class="col-md-4 col-sm-4 postImg">
-                                                <a href="javascript:void(0);">
-                                                    <img src="transporter/images/article10pic.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="col-md-8 col-sm-8">
-                                                <h4 class="blog-item"><a href="https://fretbay.com/fr/blog/Organiser-et-ranger-son-petit-logement.html" target="_blank">Organiser et ranger son petit logement</a></h4>
-                                                <p>Tout le monde n’a malheureusement pas la chance d’habiter dans un grand <strong>logement</strong>. Beaucoup d’étudiant et de</p>
-                                                <p>
-                                                    <a href="https://fretbay.com/fr/blog/Organiser-et-ranger-son-petit-logement.html" class="pull-right btn" target="_blank">Voir l'article</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="item active">
-                                    	<div class="row">
-                                            <div class="col-md-4 col-sm-4 postImg">
-                                                <a href="javascript:void(0);">
-                                                    <img src="transporter/images/article9img.png">
-                                                </a>
-                                            </div>
-                                            <div class="col-md-8 col-sm-8">
-                                                <h4 class="blog-item"><a href="https://fretbay.com/fr/blog/Choisir-un-camion-avec-chauffeur-chez-FretBay-ou-louer-simplement-une-camionnette.html" target="_blank">Choisir un camion avec chauffeur chez FretBay ou louer simplement une camionnette ?</a></h4>
-                                                <p>Lors d’un <strong>déménagement</strong>, plusieurs options s’offrent à vous. Achat d’une prestation tout compris</p>
-                                                <p>
-                                                    <a target="_blank" class="pull-right btn" href="https://fretbay.com/fr/blog/Choisir-un-camion-avec-chauffeur-chez-FretBay-ou-louer-simplement-une-camionnette.html">Voir l'article</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        	</div>
-                        </div>
-                    </div><!--/ Blog Ends -->
-                    <div class="col-md-6">
-                    	<h3>News</h3>
-                        <div class="newSlider">
-                            <ul class="list-unstyled">
-                                
-                                                                <li>
-                                    <div class="newsBox">
-                                        <div class="imgNews">
-                                            <span><img src="assets/events/logos/14338387041_logo_magazine_avantages.png"></span>
-                                        </div>
-                                        <div class="newsDetails">
-                                            <h4 class="blog-item"><a href="https://fretbay.com/fr/presse.php?idsess=">Magazine-avantages</a></h4>
-                                            <p>FretBay présent dans le magazine magazine-avantages n°321 du mois de juin 2015.</p>
-                                            <hr>
-                                            <p>
-                                                <span class="dateNews">Date : 02/06/15</span>
-                                                <!--<span class="timeNews">1449 jours</span>-->
-                                            </p>
-                                        </div>
-                                    </div><!--/ New Block Ends -->
-                                </li>
-                                
-                                                                <li>
-                                    <div class="newsBox">
-                                        <div class="imgNews">
-                                            <span><img src="assets/events/logos/14337781501_tf1.png"></span>
-                                        </div>
-                                        <div class="newsDetails">
-                                            <h4 class="blog-item"><a href="https://fretbay.com/fr/presse.php?idsess=">JT TF1</a></h4>
-                                            <p>JT 13h00 TF1 le 13 mai 2015</p>
-                                            <hr>
-                                            <p>
-                                                <span class="dateNews">Date : 13/05/15</span>
-                                                <!--<span class="timeNews">1469 jours</span>-->
-                                            </p>
-                                        </div>
-                                    </div><!--/ New Block Ends -->
-                                </li>
-                                
-                                                                <li>
-                                    <div class="newsBox">
-                                        <div class="imgNews">
-                                            <span><img src="assets/events/logos/14337775151_logo-lesroutiers_1.png"></span>
-                                        </div>
-                                        <div class="newsDetails">
-                                            <h4 class="blog-item"><a href="https://fretbay.com/fr/presse.php?idsess=">Magazine Les Routiers</a></h4>
-                                            <p>Article FretBay dans l'édition&nbsp;N°932 - Mai 2015.<br>Extrait de l'article : "Un site qui met l</p>
-                                            <hr>
-                                            <p>
-                                                <span class="dateNews">Date : 04/05/15</span>
-                                                <!--<span class="timeNews">1478 jours</span>-->
-                                            </p>
-                                        </div>
-                                    </div><!--/ New Block Ends -->
-                                </li>
-                                
-                                                               
-                                
-                            </ul>
-                        </div>
-                    </div><!--/ News Ends -->
-                    
-                </div>
-            </div>
-            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create','UA-33460216-1','auto');
-ga('send','pageview');
-</script>        </section>
+      
 
         <!-- Ends Blog-News Section -->
                 <div class="clearfix"></div>
@@ -936,8 +922,7 @@ ga('send','pageview');
             </div>
 
         <!-- Begin Footer Wrapper -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/footer.css?v=1.2"/>
+<link rel="stylesheet" type="text/css" href="css/footer.css"/>
     <!-- Begin Footer Wrapper -->
     <div id="fretbayfooter">
         <div class="footer-main">
@@ -946,7 +931,7 @@ ga('send','pageview');
                     <div class="col-md-2">
                         <div class="row">
                             <div class="col-lg-12 footerLogo">
-                                <a href="https://fretbay.com/fr/index.php"><img src="https://fretbay.com/fr/images/footer-logo.svg" width="143" height="165" alt="Logo" class="f-logo"></a>
+                                <a href="https://fretbay.com/fr/index.php"><img src="HatchfulExport-All/logo_transparent.png" width="143" height="165" alt="Logo" class="f-logo"></a>
                             </div>
                         </div>
                     </div><!--/ Footer Column -->
@@ -1044,80 +1029,36 @@ ga('send','pageview');
             </div> 
         </div><!--/ Footer Main -->
         
-        <div class="footer-middle">
-            <div class="container">
-                <div class="footer-middle-inner">
-                    <span>Les autres services de FretBay</span>
-                    <a class="fretbay-pro-link" target="_blank" href="https://fretbay.com/fr/pro/"><img src="https://fretbay.com/fr/images/fretbaypro-logo.svg" alt="fretbaypro logo"></a>
-                    <a class="fretbay-now-link" target="_blank" href="https://now.fretbay.com"><img src="https://fretbay.com/fr/images/fretbaynow-logo-w.svg" alt="fretbaynow logo"></a>
-                    <a target="_blank" href="https://myboxman.com"><img src="https://fretbay.com/fr/images/mbm-logo-w.svg" alt="myboxman logo"></a>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="footer-copyright"> 
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                     
-                        <div itemtype="http://data-vocabulary.org/Organization" itemscope=""> 
-                          <p>
-                            <span itemprop="name"><a itemprop="url" href="https://fretbay.com/fr">FretBay</a></span>
-                             SAS au capital de 431 546&euro; &copy; 2019 Tous droits réserves<br>
-                            L'utilisation de ce site Web implique l'acceptation des<a href="https://fretbay.com/fr/condition.php"> Conditions Générales</a><br>                        
-                        
-                            <span itemtype="http://data-vocabulary.org/Address" itemscope="" itemprop="address"> 
-                                <span itemprop="street-address">31 rue de Reuilly 75012 Paris, France</span>, 
-                                <!-- <span itemprop="region"> Ile-de-France </span>, 
-                                <span itemprop="country-name"> FRANCE </span> - -->
-                            </span> 
-                                                        <span itemprop="tel" itemscope="" >
-                                <span itemprop="value">(0)825.422.423</span>
-                            </span> &nbsp;
-                            <span style="font-size: 10px;">0,18€ ttc/minute</span>
-                                                         <br>
-                            <span>N° SIRET : 502.134.208.00037 | N° TVA : FR08502134208</span>
-                          </p>
-                        </div>
-                        
-                                                <div itemtype="http://data-vocabulary.org/Review-aggregate" itemscope="">
-                          <p class="no-margin">
-
-
-                            <a target="_blank" href="https://fr.trustpilot.com/review/www.fretbay.com" title="">
-                                Commentaires &amp; Avis clients certifiés par TrustPilot - 
-                                <span itemprop="itemreviewed">FretBay</span>
-                                <span itemprop="votes" id="trustPilot-totalReviews">3467</span>
-évaluations: 
-                                <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating"><span itemprop="average" id="trustPilot-trustScore">8.6</span>/<span itemprop="best">10</span> 
-                            </span>
-                            </a>
-
-                            
-                          </p>
-                        </div>
+                         <h1> Kawai International </h1>
                     </div>
                     
                     <!-- Begin Social Icon Wrapper -->
                     <div class="col-lg-6 no-padding fretbaysocial-ico">
                         <ul class="list-unstyled list-inline">
                             <li class="li">
-                                <a href="https://www.linkedin.com/company/fretbay" target="_blank">LinkedIn</a>
+                                <a href="# target="_blank">LinkedIn</a>
                             </li>
                             <li class="tw">
-                                <a href="https://twitter.com/#!/fretbay" target="_blank">Twitter</a>
+                                <a href="#" target="_blank">Twitter</a>
                             </li>
                             <li class="fb">
-                                <a href="https://www.facebook.com/168472786500639" target="_blank">Facebook</a>
+                                <a href="#" target="_blank">Facebook</a>
                             </li>
                             <li class="gp">
-                                <a href="https://plus.google.com/+fretbay" target="_blank">Google Plus</a>
+                                <a href="#" target="_blank">Google Plus</a>
                             </li>
                             <li class="yt">
-                                <a href="https://www.youtube.com/user/fretbaytv" target="_blank">YouTube</a>
+                                <a href="#" target="_blank">YouTube</a>
                             </li>
                             <li class="wp">
-                                <a href="https://fr.wikipedia.org/wiki/FretBay" target="_blank">WikiPedia</a>
+                                <a href="#" target="_blank">WikiPedia</a>
                             </li>
                         </ul>
                     </div>
@@ -1154,28 +1095,13 @@ ga('send','pageview');
             </ul>
             <!-- Begin Social Icon Wrapper -->
             <!-- mob footer start -->
-            <div class="fretbaysocial-ico">
-                <ul class="list-unstyled list-inline">
-                    <li class="li">
-                        <a href="https://www.linkedin.com/company/fretbay" target="_blank">LinkedIn</a>
-                    </li>
-                    <li class="tw"> 
-                        <a href="https://twitter.com/#!/fretbay" target="_blank">Twitter</a>
-                    </li>
-                    <li class="fb">
-                        <a href="https://www.facebook.com/168472786500639" target="_blank">Facebook</a>
-                    </li>
-                    <li class="gp">
-                        <a href="https://plus.google.com/+fretbay" target="_blank">Google Plus</a>
-                    </li>
-                    <li class="yt">
-                        <a href="https://www.youtube.com/user/fretbaytv" target="_blank">YouTube</a>
-                    </li>
-                    <li class="wp">
-                        <a href="https://fr.wikipedia.org/wiki/FretBay" target="_blank">WikiPedia</a>
-                    </li>
-                </ul>
-            </div>
+            
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            
             <!-- mob footer end -->
             <!-- Ends Social Icon Wrapper -->
             <p>FreBay SAS &copy; 2019<br>
@@ -1187,34 +1113,8 @@ ga('send','pageview');
     
     
     
-    <script type="text/javascript">
-    adroll_adv_id = "ZZO6B2HY75EEHM6AYG3EEZ";
-    adroll_pix_id = "ZB7VAQCP3ZHTFDRG5YIZW7";
-    (function () {
-        var _onload = function(){
-            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
-            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
-            var scr = document.createElement("script");
-            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com":"http://a.adroll.com");
-            scr.setAttribute('async', 'true');
-            scr.type = "text/javascript";
-            scr.src = host + "/j/roundtrip.js";
-            ((document.getElementsByTagName('head') || [null])[0] ||
-                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-        };
-        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
-        else {window.attachEvent('onload', _onload)}
-    }());
-    jQuery(document).ready(function($) {
-      if (typeof jQuery.ajax != "undefined" && typeof fetchTrustPilotStatistics != "undefined"){
-        fetchTrustPilotStatistics();
-      }
-    });
-    window.globalSiteUrl = 'https://fretbay.com';
-</script>
-    <!-- Market Shot scripts --> 
-    <script type="text/javascript" src="https://fretbay.com/fr/js/marketshot/marketshot.js?v=0.3"/></script>
-    <script async src="//live.marketshot.com/js/mics/pixel-track.js?partner=fry0417"></script>
+  
+
     <script type="text/javascript" src="https://fretbay.com/fr/js/footer/common-scripts.js?v=0.3"/></script>
 
     </div>
@@ -1232,6 +1132,7 @@ ga('send','pageview');
     document.createElement('video');
     </script>
     <![endif]-->
+    
     
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     
@@ -1252,12 +1153,28 @@ ga('send','pageview');
 			direction:'down',
 			easing:'easeInOutBack',
 			speed:2000,
-			interval:5000,
+			interval:3000,
 			height:'auto',
 			visible:4,
 			mousePause: 1
 		}).data('easyTicker');
-	});
+    });
+    
+
+    
+
+
+    $('.tickser1').easyTicker({
+        direction: 'down',
+        
+        easing: 'easeInOutBack',
+        speed:2000,
+			interval:5000,
+			height:'auto',
+			visible:4,
+			mousePause: 1
+    });
+
     </script>
     
     <!-- All Popups For Page -->
@@ -1326,7 +1243,6 @@ $('#videoPopupModal').on('hidden.bs.modal', function () {
 })
 </script>
     
-  
         
 </body>
 </html>
