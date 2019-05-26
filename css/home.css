@@ -100,7 +100,7 @@ Headings Style Ends
 
 .form-control,.btn{border-radius:0;}
 
-.btn{font-size:20px;padding:17px 36px;height:auto;line-height:1.2;color:#fff;background:#fe374f;}
+.btn{font-size:20px;padding:17px 36px;height:auto;line-height:1.2;color:#fff;background:#732cd0;border-radius: 14px}
 .btn-blue,
 .btn:hover{background-color:#33b2d2;color:#fff;}
 .btn:active,.btn.active,.btn:focus{box-shadow:none;color:#fff;}
