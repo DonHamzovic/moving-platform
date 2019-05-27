@@ -11,25 +11,164 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta http-equiv="imagetoolbar" content="no">
+	<link rel="shortcut icon" type="image/png" href="https://fretbay.com/fr/favicon.ico" />
+	<meta name="robots" content="index, follow, all">
+	<meta name="Language" content="fr">
+	<meta name="Author" content="FretBay.com">
+	<meta name="revisit-after" content="3">
+	<meta name="Identifier-URL" content="">
 	<meta name="Classification" content="Transport et déménagement">
+	<meta name="Creation_Date" content="23/01/2008">
+	<meta name="verify-v1" content="tNz0ODT49ruqP+0vtQerZIxCtVrZwKacOLhGmkce/z8=" >
+	<meta name="google-site-verification" content="Z7Ub6Nx2wFIC6rnmcom4fva0_1QPLlkaME63mCAFZVY" >
+	<meta name="google-site-verification" content="Q0xsUwljztwvKZzNB0e48NeVhh4RM4Vfk1e_ii_f7UY" >
+	<!-- Social SEO -->	
+	<meta property="fb:app_id" content="409748985780917" />
+	<meta property="og:site_name" content="FretBay.com"/>
+	<meta property="og:url" content="https://fretbay.com/fr/" />
+	<meta property="og:locale" content="fr" />
+	<meta property="og:type" content="article" />
+	<meta property="article:author" content="https://www.facebook.com/168472786500639" />
+	<meta property="article:publisher" content="https://www.facebook.com/168472786500639" />
 
 		<style type="text/css">
-	.custom-hide {display: none;} .custom-hide.custom-active {display: block;} .custom-hide.custom-show {display: inline-block;}
-	</style>
-	<meta name="description" content="Postez votre demande de transport pour recevoir des devis de déménagement en France et de transport pour meubles, voitures, moto, bateaux.">
-	<meta property="og:description" content="Postez votre demande de transport pour recevoir des devis de déménagement en France et de transport pour meubles, voitures, moto, bateaux." />		
 
-	<meta property="og:title" content="Faites votre devis déménagement ou transport avec FretBay" />
-	<title>Faites votre devis déménagement ou transport avec FretBay</title>
+
+	.custom-hide {display: none;} .custom-hide.custom-active {display: block;} .custom-hide.custom-show {display: inline-block;}
+	
+
+
+	#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 20%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: white;
+	background: black;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+
+
+
+</style>
+	<title>Faites votre devis déménagement ou transport avec Kawai</title>
+	<link  href="css/lux_google_homepage.min.css"  ref="stylesheet" >
 
 
 	<meta property="og:image" content="https://fretbay.com/fr/https://fretbay.com/fr/images/home/footer-logo.png" />
 
-		
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />=
+
+
+	<!-- FOR SEO END -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/vendors/vendors.bundle.css?v=0.0.6">
-	<link rel="stylesheet" href="../assets/vendors/angular.bundle.css?v=0.0.6">
-	<link rel="stylesheet" href="../assets/css/pages/shipper/postJob.css?v=1558739244">
+	<link rel="stylesheet" href="https://fretbay.com/fr/assets/vendors/vendors.bundle.css?v=0.0.6">
+	<link rel="stylesheet" href="https://fretbay.com/fr/assets/vendors/angular.bundle.css?v=0.0.6">
+	<link rel="stylesheet" href="https://fretbay.com/fr/assets/css/pages/shipper/postJob.css?v=1558903443">
 </head>
 <body ng-controller="annonceStep1Controller" class="fluid-page sticky-mini-footer  mobile-native-">
 	
@@ -37,29 +176,18 @@
 		<script src="https://fretbay.com/fr/frv2/assets/vendors/angular.js?v=0.0.5"></script>
 		<script src="https://fretbay.com/fr/frv2/assets/js/common/socket.io.js?v=0.0.5" type="text/javascript"></script>
 		<script src="https://fretbay.com/fr/frv2/assets/vendors/socket.min.js?v=0.0.5"></script>
-		<script src="https://fretbay.com/fr/frv2/assets/js/common/app.js?v=1558739244"></script>
-		<script src="https://fretbay.com/fr/frv2/assets/js/controllers/common/headerController.js?v=1558739244"></script>
+		<script src="https://fretbay.com/fr/frv2/assets/js/common/app.js?v=1558903443"></script>
+		<script src="https://fretbay.com/fr/frv2/assets/js/controllers/common/headerController.js?v=1558903443"></script>
 
 
-		<input type="hidden" id="pro" value="">
-		<input type="hidden" id="time" value="1558739244">
-		<input type="hidden" id="frsUrl" value="https://frs.fretbay.com">
-		<input type="hidden" id="idsess" value="">
-		<input type="hidden" id="currentLoggedInUserIdsess" value="">
-		<input type="hidden" id="globalSiteUrl" value="https://fretbay.com">
-		<input type="hidden" id="globalRestApiUrl"   value="https://fretbay.com/api/v1/" />
-        <input type="hidden" id="googleApiKey"   value="AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0" />
-        <input type="hidden" id="globalNodeServerUrl"   value="https://frs.fretbay.com" />
-        <input type="hidden" id="currentLoggedInUserId" 	value="" />
-        <input type="hidden" id="mapKey"   value="" />
-        <input type="hidden" id="mapStyles"   value="" />
+	
 
 
 
 		<div ng-controller="headerController" ng-init="setObject({headerData: null || {}, currentLang: ('fr' || 'fr'), siteUrl: 'https://fretbay.com', idsess: '', siteUrlFrv2: 'https://fretbay.com/fr/frv2/', id_offer: '0'})" class="">
 		<div class="">
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
+		<div class="container" >
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle custom-nav-btn collapsed" data-toggle="collapse" data-target="#navbar-main">
@@ -87,2064 +215,99 @@
 		</div>
 	</div>
 </div>		</div>
-			<div class="hide" ng-init="setObject({idsess: '', idsessLink: '?', id_offer : '0', siteUrl: 'https://fretbay.com', siteUrlFrv2: 'https://fretbay.com/fr/frv2/', googleMarksUrl: 'http://fretbay.com/fr/frv2/', googleApiKey: 'AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0', currentLang: 'fr', verificationLink: 'https://fretbay.com/fr/verification.php', detailsPage: 'https://fretbay.com/fr/shipper/annonceDetails.php' , postJobForm: []})"></div>
-	<div class="page-content postjob-content mt-0">
-		<div class="top-wrap content-box hidden-xs">
+
 			<div class="container">
-				<div class="steps-box">
-					<ul class="steps list-unstyled list-inline">
-						<li class="done" ng-class="{ 'active' :(currentStep == 'mainCategory' || currentStep == 'subCategory') }"><span class="step-num"></span> <span class="step-text">Choix de la Catégorie </span></li>
-						<li class="done" ng-class="{ 'active' :(currentStep == 'articles') }"><span class="step-num"></span> <span class="step-text">Ajout d'articles / volumes</span></li>
-						<li class="done" ng-class="{ 'active' :(currentStep == 'formulaDemenagementSection') }" ng-if="postJobForm.mainCatId == 2"><span class="step-num"></span> <span class="step-text">Formule</span></li>
-						<li class="done" ng-class="{ 'active' :(currentStep == 'addressInformation') }"><span class="step-num"></span> <span class="step-text">Adresse, Informations / Photo</span></li>
-						<!-- <li class="last-item done" ng-class="{ 'active' :(currentStep == 'descriptionSection') }"><span class="step-num"></span> <span class="step-text"></span></li> -->
-					</ul>
+					<form id="msform">
+						<ul id="progressbar" style="position: absolute;
+						background: #3D4E60;
+						margin-bottom: -60px;
+						padding-top: 21px;
+						color: #fff;
+						/* background: #3d4fe547; */
+						/* left: 900px; */
+						/* left: 900px; */
+						/* margin-right: 69px; */
+						margin-left: -626px;
+						padding-left: -146px;
+						width: 398%;
+						margin-top: -49px;
+						padding-bottom: 6px;">
+								<li class="active">Age</li>
+								<li> Diabetes type</li>
+								<li>Treament type</li>
+								<li>Average Fast Glucose</>
+								<li>Average postprandial Glucose</> 
+						 </ul>
+						</form>
 				</div>
-			</div>
-		</div>
-		<div class="container">
-			<!-- 
-				 ____    _____   __  __   _____   _   _      _       ____   _____   __  __   _____   _   _   _____ 
-				|  _ \  | ____| |  \/  | | ____| | \ | |    / \     / ___| | ____| |  \/  | | ____| | \ | | |_   _|
-				| | | | |  _|   | |\/| | |  _|   |  \| |   / _ \   | |  _  |  _|   | |\/| | |  _|   |  \| |   | |  
-				| |_| | | |___  | |  | | | |___  | |\  |  / ___ \  | |_| | | |___  | |  | | | |___  | |\  |   | |  
-				|____/  |_____| |_|  |_| |_____| |_| \_| /_/   \_\  \____| |_____| |_|  |_| |_____| |_| \_|   |_| -->  
+			
+	
+		<div class="container" style="height: 400px;">
 
-			<div class="custom-hide" ng-class="{ 'custom-active' :(currentStep == 'formulaDemenagementSection')}" ng-if="currentStep == 'formulaDemenagementSection'">
-				<div class="formula-panels text-sm-center step-box">
-					<h3 class="mt-0 text-uppercase text-black content-box-title text-xs-center formula-step-title text-sm-left">formules de déménagement</h3>
-					<div class="row row-xs">
-						<div class="col-md-3">
-							<div class="formula-section" ng-class="{ 'active' : (pageData.selectedFormula == 1)}">
-								<div class="formula-section-header">
-									<div class="formula-icon">
-										<img src="../assets/images/shipper/postJob/formula-icon1-w.svg" alt="">
-									</div>
-									<h3 class="text-black mb-0">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA16}}</h3>
-								</div>
-								<p class="visible-xs visible-sm formula-section-body-top text-small">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA17}}</p>
-								<div class="formula-section-body">
-
-									<div id="formulaDetail1" class="collapse">
-										<div class="formula-list-outer">
-											<div class="formula-section-footer">
-												<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA22}}</p>
-											</div>
-											<ul class="list-unstyled formula-section-list">
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA18}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA19}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA21}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA20}}</li>
-											</ul>
-										</div>
-									</div>
-									<div class="text-center">
-										<a href="javascript:void(0)" ng-click="selectFormula(1); managePostJobStep('addressInformation')" class="formula-btn btn btn-standard btn-tall text-bold btn-lg">Choisir</a>
-									</div>
-								</div>
-								<span class="view-detail-btn collapsed" role="button" data-toggle="collapse" data-target="#formulaDetail1"><img src="../assets/images/common/icons/general/down-arrow.svg" alt=""></span>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="formula-section" ng-class="{ 'active' : (pageData.selectedFormula == 2)}">
-								<div class="formula-section-header">
-									<div class="formula-icon">
-										<img src="../assets/images/shipper/postJob/formula-icon2-w.svg" alt="">
-									</div>
-									<h3 class="text-black mb-0">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA23}}</h3>
-								</div>
-								<p class="visible-xs visible-sm formula-section-body-top text-small">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA24}}</p>
-								<div class="formula-section-body">
-
-									<div id="formulaDetail2" class="collapse">
-										<div class="formula-list-outer">
-											<div class="formula-section-footer">
-												<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA29}}</p>
-											</div>
-											<ul class="list-unstyled formula-section-list">
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA26}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA25}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA29}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA28}}</li>
-											</ul>
-										</div>
-									</div>
-									<div class="text-center">
-										<a href="javascript:void(0)" ng-click="selectFormula(2); managePostJobStep('addressInformation')" class="formula-btn btn btn-standard btn-tall text-bold btn-lg">Choisir</a>
-									</div>
-								</div>
-								<span class="view-detail-btn collapsed" role="button" data-toggle="collapse" data-target="#formulaDetail2"><img src="../assets/images/common/icons/general/down-arrow.svg" alt=""></span>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="formula-section" ng-class="{ 'active' : (pageData.selectedFormula == 3)}">
-								<div class="formula-section-header">
-									<div class="formula-icon">
-										<img src="../assets/images/shipper/postJob/formula-icon3-w.svg" alt="">
-									</div>
-									<h3 class="text-black mb-0">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA31}}</h3>
-								</div>
-								<p class="visible-xs visible-sm formula-section-body-top text-small">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA32}}</p>
-								<div class="formula-section-body">
-
-									<div id="formulaDetail3" class="collapse">
-										<div class="formula-list-outer">
-											<div class="formula-section-footer">
-												<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA41}}</p>
-											</div>
-											<ul class="list-unstyled formula-section-list">
-												<!-- <li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA33}}</li> -->
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA37}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA34}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA35}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA36}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA40}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA39}}</li>
-											</ul>
-										</div>
-									</div>
-									<div class="text-center">
-										<a href="javascript:void(0)" ng-click="selectFormula(3); managePostJobStep('addressInformation')" class="formula-btn btn btn-standard btn-tall text-bold btn-lg">Choisir</a>
-									</div>
-								</div>
-								<span class="view-detail-btn collapsed" role="button" data-toggle="collapse" data-target="#formulaDetail3"><img src="../assets/images/common/icons/general/down-arrow.svg" alt=""></span>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="formula-section" ng-class="{ 'active' : (pageData.selectedFormula == 4)}">
-								<div class="formula-section-header">
-									<div class="formula-icon">
-										<img src="../assets/images/shipper/postJob/formula-icon4-w.svg" alt="">
-									</div>
-									<h3 class="text-black mb-0">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA6}}</h3>
-								</div>
-								<p class="visible-xs visible-sm formula-section-body-top text-small">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA7}}</p>
-								<div class="formula-section-body">
-
-									<div id="formulaDetail4" class="collapse">
-										<div class="formula-list-outer">
-											<div class="formula-section-footer">
-												<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA15}}</p>
-											</div>
-											<ul class="list-unstyled formula-section-list">
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA8}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA11}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA13}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA14}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA12}}</li>
-												<li>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA10}}</li>
-											</ul>
-										</div>
-									</div>
-									<div class="text-center">
-										<a href="javascript:void(0)" ng-click="selectFormula(4); managePostJobStep('addressInformation')" class="formula-btn btn btn-standard btn-tall text-bold btn-lg">Choisir</a>
-									</div>
-								</div>
-								<span class="view-detail-btn collapsed" role="button" data-toggle="collapse" data-target="#formulaDetail4"><img src="../assets/images/common/icons/general/down-arrow.svg" alt=""></span>
-							</div>
-						</div>					
-					</div>
-					<div class="text-center">
-						<button class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('articles')">{{pageData.annonceStep1Translation.BACK}}</button>
-					</div>
-				</div>
-
-				<div class="text-right navigation-btns">
-					<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-					<!-- <button class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('articles')">{{pageData.annonceStep1Translation.BACK}}</button> -->
-					<!-- <button class="btn btn-danger btn-standard" ng-click="managePostJobStep('addressInformation')" ng-disabled="!postJobForm.formuleDem">{{pageData.annonceStep1Translation.CONTINUE}}</button> -->
-				</div>
-
-				<div class="modal fade no-flex formulaDemenagementPopup" id="formulaDemenagementPopup">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-rel-icon"><img src="../assets/images/common/icons/general/close.svg" alt=""></span>
-								<h4 class="modal-title"><span></span>{{pageData.annonceStep1Translation.MOVING_FORMULA}}</h4>
-							</div>
-							<div class="modal-body text-left" data-slim-scroll="">
-								<p>{{pageData.annonceStep1Translation.VOLUME_DETAILS_PARA1}}</p>
-								<h4 class="text-bold text-primary">{{pageData.annonceStep1Translation.VOLUME_DETAILS_HEADING1}}</h4>
-								<p>{{pageData.annonceStep1Translation.VOLUME_DETAILS_PARA2}}</p>
-								<h4 class="text-bold text-primary">{{pageData.annonceStep1Translation.VOLUME_DETAILS_HEADING2}}</h4>
-								<p>{{pageData.annonceStep1Translation.VOLUME_DETAILS_PARA3}}</p>
-								<h4 class="text-bold text-primary">{{pageData.annonceStep1Translation.VOLUME_DETAILS_HEADING3}}</h4>
-								<p>{{pageData.annonceStep1Translation.VOLUME_DETAILS_PARA4}}</p>
-								<h4 class="text-bold text-primary">{{pageData.annonceStep1Translation.VOLUME_DETAILS_HEADING4}}</h4>
-								<p>{{pageData.annonceStep1Translation.VOLUME_DETAILS_PARA5}}</p>
-								<h4></h4>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">{{pageData.annonceStep1Translation.CLOSE_WINDOW}}</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<div class="container">
-			<div class="row custom-hide" ng-class="{ 'custom-active' :(currentStep != 'formulaDemenagementSection')}" ng-if="(currentStep != 'formulaDemenagementSection')">
-
-				<div class="col-md-8 contents">
-					<!-- 
-					  __  __      _      ___   _   _          ____      _      _____   _____    ____    ___    ____   __   __
-					 |  \/  |    / \    |_ _| | \ | |        / ___|    / \    |_   _| | ____|  / ___|  / _ \  |  _ \  \ \ / /
-					 | |\/| |   / _ \    | |  |  \| |       | |       / _ \     | |   |  _|   | |  _  | | | | | |_) |  \ V / 
-					 | |  | |  / ___ \   | |  | |\  |       | |___   / ___ \    | |   | |___  | |_| | | |_| | |  _ <    | |  
-					 |_|  |_| /_/   \_\ |___| |_| \_|        \____| /_/   \_\   |_|   |_____|  \____|  \___/  |_| \_\   |_|  
-					                                                                                                           
-					-->
-					<div class="content-box content-box-padding content-box-bordered step-box step-box-1" ng-if="currentStep == 'mainCategory'">
-						<h3 class="mt-0 text-uppercase text-black content-box-title">Type de transport</h3>
-						<!-- <p class="text-small text-danger" ng-if="errors.mainCatId && !postJobForm.mainCatId">Please Select a Category</p> -->
+				<form id="msform">
+						<!-- progressbar -->
 						
-						<ul class="categories row" ng-init="pageData.categories = {&quot;1&quot;:&quot;\u00c9quipement de la maison&quot;,&quot;2&quot;:&quot;D\u00e9m\u00e9nagements&quot;,&quot;3&quot;:&quot;V\u00e9hicule&quot;,&quot;17&quot;:&quot;Motos et v\u00e9hicules de sport&quot;,&quot;5&quot;:&quot;Bateaux &amp; volumineux&quot;,&quot;13&quot;:&quot;Biens fragiles&quot;,&quot;18&quot;:&quot;Colis\/Pli&quot;,&quot;19&quot;:&quot;Palette&quot;,&quot;11&quot;:&quot;Animaux&quot;,&quot;14&quot;:&quot;Agroalimentaire&quot;,&quot;9&quot;:&quot;Bien commerciaux&quot;,&quot;6&quot;:&quot;Divers&quot;,&quot;20&quot;:&quot;Objet encombrant emballer&quot;,&quot;21&quot;:&quot;Objet encombrant non-emballer&quot;}">
-																						<li class="show-category" ng-class="{'active': postJobForm.mainCatId == 1}">
-									<label ng-click="changeMainCategory(1);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/1.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/1h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Équipement de la maison</span>
-										</span>
-									</label>
-								</li>
-															<li class="show-category" ng-class="{'active': postJobForm.mainCatId == 2}">
-									<label ng-click="changeMainCategory(2);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/2.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/2h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Déménagements</span>
-										</span>
-									</label>
-								</li>
-															<li class="show-category" ng-class="{'active': postJobForm.mainCatId == 3}">
-									<label ng-click="changeMainCategory(3);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/3.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/3h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Véhicule</span>
-										</span>
-									</label>
-								</li>
-															<li class="show-category" ng-class="{'active': postJobForm.mainCatId == 17}">
-									<label ng-click="changeMainCategory(17);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/17.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/17h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Motos et véhicules de sport</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 5}">
-									<label ng-click="changeMainCategory(5);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/5.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/5h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Bateaux & volumineux</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 13}">
-									<label ng-click="changeMainCategory(13);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/13.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/13h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Biens fragiles</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 18}">
-									<label ng-click="changeMainCategory(18);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/18.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/18h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Colis/Pli</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 19}">
-									<label ng-click="changeMainCategory(19);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/19.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/19h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Palette</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 11}">
-									<label ng-click="changeMainCategory(11);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/11.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/11h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Animaux</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 14}">
-									<label ng-click="changeMainCategory(14);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/14.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/14h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Agroalimentaire</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 9}">
-									<label ng-click="changeMainCategory(9);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/9.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/9h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Bien commerciaux</span>
-										</span>
-									</label>
-								</li>
-															<li class="hide-category" ng-class="{'active': postJobForm.mainCatId == 6}">
-									<label ng-click="changeMainCategory(6);">
-										<span class="category-label-inner">
-											<span class="animated-icon">
-												<img src="../assets/images/common/icons/category/default/6.svg?v=0.0.4" width="75px" height="75px" alt="">
-												<!-- <img class="icon-hover" src="../assets/images/common/icons/category/default/6h.svg" width="75px" height="75px" alt=""> -->
-											</span>
-											<span>Divers</span>
-										</span>
-									</label>
-								</li>
-													</ul>
-						<div class="text-center">
-							<a ng-if="categoryShowButton" href="#" class="btn btn-gray btn-standard show-all-filter text-bold">{{pageData.annonceStep1Translation.SHOW_ALL}}</a>
-						</div>
-						<!-- <div class="text-right action-btns">
-							<button class="btn btn-lg btn-primary btn-standard" ng-if="postJobForm.mainCatId == 3" ng-disabled="!postJobForm.mainCatId" ng-click="managePostJobStep('subCategory')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-							<button type="button" class="btn btn-lg btn-primary btn-standard" ng-if="postJobForm.mainCatId != 3" ng-disabled="!postJobForm.mainCatId" ng-click="managePostJobStep('articles')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-						</div> -->
-					</div>
-					<!--
-					 ____    _   _   ____           ____      _      _____   _____    ____    ___    ____   __   __
-					/ ___|  | | | | | __ )         / ___|    / \    |_   _| | ____|  / ___|  / _ \  |  _ \  \ \ / /
-					\___ \  | | | | |  _ \        | |       / _ \     | |   |  _|   | |  _  | | | | | |_) |  \ V / 
-					 ___) | | |_| | | |_) |       | |___   / ___ \    | |   | |___  | |_| | | |_| | |  _ <    | |  
-					|____/   \___/  |____/         \____| /_/   \_\   |_|   |_____|  \____|  \___/  |_| \_\   |_|-->
+						
+						<!-- fieldsets -->
+						<fieldset>
+							<h2 class="fs-title">PATIENT AGE</h2>
+							<h3 class="fs-subtitle">This is step 1</h3>
+							<input type="number" name="quantity" min="30" max="50" placeholder="Age?">
 
-					<div class="content-box content-box-padding content-box-bordered step-box" ng-if="currentStep == 'subCategory'">
-						<h3 class="mt-0 text-uppercase text-black content-box-title">Type de transport</h3>
-						<p class="text-small text-danger" ng-if="errors.subCatId1 && !postJobForm.subCatId1">  </p>
-						<div class="sub-categories-list-scroll">
-							<ul class="sub-categories-list">
-								<li ng-class="{'active' : id == postJobForm.subCatId1 }" ng-repeat="(id, subCategory) in pageData.allCategories[postJobForm.mainCatId].subCategories">
-									<label ng-click="changeSubCategory(id)">
-										<input class="hide" type="radio" ng-model="postJobForm.subCatId1" ng-value="{{id}}">{{subCategory.Nom}}
-									</label>
-								</li>
-	 						</ul>							
-						</div>
- 						<div class="action-btns">
- 							<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-							<button class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('mainCategory')">{{pageData.annonceStep1Translation.BACK}}</button>
-							<button class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-click="managePostJobStep('articles')" ng-disabled="!postJobForm.subCatId1">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-						</div>
-					</div>
-					<!-- 
-					    _      ____    _____   ___    ____   _       _____  
-					   / \    |  _ \  |_   _| |_ _|  / ___| | |     | ____| 
-					  / _ \   | |_) |   | |    | |  | |     | |     |  _|   
-					 / ___ \  |  _ <    | |    | |  | |___  | |___  | |___  
-					/_/   \_\ |_| \_\   |_|   |___|  \____| |_____| |_____|-->
-					                                         
-					<div class="content-box content-box-padding content-box-bordered step-box" ng-if="currentStep == 'articles'">
-						<div ng-if="postJobForm.mainCatId != 2">
-							<div class="py-10 pt-0">
-									<h3 class="text-uppercase text-black content-box-title mt-0">Ajout d'articles</h3>
-									<h4 class="mt-0 form-group section-title">{{pageData.annonceStep1Translation.YOUR_AD_NAME}}:</h4>
-								<!-- <div class="col-sm-3">
-									<div class="text-right resetAll-section">
-										<a href="javascript:void(0)" class="btn btn-gray hidden-xs" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a>
-									</div>
-								</div> -->
-							</div>
+			
 
-							<form name="articleForm" novalidate="" ng-submit="addArticle(article, articleForm)">
-
-								<div class="row">
-									<!--
-									 _          __         ___         _   ____        _   ___ 
-									/ |  ___   / /   ___  / _ \  ___  / | |__ /  ___  / | ( _ )
-									| | |___| / _ \ |___| \_, / |___| | |  |_ \ |___| | | / _ \
-									|_|       \___/        /_/        |_| |___/       |_| \___/   1-6-9-13-18-->
-									                                                            
-									<div class="col-sm-6" ng-if="pageData.articlesCondition1">
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_MINIMUM}}</p>
-												<h4 class="mt-0 info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</h4>									
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_INCORRECT_VALUES}}</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title"  ng-change="checkValidation('title')" required="" autofocus=""  class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.longeur}">
-															<div class="input-has-icon-right">
-																<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.longeur_placeholder}}" autofocus ng-change="checkValidation('longeur')" ng-model="article.longeur" required="" ng-focus="pageData.articlesCondition1">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/longeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.largeur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.largeur_placeholder}}" ng-change="checkValidation('largeur')" ng-model="article.largeur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/largeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.hauteur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.hauteur_placeholder}}" ng-change="checkValidation('hauteur')" ng-model="article.hauteur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/hauteur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.poids}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.poids_placeholder}}" ng-change="checkValidation('poids')" ng-model="article.poids" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/poids.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.quantity}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.quantity_placeholder}}" ng-change="checkValidation('quantity')" ng-model="article.quantity" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/quantity.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="text-xs-center article-overlay-btns">
-													<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success btn-standard" value="Ajouter un article">
-													<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success btn-standard" value="Mettre à jour les articles">
-													<!-- <a href="javascript:void(0);" class="btn btn-gray btn-standard hide-overlay" ng-click="articleFormOverlay()">{{pageData.commonTranslations.DONE}}</a> -->
-												</div>
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<!--
-										 _   _ _  
-										/ | | | | 
-										| | |_  _|
-										|_|   |_|    14 -->
-
-									<div class="col-sm-6" ng-if="pageData.articlesCondition2"> 
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_MINIMUM}}</p>
-												<p class="mt-0 text-bold info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</p>									
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_INCORRECT_VALUES}}</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title" ng-change="checkValidation('title')" required=""  class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.poids}">
-															<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.poids_placeholder}}" ng-change="checkValidation('poids')" ng-focus="pageData.articlesCondition2" ng-model="article.poids" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/poids.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.quantity}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.quantity_placeholder}}" ng-change="checkValidation('quantity')" ng-model="article.quantity" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/quantity.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success" value="Ajouter un article">
-												<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success" value="Mettre à jour les articles">
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<!--
-										 _   _ 
-										/ | / |
-										| | | |
-										|_| |_|    11-->
-
-									<div class="col-sm-6" ng-if="pageData.articlesCondition3"> 
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_MINIMUM}}</p>
-												<p class="mt-0 text-bold info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</p>
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_INCORRECT_VALUES}}</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title" ng-change="checkValidation('title')" required="" class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg">
-															<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-															<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.race_placeholder}}" ng-model="article.race" required="" ng-focus="pageData.articlesCondition3" >
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.poids}">
-															<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.poids_placeholder}}" ng-change="checkValidation('poids')" ng-model="article.poids" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/poids.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.quantity}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.quantity_placeholder}}" ng-change="checkValidation('quantity')" ng-model="article.quantity" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/quantity.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.need_placeholder}}" ng-model="article.need" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/need.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.vaccine_placeholder}}" ng-model="article.vaccine" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/vaccine.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<p class="mt-0 text-bold">{{pageData.annonceStep1Translation.CAGE_INFORMATION}} <span>
-												({{pageData.commonTranslations.OPTIONAL}})</span> :</p>
-												<div class="row row-narrow">
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.longeur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.longeur_placeholder}}" ng-change="checkValidation('longeur')" ng-model="article.longeur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/longeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.largeur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.largeur_placeholder}}" ng-change="checkValidation('largeur')" ng-model="article.largeur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/largeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.hauteur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.hauteur_placeholder}}" ng-change="checkValidation('hauteur')" ng-model="article.hauteur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/hauteur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success" value="Ajouter un article">
-												<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success" value="Mettre à jour les articles">
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<!--
-										 _   ___ 
-										/ | / _ \
-										| | \_, /
-										|_|  /_/    19-->
-
-									<div class="col-sm-6" ng-if="pageData.articlesCondition4"> 
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_MINIMUM}}</p>
-												<p class="mt-0 text-bold info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</p>
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_INCORRECT_VALUES}}</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title" ng-change="checkValidation('title')" required="" class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-12">
-														<div class="form-group form-group-lg" ng-init="article.dimentions = paletteDropdownArray[0]" ng-if="paletteDropdownArray.length">
-															<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-
-															<div class="custom-select-menu scrolled">
-																<div class="form-group form-group-lg">
-																	<div class="dropdown">
-																		<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{pageData.annonceStep1Translation.DIM_SELECT_BOX[article.dimentions]}}</a>
-																	    <ul class="list-striped dropdown-menu">
-																	        <li ng-repeat="i in paletteDropdownArray">
-																	        	<label ng-class="{ 'active' : article.dimentions == i }" class="vcheck vradio"><input ng-value="i" ng-model="article.dimentions" type="radio" name="Dimension"><span>{{pageData.annonceStep1Translation.DIM_SELECT_BOX[i]}}</span></label>
-																	        </li>
-																	    </ul>
-																	</div>
-																</div>
-															</div>
-
-															<!-- <select class="form-control" placeholder="{{pageData.annonceStep1Translation.dimentions_placeholder}}" ng-model="article.dimentions" required="">
-																<option ng-repeat="i in paletteDropdownArray" ng-value="i">{{pageData.annonceStep1Translation.DIM_SELECT_BOX[i]}}</option>
-															</select> -->
-														</div>
-													</div>										
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.hauteur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.hauteur_placeholder}}" ng-change="checkValidation('hauteur')" ng-model="article.hauteur" ng-focus="pageData.articlesCondition4">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/hauteur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.poids}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.poids_placeholder}}" ng-change="checkValidation('poids')" ng-model="article.poids" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/poids.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.quantity}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.quantity_placeholder}}" ng-change="checkValidation('quantity')" ng-model="article.quantity" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/quantity.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="form-group">
-													<label class="vcheck"><input type="checkbox" ng-true-value="'YES'" ng-false-value="'NO'" name="is_breakable" ng-model="article.is_breakable"><span><em></em>{{pageData.annonceStep1Translation.is_breakable_placeholder}}</span></label>
-												</div>
-												<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success" value="Ajouter un article">
-												<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success" value="Mettre à jour les articles">
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<!--
-										 ___ 
-										| __|
-										|__ \
-										|___/ 5-->							     
-
-									<div class="col-sm-6" ng-if="pageData.articlesCondition5"> 
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article" ng-focus="pageData.articlesCondition5">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_MINIMUM}}</p>
-												<p class="mt-0 text-bold info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</p>									
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">{{pageData.annonceStep1Translation.ARTICLE_INCORRECT_VALUES}}</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title" ng-change="checkValidation('title')" required="" class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.longeur}">
-															<div class="input-has-icon-right">
-																<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.longeur_placeholder}}" ng-change="checkValidation('longeur')" ng-model="article.longeur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/longeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.largeur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits  placeholder="{{pageData.annonceStep1Translation.largeur_placeholder}}" ng-change="checkValidation('largeur')" ng-model="article.largeur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/largeur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-4">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.hauteur}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.hauteur_placeholder}}" ng-change="checkValidation('hauteur')" ng-model="article.hauteur" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/hauteur.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.poids}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.poids_placeholder}}" ng-change="checkValidation('poids')" ng-model="article.poids" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/poids.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-class="{'has-error': errors.articleFields.quantity}">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.quantity_placeholder}}" ng-change="checkValidation('quantity')" ng-model="article.quantity" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/quantity.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg">
-															<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.marque_placeholder}}" ng-model="article.marque" required="">
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg">
-															<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.modele_placeholder}}" ng-model="article.modele" required="">
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-12">
-														<div class="form-group form-group-lg">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.price_placeholder}}" ng-model="article.price" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/euro.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="form-group clearfix">
-												    <div class="pull-left btn-group-label" ng-init="article.conveyor = 'oui'">
-												        <strong>{{pageData.annonceStep1Translation.conveyor_placeholder}}</strong>
-												    </div>
-												    <span class="pull-right btn-group">
-												    	<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.conveyor == 'oui' }"><input type="radio" ng-value="'oui'" name="conveyor" required="" checked="" ng-model="article.conveyor"><span>{{pageData.commonTranslations.YES}}</span></label>
-												    	<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.conveyor == 'non' }"><input type="radio" ng-value="'non'" name="conveyor" required="" ng-model="article.conveyor"><span>{{pageData.commonTranslations.NO}}</span></label>
-													</span>
-												</div>
-												<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success" value="Ajouter un article">
-												<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success" value="Mettre à jour les articles">
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<!-- 
-									 _____           _   _____ 
-									|___ /          / | |___  |
-									  |_ \   _____  | |    / / 
-									 ___) | |_____| | |   / /  
-									|____/          |_|  /_/  3-17-->
-
-									<div class="col-sm-6" ng-if="pageData.articlesCondition6">
-										<div class="form-fields-wrap content-box-gray content-box-padding">
-											<div class="form-group form-group-lg" ng-class="{'has-error': (errors.article)}">
-												<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}" ng-model="postJobForm.article" ng-focus="pageData.articlesCondition6 && postJobForm.subCatId1 == 23">
-											</div>
-											<hr class="simple hidden-xs">
-											<div class="overlay-xs article-overlay-xs content-box-gray" ng-class="{ 'active': showArticleForm }">
-												<a href="javascript:void(0);" class="remove-overlay hide-overlay" ng-click="articleFormOverlay()"><img src="../assets/images/common/icons/general/cross.svg" alt=""></a>
-												<p class="text-small text-danger" ng-if="errors.articles && !postJobForm.articles.length">Veuillez ajouter au moins un article</p>
-												
-												<p class="mt-0 text-bold info-title">{{pageData.annonceStep1Translation.ARTICLE_CATEGORY_FORM_TITLE[postJobForm.mainCatId]}} <span class="text-primary">({{pageData.commonTranslations.REQUIRED}})</span> :</p>									
-												<p class="text-small text-danger" ng-if="errors.articleForm && postJobForm.articles.length">Le formulaire doit être rempli avec des valeurs correctes</p>
-												<div class="row row-narrow">
-													<div class="col-sm-12 form-group form-group-lg" ng-class="{'has-error': errors.articleFields.title}">
-														<input type="text" ng-model="article.title"  ng-change="checkValidation('title')" required="" autofocus=""  class="form-control" placeholder="{{pageData.annonceStep1Translation.title_placeholder}}">
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6">
-														<input type="hidden" class="form-control" placeholder="" ng-model="article.id">
-														<div class="form-group form-group-lg" ng-if="postJobForm.subCatId1 == 23">
-															<ui-select ng-model="article.marque" theme="bootstrap" on-select="onSelectVehicle($item, $model)" title="{{pageData.annonceStep1Translation.marque_placeholder}}" required="">
-																<ui-select-match placeholder="{{pageData.annonceStep1Translation.marque_placeholder}}">{{$select.selected.model_make_id}}</ui-select-match>
-																<ui-select-choices repeat="vehicle in pageData.vehicles | propsFilter: {model_make_id: $select.search}">
-																<div ng-bind-html="''+vehicle.model_make_id | highlight: $select.search"></div>
-																</ui-select-choices>
-															</ui-select>
-
-														</div>
-
-														
-														<div class="form-group form-group-lg" ng-if="postJobForm.subCatId1 != 23">
-															<input type="text" class="form-control" ng-focus="pageData.articlesCondition6" placeholder="{{pageData.annonceStep1Translation.marque_placeholder}}" ng-model="article.marque" required="">
-														</div>
-
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group form-group-lg" ng-if="postJobForm.subCatId1 == 23">
-															<ui-select ng-model="article.modele" theme="bootstrap" on-select="onSelectModel($item, $model)" title="{{pageData.annonceStep1Translation.modele_placeholder}}" ng-disabled="!article.marque" required="">
-																<ui-select-match placeholder="{{pageData.annonceStep1Translation.modele_placeholder}}">{{$select.selected.model_name}}</ui-select-match>
-																<ui-select-choices repeat="vehicle in pageData.models | propsFilter: {model_name: $select.search}">
-																<div ng-bind-html="''+vehicle.model_name | highlight: $select.search"></div>
-																</ui-select-choices>
-															</ui-select>
-
-														</div>
-														<div class="form-group form-group-lg" ng-if="postJobForm.subCatId1 != 23">
-															<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.modele_placeholder}}" ng-model="article.modele" required="">
-														</div>
-													</div>
-												</div>
-												<div class="row row-narrow">
-													<div class="col-sm-6" ng-if="postJobForm.subCatId1 == 23">
-														<div class="form-group form-group-lg">
-															<ui-select ng-model="article.model_trim" theme="bootstrap" on-select="onSelectModelTrim($item, $model)" title="{{pageData.annonceStep1Translation.model_trim_placeholder}}" ng-disabled="!article.marque || !article.modele">
-																<ui-select-match placeholder="{{pageData.annonceStep1Translation.model_trim_placeholder}}">{{$select.selected.model_trim}}</ui-select-match>
-																<ui-select-choices repeat="vehicle in pageData.modelsTrim | propsFilter: {model_trim: $select.search}">
-																<div ng-bind-html="''+vehicle.model_trim | highlight: $select.search"></div>
-																</ui-select-choices>
-															</ui-select>
-
-														</div>
-													</div>
-													<div ng-class="{'col-sm-6' : (postJobForm.subCatId1 == 23), 'col-sm-12' : (postJobForm.subCatId1 != 23)}">
-														<div class="form-group form-group-lg">
-															<div class="input-has-icon-right">
-																<input type="text" class="form-control" only-digits placeholder="{{pageData.annonceStep1Translation.price_placeholder}}" ng-model="article.price" required="">
-																<span class="rel-icon rel-icon-square"><img src="../assets/images/common/icons/units/euro.svg" width="18px" height="18px" alt=""></span>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="form-group clearfix">
-													<div class="pull-left btn-group-label" ng-init="article.roulant = 'non'">
-														<strong>Véhicule roulant</strong>
-													</div>
-													<span class="pull-right btn-group">
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.roulant == 'oui' }"><input type="radio" ng-value="'oui'" name="roulant" required="" checked="" ng-model="article.roulant"><span>{{pageData.commonTranslations.YES}}</span></label>
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.roulant == 'non' }"><input type="radio" ng-value="'non'" name="roulant" required="" ng-model="article.roulant"><span>{{pageData.commonTranslations.NO}}</span></label>	
-													</span>
-												</div>
-												<div class="form-group clearfix">
-													<div class="pull-left btn-group-label" ng-init="article.conveyor = 'non'">
-														<strong>J'accepte les convoyeurs</strong>
-													</div>
-													<span class="pull-right btn-group">
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.conveyor == 'oui'}"><input type="radio" ng-value="'oui'" name="conveyor" required="" checked="" ng-model="article.conveyor"><span>{{pageData.commonTranslations.YES}}</span></label>
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{ 'active' : article.conveyor == 'non'}"><input type="radio" ng-value="'non'" name="conveyor" required="" ng-model="article.conveyor"><span>{{pageData.commonTranslations.NO}}</span></label>	
-													</span>
-												</div>
-												<p class="text-xs-center">Le convoyeur est un chauffeur professionnel agréé et habilité à conduire votre véhicule d’un point A à un point B.</p>
-												<p class="text-danger text-xs-center">Attention, cette option souvent plus économique est impossible en cas de véhicule non roulant ou limité à une vitesse trop lente (ex : voiture sans permis).</p>
-												<div class="text-xs-center">
-													<input type="submit" ng-disabled="articleForm.$invalid" ng-if="!article.id && article.id != 0" class="btn btn-success" value="Ajouter un article">
-													<input type="button" ng-click="updateArticle(article)" ng-disabled="articleForm.$invalid" ng-if="article.id || article.id == 0" class="btn btn-success" value="Mettre à jour les articles">
-												</div>
-											</div>
-											<div class="text-center">
-												<a href="javascript:void(0);" ng-click="articleFormOverlay()" class="overlay-xs-btn btn btn-success">{{pageData.annonceStep1Translation.ADD_ITEMS}}</a>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-sm-6 bg-gray-xs">
-										<div class="article-section">
-											<p>
-												<span class="text-mute">Détails de l'article</span>
-												<span class="pull-right text-black">TOTAL : {{postJobForm.articles.length || '0'}}</span>
-											</p>
-											<div data-slim-scroll="" class="articles-list-scroll">
-												<ul class="articles-list">
-													<li ng-if="postJobForm.articles.length" ng-repeat="items in postJobForm.articles track by $index">
-														<div class="article-header">
-															<div class="article-controls">
-																<a href="javascript:void(0)" class="article-edit" ng-click="editArticle(items, $index)"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 170.6 170.6" style="enable-background:new 0 0 170.6 170.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#9AB9CC;}
-</style>
-<title>edit</title>
-<g id="Layer_2_1_">
-	<g id="Icons">
-		<path class="st0" d="M113.3,141H28.5V55.1h34.9V42.5H22.1c-3.3,0-5.9,2.6-5.9,5.9v99c0,3.3,2.6,5.9,5.9,5.9h97.7
-			c3.3,0,5.9-2.6,5.9-5.9v-40.4h-12.5V141z M66.9,79.5l-5.3,29.9L91,104l40.4-41l-24.1-24.5L66.9,79.5z M152.1,35.1l-17.3-17.5
-			c-1.9-1.9-4.9-1.9-6.9-0.1c0,0,0,0-0.1,0.1L113,32.7l24.2,24.5l14.8-15.1C154,40.2,154,37.1,152.1,35.1z"/>
-	</g>
-</g>
-</svg>
-</a>
-																<a href="javascript:void(0)" class="article-delete" data-target="#deleteArticleConfirmation" data-toggle="modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.47 71.47"><g id="Layer_2" data-name="Layer 2"><g id="Icons"><polygon points="71.47 5.55 65.93 0 35.74 30.19 5.54 0 0 5.55 30.19 35.74 0 65.93 5.54 71.47 35.74 41.28 65.93 71.47 71.47 65.93 41.28 35.74 71.47 5.55"/></g></g></svg></a>
-															</div>
-															<h4 class="article-title">{{ items.title || 'Article'}}</h4>
-														</div>
-														<ul class="list-group">
-															<li class="list-group-item" ng-repeat="(key, item) in items"><!-- <img class="rel-icon rel-icon-square" ng-src="../assets/images/common/icons/units/{{key}}.svg" alt=""> --> <span class="article-unit-text">{{pageData.annonceStep1Translation[""+key+"_placeholder"]}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'marque')" class="badge">{{item.model_make_id}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'modele')" class="badge">{{item.model_name}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'model_trim')" class="badge">{{item.model_trim}}</span>
-															<span ng-if="(postJobForm.mainCatId == 19 && key == 'dimentions')" class="badge">{{pageData.annonceStep1Translation.DIM_SELECT_BOX[item]}}</span>
-
-															<span ng-if="!(postJobForm.subCatId1 == 23 && (key == 'modele' || key == 'marque' || key == 'model_trim')) && !(postJobForm.mainCatId == 19 && key == 'dimentions')" class="badge">{{item}}</span></li>
-														</ul>
-													</li>
-
-													<li ng-if="!postJobForm.articles.length && !emptyObject(article)">
-														<div class="article-header">
-															<h4 class="article-title">{{article.title || 'Article'}}</h4>
-														</div>
-														<ul class="list-group">
-															<li class="list-group-item" ng-if="item" ng-repeat="(key, item) in article"><!-- <img class="rel-icon rel-icon-square" ng-src="../assets/images/common/icons/units/{{key}}.svg" alt=""> --> <span class="article-unit-text">{{pageData.annonceStep1Translation[""+key+"_placeholder"]}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'marque')" class="badge">{{item.model_make_id}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'modele')" class="badge">{{item.model_name}}</span>
-
-															<span ng-if="(postJobForm.subCatId1 == 23 && key == 'model_trim')" class="badge">{{item.model_trim}}</span>
-															<span ng-if="(postJobForm.mainCatId == 19 && key == 'dimentions')" class="badge">{{pageData.annonceStep1Translation.DIM_SELECT_BOX[item]}}</span>
-
-															<span ng-if="!(postJobForm.subCatId1 == 23 && (key == 'modele' || key == 'marque' || key == 'model_trim')) && !(postJobForm.mainCatId == 19 && (key == 'dimentions'))" class="badge">{{pageData.commonTranslations[item] || item}}</span></li>
-														</ul>
-													</li>					
-												</ul>
-											</div>
-											
-										</div>
-										
-									</div>
-
-								</div>
-								<div class="action-btns">
-									<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-									<a class="btn btn-link text-mute btn-back pull-xs-left" ng-if="postJobForm.mainCatId == 3" ng-click="managePostJobStep('subCategory')">{{pageData.annonceStep1Translation.BACK}}</a>
-									<a class="btn btn-link text-mute btn-back pull-xs-left" ng-if="postJobForm.mainCatId != 3" ng-click="managePostJobStep('mainCategory')">{{pageData.annonceStep1Translation.BACK}}</a>
-									<button ng-if="!postJobForm.articles.length" class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-disabled="articleForm.$invalid && !postJobForm.articles.length" ng-click="addArticle(article, articleForm); managePostJobStep('addressInformation')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-									<button ng-if="postJobForm.articles.length" class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-click="managePostJobStep('addressInformation')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-								</div>
-							</form>
-						</div>
-						<div ng-if="postJobForm.mainCatId == 2">
-
-							<div ng-if="pageData.demenegamentDefaultView">
-
-								<h3 class="text-uppercase text-black content-box-title text-xs-center mt-0 volume-step-title">{{pageData.annonceStep1Translation.LE_VOLUME_DE_VOTRE_DEMENAGEMENT}}</h3>
-								<div class="volume-step-box-wrap text-center">
-									<div class="row">
-										<div class="col-sm-6">
-											<h3 class="box-title text-center text-bold">Je connais mon volume</h3>
-											<div class="volume-step-box box-top">
-												<h4>{{pageData.annonceStep1Translation.STEP_DEM_P1}}</h4>
-												<div class="volume-field">
-													<!-- <label class="hidden-xs">{{pageData.annonceStep1Translation.volumeCalculator.TOTAL_VOLUME}}</label> -->
-													<div class="volume-field-wrap">
-														<input type="text" class="form-control input-lg text-center text-black" ng-model="postJobForm.volume" ng-change="resetVolumeItems()" placeholder="{{pageData.annonceStep1Translation.VOTRE_VOLUME}}" only-digits autofocus="">
-														<em class="volume-unit text-bold">m<span>3</span></em>
-													</div>
-												</div>
-												<div class="text-mute text-center text-or text-lg hidden-xs">{{pageData.annonceStep1Translation.OR}}</div>
-											</div>
-										</div>
-										<div class="text-center content-box-gray content-box-padding text-or-xs visible-xs">
-											<span class="text-mute text-or text-lg">{{pageData.annonceStep1Translation.OR}}</span>
-										</div>
-										<div class="col-sm-6">
-											<h3 class="box-title text-center text-bold">Je ne connais pas mon volume</h3>
-											<div class="volume-step-box">
-												<h4>{{pageData.annonceStep1Translation.STEP_DEM_P3}}</h4>
-												<div class="form-group">
-													<a href="javascript:void(0)" ng-click="pageData.demenegamentDefaultView = false" class="btn btn-success btn-standard btn-tall btn-lg text-bold">{{pageData.annonceStep1Translation.STEP_DEM_P4}}</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="action-btns">
-									<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-									<a class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('mainCategory')">{{pageData.annonceStep1Translation.BACK}}</a>
-									<button class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-disabled="!postJobForm.volume || postJobForm.volume < 0" ng-click="managePostJobStep('formulaDemenagementSection')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-								</div>
-							</div>
-							<div ng-if="!pageData.demenegamentDefaultView">
-								<div class="clearfix">
-									<div class="pull-sm-left">
-										<div class="h4 pl-0"><span>{{pageData.annonceStep1Translation.volumeCalculator.ESTIMATE_VOLUME}} <!-- <a href="javascript:void(0)" title="{{pageData.annonceStep1Translation.volumeCalculator.RESET_CALCULATOR}}"  class="btn btn-refresh btn-default bdrs-0" ng-click="resetVolume()"><span class="fa fa-refresh"></span></a> --></span>
-										</div>
-									</div>
-									<div class="pull-sm-right">
-										<div class="volume-field clearfix">
-											<label class="control-label pull-left hidden-xs">{{pageData.annonceStep1Translation.volumeCalculator.TOTAL_VOLUME}}</label>
-											<span class="volume-input-wrapper input-group form-group" ng-class="{'has-error': volumeError}">
-												<input type="text" class="article-volume-field form-control input-lg bdr-0 text-black text-center" ng-model="postJobForm.volume" placeholder="{{pageData.annonceStep1Translation.VOTRE_VOLUME}}" only-digits>
-												<!-- <input type="text" class="article-volume-field form-control input-lg bdr-0 text-black text-center" ng-model="postJobForm.volume" ng-change="resetVolumeItems()" placeholder="{{pageData.annonceStep1Translation.VOTRE_VOLUME}}" only-digits> -->
-												<em class="volume-unit text-bold">m<span>3</span></em>
-											</span>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="pl-0 form-group">
-									<input type="text" class="form-control bdrs-0" ng-model="postJobForm.article" placeholder="{{pageData.annonceStep1Translation.CATEGORY_PLACEHOLDERS[postJobForm.mainCatId]}}">
-								</div> -->
-								
-								<div class="volume-filter-wrapper">
-									<ul class="volumeCalculatorFilters clearfix hidden-xs">
-										<li ng-class="{'active': (pageData.CalcTab.parentId == id)}" ng-repeat="(id, item) in pageData.volumeCalculator.parent"><a href="javascript:void(0)" ng-click="updateCalcTab(id)" ng-if="id">{{item}}</a></li>
-									</ul>
+							<select >
+									<option ><i class="fas fa-camera"></i></option>
+									<option ><i class="fas fa-camera"></i></option>
+									<option ><i class="fas fa-camera"></i></option>
+									<option ><i class="fas fa-camera"></i></option>
+									<option ><i class="fas fa-camera"></i></option>
 									
-									<div ng-class="{'active': showSearchBar }" class="volume-fields search-wrapper hidden-xs">
-										<div class="input-has-icon-right">
-											<!-- <span class="search-icon rel-icon" ng-if="!pageData.searchItemField"><img src="../assets/images/common/icons/general/search-offwhite.svg" alt=""></span> -->
-											<div class="search-input-wrapper clearfix">
-												<input ng-click="searchBarFocused()" ng-blur="searchBarBlur()" type="text" class="form-control bg-grey rounded-field" placeholder="Rechercher" ng-model="pageData.searchItemField" ng-change="searchItem()">
-											</div>
-											<a href="javascript:void(0)" class="rel-icon icon-remove" ng-if="pageData.searchItemField" ng-click="resetFilter()"><img src="../assets/images/common/icons/general/close-primary.svg" alt=""></a>
-										</div>
-										<!-- <div class="col-sm-7">
-											<div class="input-group form-group">
-												<input type="text" class="form-control bdrs-0" ng-model="postJobForm.volume" placeholder="{{pageData.annonceStep1Translation.volumeCalculator.TOTAL_VOLUME}}" only-digits>
-												<div class="input-group-btn">
-													<a href="javascript:void(0)" title="{{pageData.annonceStep1Translation.volumeCalculator.RESET_CALCULATOR}}"  class="btn btn-default bdrs-0" ng-click="resetVolume()"><span class="fa fa-refresh"></span></a>
-												</div>
-											</div>
-										</div> -->
-									</div>
-								</div>
-							
-							
-									
-								
-								
-								<div class="custom-select-menu scrolled item-list visible-xs">
-									<div class="dropdown">
-										<!-- <a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown">List of Items</a> -->
-								    	<div class="search-wrapper" data-toggle="dropdown">
-								    		<div class="search-input-wrapper">
-								    			<input type="text" ng-model="pageData.searchItemField" class="form-control rounded-field" placeholder="Rechercher">
-								    		</div>
-								    	</div>
-									    <ul class="list-striped dropdown-menu">
-									        <li title="{{item.title}}" ng-repeat="item in pageData.volumeCalculator.items | filter: pageData.searchItemField" item-id="{{item.id}}" ng-if="item">
-									        	<label ng-click="addVolumeItem(item)" class="vcheck vradio"><span>{{item.title}}</span></label>
-									        </li>
-									    </ul>
-									</div>
-								</div>
-
-								<ul class="volume-items-xs visible-xs list-unstyled">
-									<li ng-if="noItemAdded">{{pageData.annonceStep1Translation.STEP_DEM_P5}}</li>
-									<li title="{{item.title}}" ng-repeat="item in pageData.volumeCalculator.items" item-id="{{item.id}}" ng-class="{'active': item.quantity > 0}" ng-if="item && item.quantity">
-										<a ng-click="removeVolumeItem(item)" class="decreament-item sign" href="javascript:void(0)"><img src="../assets/images/common/icons/general/negative-sign.svg" alt=""></a> <span class="item-qty text-warning text-bold">{{(item.quantity || 0)}}</span> <a ng-click="addVolumeItem(item)" class="increament-item sign" href="javascript:void(0)"><img src="../assets/images/common/icons/general/plus-sign.svg" alt=""></a> <span class="item-title">{{item.title}}</span> <a href="javascript:void(0)" ng-click="removeVolumeItem(item, 'remove')" class="remove-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.47 71.47"><g id="Layer_2" data-name="Layer 2"><g id="Icons"><polygon points="71.47 5.55 65.93 0 35.74 30.19 5.54 0 0 5.55 30.19 35.74 0 65.93 5.54 71.47 35.74 41.28 65.93 71.47 71.47 65.93 41.28 35.74 71.47 5.55"/></g></g></svg></a>
-									</li>
-								</ul>
-
-								<ul class="volumeItems list-inline hidden-xs">
-									<li title="{{item.title}}" ng-repeat="item in pageData.volumeCalculator.items | filter: pageData.CalcTab | limitTo:10:10*(pageData.page - 1)" item-id="{{item.id}}" ng-class="{'active': item.quantity > 0}" ng-if="item">
-										<div class="volumeitem" ng-click="addVolumeItem(item)">
-											<span class="item-img item-img-{{item.id}}"></span>
-											<small class="item-title">{{item.title}}</small>
-											<!-- <span class="item-volume">{{item.volume}}{{' x '+ (item.quantity || 0)}}</span> -->
-										</div>
-										<div class="input-group">
-									      <div class="input-group-btn">
-									      	<a href="javascript:void(0)" class="btn bdr-0" ng-click="removeVolumeItem(item)"><img src="../assets/images/common/icons/general/negative-sign.svg" alt=""></a>
-									      </div>
-									      <!-- /btn-group -->
-									      <input readonly="" type="text" class="form-control qty-field" ng-model="item.quantity" ng-value="(item.quantity || 0)">
-									      <div class="input-group-btn">
-									      	<a href="javascript:void(0)" class="btn bdr-0" ng-click="addVolumeItem(item)"><img src="../assets/images/common/icons/general/plus-sign.svg" alt=""></a>
-									      </div>
-									      <!-- /btn-group -->
-									    </div>
-									    <!-- /input-group -->
-									</li>
-								</ul>
-
-								<div ng-if="((pageData.volumeCalculator.items | filter: pageData.CalcTab).length) > 10" class="text-center article-pagination hidden-xs" paging
-								  page="pageData.page" 
-								  page-size="10" 
-								  total="(pageData.volumeCalculator.items | filter: pageData.CalcTab).length"
-								  paging-action="goToPage(0, page)">
-								</div>
-
-								<div class="action-btns">
-									<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-									<a class="btn btn-link text-mute btn-back pull-xs-left" ng-click="pageData.demenegamentDefaultView = true">{{pageData.annonceStep1Translation.BACK}}</a>
-									<button class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-disabled="!postJobForm.volume" ng-click="managePostJobStep('formulaDemenagementSection')">{{pageData.annonceStep1Translation.CONTINUE}}</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- 
-					 ____    _____   ____     ____   ____    ___   ____    _____   ___    ___  _   _ 
-					|  _ \  | ____| / ___|   / ___| |  _ \  |_ _| |  _ \  |_   _| |_ _|  / _ \| \ | |
-					| | | | |  _|   \___ \  | |     | |_) |  | |  | |_) |   | |    | |  | | | |  \| |
-					| |_| | | |___   ___) | | |___  |  _ <   | |  |  __/    | |    | |  | |_| | |\  |
-					|____/  |_____| |____/   \____| |_| \_\ |___| |_|       |_|   |___|  \___/|_| \_|-->
-					                                                                                 
-					<div class="content-box content-box-padding content-box-bordered step-box" ng-if="currentStep == 'descriptionSection'">
-						<div class="vtable py-10 pt-0">
-							<div class="mt-0 clearfix">
-								<h4>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA42}}({{pageData.commonTranslations.RECOMMANDED}}):</h4>
-							</div>
-							<!-- <div class="text-right resetAll-section">
-								<a href="javascript:void(0)" class="btn btn-gray hidden-xs" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a>
-							</div> -->
-						</div>
-						<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA45}} <br><span class="text-primary">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA46}}</span></p>
-							<form name="imagesForm">
-
-								<ul class="list-inline photo-list">
-									<img ng-if="pageData.selectedImg" ng-src="pageData.selectedImg" alt="">
-									<li class="first-item photo-item add-photo-btn" ng-if="postJobForm.images.length < 5"><label><input type="file" image-uploader name="image" ng-model="pageData.imageData" accept="image/*" maxsize="{{maxSizeToUpload}}" ng-change="parepareImagesArray()" class="hide" do-not-parse-if-oversize></label></li>
-									<li class="photo-item" ng-repeat="i in postJobForm.images" ng-if="postJobForm.images.length">
-										<a data-toggle="modal" data-target="#photoViewer" href="javascript:void(0);" ng-click="setImageForModel(i)"><img ng-src="data:{{i.type}};base64,{{i.base64}}" alt="{{i.name}}"></a><a class="remove-icon" href="javascript:void(0)" data-target="#deleteImageConfirmation" data-toggle="modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.47 71.47"><g id="Layer_2" data-name="Layer 2"><g id="Icons"><polygon points="71.47 5.55 65.93 0 35.74 30.19 5.54 0 0 5.55 30.19 35.74 0 65.93 5.54 71.47 35.74 41.28 65.93 71.47 71.47 65.93 41.28 35.74 71.47 5.55"/></g></g></svg></a>
-									</li>
-								</ul>	
-							</form>
-						<div class="form-group" ng-if="!userDetails.pseudo">
-							<label class="vcheck"><input type="checkbox" name="check" ng-model="postJobForm.agree1"><span><em></em>{{pageData.annonceStep1Translation.AGEE_TO_RECIEVE_FRETBAY_OFFERS}}</span></label>
-						</div>
-						<div class="form-group" ng-class="{'has-error': (errors.agree2 || (!postJobForm.agree2 && pageData.formSubmit))}">
-							<label class="vcheck"><input type="checkbox" name="check" ng-model="postJobForm.agree2"><span><em></em>{{pageData.annonceStep1Translation.LABEL_I_ACCEPT +" "+pageData.annonceStep1Translation.FRETBAY_TERMS}} </span></label>
-						</div>
-						<p class="text-small">{{pageData.annonceStep1Translation.SECTION_VALIDATION_PARA1}}</p>
-						<p class="text-small">{{pageData.annonceStep1Translation.SEE_ALSO_THE+" "+pageData.annonceStep1Translation.PRIVACY_REGULATION_COMPLIANCE}}</p>
-
-						<div class="action-btns">
-							<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-							<a class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('addressInformation')">{{pageData.annonceStep1Translation.BACK}}</a>
-							<button ng-disabled="pageData.postJobInProcess" class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-if="!pageData.pro" ng-click="managePostJobStep('postJob'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}  <span ng-if=" pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							<a class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-if="pageData.pro" ng-click="managePostJobStep('shipperPro'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}</a>
-						</div>
-
-					</div>
-					<!-- 
-					    _      ____    ____    ____    _____   ____    ____  
-					   / \    |  _ \  |  _ \  |  _ \  | ____| / ___|  / ___| 
-					  / _ \   | | | | | | | | | |_) | |  _|   \___ \  \___ \ 
-					 / ___ \  | |_| | | |_| | |  _ <  | |___   ___) |  ___) |
-					/_/   \_\ |____/  |____/  |_| \_\ |_____| |____/  |____/-->
-					                                                         
-					<div class="content-box content-box-padding content-box-bordered step-box" ng-if="currentStep == 'addressInformation'">
-						<div class="row addresses-title">
-							<div class="col-sm-9 mt-0">
-								<h3 class="step-box-title mt-0 text-uppercase text-black content-box-title">{{pageData.annonceStep1Translation.LOADING_UNLOADING_INFO}} {{postJobForm.mainCatId == 2 ? pageData.annonceStep1Translation.DEMENAGEMENT_STR : pageData.annonceStep1Translation.TRANSPORT_STR}}</h3>
-							</div>
-							<!-- <div class="col-sm-3 text-right resetAll-section">
-								<a href="javascript:void(0)" class="btn btn-gray hidden-xs" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a>
-							</div> -->
-						</div>
-						<div class="row row-narrow">
-							<div class="col-sm-6">
-								<h4 class="mt-0 form-group section-title address-title title-loading">Lieu de chargement</h4>
-								<div class="address-box form-fields-wrap content-box-gray content-box-padding">
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.loadingAddress || (!pageData.loadingAddressAutoComplete && pageData.formSubmit))}">
-										<input class="form-control" type="text" g-places-autocomplete="" placeholder="{{pageData.annonceStep1Translation.ADDRESS}}" options="autocompleteOptions" ng-model="pageData.loadingAddressAutoComplete" ng-change="setLoadingAddress()" id="loadingAddressAutoComplete" ng-if="currentStep == 'addressInformation'" ng-focus="currentStep == 'addressInformation'" />
-										<span class="help-block" ng-if="errors.loadingAddress">{{pageData.annonceStep1Translation.INVALID_ADDRESS}}</span>
-									</div>
-									<div class="row row-narrow">
-										<div class="col-sm-6">
-											<!-- <label for="loadingDate1">Entre le:</label> -->
-											<div class="form-group form-group-lg date-field" ng-class="{'has-error': (errors.loadingDate1Invalid || errors.loadingDate1 || (!postJobForm.loadingDate1 && pageData.formSubmit))}">
-												<div class="input-has-icon-right">
-													<input type="text" id="loadingDate1" class="form-control" placeholder="{{pageData.annonceStep1Translation.BETWEEN}}" datepicker ng-change="setLoadingDate1(postJobForm.loadingDate1)" ng-model="postJobForm.loadingDate1">
-													<label for="loadingDate1" class="rel-icon"><img src="../assets/images/common/icons/general/calendar-origin.svg" width="15px" height="15px" alt=""></label>
-												</div>
-											</div>
-
-										</div>
+								  </select>
 
 
-										<div class="col-sm-6">
-											<!-- <label for="loadingDate2">{{pageData.annonceStep1Translation.AND_TEXT}}</label> -->
-											<div class="form-group form-group-lg date-field" ng-class="{'has-error': (errors.loadingDate2Invalid || errors.loadingDate2)}">
-												<div class="input-has-icon-right">
-													<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.AND_TEXT}}" ng-value="!(postJobForm.loadingDate2) ? postJobForm.loadingDate1 : postJobForm.loadingDate2" datepicker id="loadingDate2" ng-model="postJobForm.loadingDate2" ng-change="setLoadingDate2(postJobForm.loadingDate2)">
-													<label for="loadingDate2" class="rel-icon"><img src="../assets/images/common/icons/general/calendar-origin.svg" width="18px" height="18px" alt=""></label>
-												</div>
-											</div>											
-										</div>
-
-									</div>
-									<div class="loading-day-time day-time custom-select-menu" ng-if="!postJobForm.loadingDate2 || postJobForm.loadingDate1 == postJobForm.loadingDate2">
-										<div class="form-group form-group-lg">
-											<div class="dropdown">
-												<a href="javascript:void(0);" class="dropdown-toggle form-control" id="loadingTimeDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ pageData.annonceStep1Translation.CRENEAU_HORAIRE_CHARGEMENT }}: {{ pageData.annonceStep1Translation.TIME_SLOTS[postJobForm.loadingDayTime] }}</a>
-											    <ul class="list-striped dropdown-menu" aria-labelledby="loadingTimeDropdown">
-											        <li ng-repeat="dayTime in dayTimeSlots">
-											        	<label ng-class="{'active' : postJobForm.loadingDayTime == dayTime}" class="vcheck vradio"><input ng-value="dayTime" ng-model="postJobForm.loadingDayTime" type="radio" name="loadingDayTime"><span>{{ pageData.annonceStep1Translation.TIME_SLOTS[dayTime] }}</span></label>
-											        </li>
-											    </ul>
-											</div>
-										</div>
-									</div>
-									<div ng-if="showLocationType">		
-										<div>
-											<div class="form-group form-group-lg custom-select-menu" ng-class="{'has-error': (!postJobForm.loadingLocationType && errors.loadingLocationType)}">
-												<!-- <label>{{pageData.annonceStep1Translation.TYPE_OF_LOCATION}}</label> -->
-																		
-												<div class="dropdown">
-													<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ pageData.annonceStep1Translation.LOCATION_TYPE[postJobForm.loadingLocationType] || pageData.annonceStep1Translation.TYPE_OF_LOCATION}}</a>
-												    <ul class="list-striped dropdown-menu">
-												        <li ng-repeat="item in locationTypes">
-												        	<label ng-class="{'active' : postJobForm.loadingLocationType == item}" class="vcheck vradio"><input ng-value="item" ng-model="postJobForm.loadingLocationType" type="radio" name="loadingLocationType"><span>{{pageData.annonceStep1Translation.LOCATION_TYPE[item]}}</span></label>
-												        </li>
-												    </ul>
-												</div>
-											</div>											
-										</div>
-										<div class="row row-narrow" ng-if="(postJobForm.loadingLocationType == locationTypes[1])">
-											<div class="col-sm-6">
-												<div class="form-group form-group-lg custom-select-menu" ng-class="{'has-error': (!postJobForm.loadingFloors && errors.loadingFloors)}">
-												<!-- <label>{{pageData.annonceStep1Translation.SELECT_ETAGE}}</label> -->
-										
-												<div class="dropdown">
-													<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ postJobForm.loadingFloors || pageData.annonceStep1Translation.SELECT_ETAGE}}</a>
-												    <ul class="dropdown-menu list-striped">
-												    	<li>
-												        	<label class="vcheck">{{pageData.annonceStep1Translation.SELECT_ETAGE}}</label>
-												        </li>
-												        <li ng-repeat="item in buildingStoriesArray">
-												        	<label ng-class="{'active' : postJobForm.loadingFloors == item}" class="vcheck vradio"><input ng-value="item" ng-model="postJobForm.loadingFloors" type="radio" name="loadingFloors"><span>{{item}}</span></label>
-												        </li>
-												    </ul>
-												</div>
-											</div>
-										</div>
-											<div class="col-sm-6">
-												<div class="form-group" ng-class="{'has-error': (!postJobForm.ascenceur && errors.ascenceur)}">
-													<!-- <label class="control-label">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label> -->
-													<div class="form-group form-group-lg custom-select-menu">
-														<div class="dropdown">
-															<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown">{{(postJobForm.ascenceur == 1 ? pageData.commonTranslations.YES : postJobForm.ascenceur == 0 ? pageData.commonTranslations.NO : '') || (pageData.annonceStep1Translation.SELECT_LIFT)}}</a>
-														    <ul class="dropdown-menu list-striped">
-														    	<li><label class="vcheck cursor-default">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label></li>
-														        <li>
-														        	<label ng-class="{'active' : postJobForm.ascenceur == 1}" class="vcheck vradio"><input ng-value="1" type="radio" name="ascenceur" ng-model="postJobForm.ascenceur"><span>{{pageData.commonTranslations.YES}}</span></label>
-														        </li>
-														        <li>
-														        	<label ng-class="{'active' : postJobForm.ascenceur == 0}" class="vcheck vradio"><input ng-value="0" type="radio" name="ascenceur" ng-model="postJobForm.ascenceur"><span>{{pageData.commonTranslations.NO}}</span></label>
-														        </li>
-														    </ul>
-														</div>
-													</div>
-													<!-- <label class="question-label">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label>
-													<span class="pull-right btn-group">
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{'active' : postJobForm.ascenceur == 1 }"><input type="radio" ng-value="1" name="ascenceur" ng-model="postJobForm.ascenceur"><span>{{pageData.commonTranslations.YES}}</span></label>
-														<label class="vcheck vcheck-inline vradio btn" ng-class="{'active' : postJobForm.ascenceur == 0 }"><input type="radio" ng-value="0" name="ascenceur" ng-model="postJobForm.ascenceur"><span>{{pageData.commonTranslations.NO}}</span></label>
-													</span> -->
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div ng-if="(postJobForm.loadingLocationType == locationTypes[0] || postJobForm.loadingLocationType == locationTypes[1])" ng-class="{'has-error': (postJobForm.loadingLiftTruck == undefined && errors.loadingLiftTruck)}">
-										<!-- <label for="" class="control-label">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label> -->
-										<div class="form-group form-group-lg custom-select-menu">
-											<div class="dropdown">
-												<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown">{{(postJobForm.loadingLiftTruck == 1 ? pageData.commonTranslations.YES : postJobForm.loadingLiftTruck == 0 ? pageData.commonTranslations.NO : '') || (pageData.annonceStep1Translation.FURNITURE_LIFT_2)}}</a>
-											    <ul class="dropdown-menu list-striped">
-											    	<li>
-											        	<label class="vcheck">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label>
-											        </li>
-											        <li>
-											        	<label ng-class="{'active' : postJobForm.loadingLiftTruck == 1}" class="vcheck vradio"><input ng-value="1" type="radio" name="loadingLiftTruck" ng-model="postJobForm.loadingLiftTruck"><span>{{pageData.commonTranslations.YES}}</span></label>
-											        </li>
-											        <li>
-											        	<label ng-class="{'active' : postJobForm.loadingLiftTruck == 0}" class="vcheck vradio"><input ng-value="0" type="radio" name="loadingLiftTruck" ng-model="postJobForm.loadingLiftTruck"><span>{{pageData.commonTranslations.NO}}</span></label>
-											        </li>
-											    </ul>
-											</div>
-										</div>
-
-										<!-- <label class="question-label">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label>
-										<div class="pull-right">
-											<div class="btn-group clearfix">
-												<label class="vcheck btn vcheck-inline vradio" ng-class="{'active' : postJobForm.loadingLiftTruck == 1}"><input type="radio" ng-value="1" name="loadingLiftTruck" ng-model="postJobForm.loadingLiftTruck"><span>{{pageData.commonTranslations.YES}}</span></label>
-												<label class="vcheck btn vcheck-inline vradio" ng-class="{'active' : postJobForm.loadingLiftTruck == 0}"><input type="radio" ng-value="0" name="loadingLiftTruck" ng-model="postJobForm.loadingLiftTruck"><span>{{pageData.commonTranslations.NO}}</span></label>
-											</div>
-										</div> -->
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<h4 class="mt-0 form-group section-title address-title title-delivery">Lieu de livraison</h4>
-								<div class="address-box form-fields-wrap content-box-gray content-box-padding">
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.deliveryAddress || (!pageData.deliveryAddressAutoComplete && pageData.formSubmit))}">
-										<input class="form-control" type="text" placeholder="{{pageData.annonceStep1Translation.voirDetails.ADDRESSED_TO}}" options="autocompleteOptions" g-places-autocomplete="" ng-change="setDeliveryAddress()" ng-model="pageData.deliveryAddressAutoComplete" ng-if="currentStep == 'addressInformation'" />
-										<span class="help-block" ng-if="errors.deliveryAddress">{{pageData.annonceStep1Translation.INVALID_ADDRESS}}</span>
-									</div>
-									<div class="row row-narrow">
-										<div class="col-sm-6">
-											<!-- <label for="deliveryDate1">Entre le:</label> -->
-											<div class="form-group form-group-lg date-field" ng-class="{'has-error': (errors.deliveryDate1Invalid || errors.deliveryDate1 || (!postJobForm.deliveryDate1 && pageData.formSubmit))}">
-												<div class="input-has-icon-right">
-													<input type="text" id="deliveryDate1" class="form-control" placeholder="{{pageData.annonceStep1Translation.BETWEEN}}" ng-model="postJobForm.deliveryDate1" datepicker ng-change="setDeliveryDate1()">
-													<label for="deliveryDate1" class="rel-icon"><img src="../assets/images/common/icons/general/calendar-destination.svg" width="18px" height="18px" alt=""></label>
-												</div>
-											</div>											
-										</div>
-										<div class="col-sm-6">
-											<!-- <label for="deliveryDate2">{{pageData.annonceStep1Translation.AND_TEXT}}</label> -->
-											<div class="form-group form-group-lg date-field" ng-class="{'has-error': (errors.deliveryDate2Invalid || errors.deliveryDate2)}">
-												<div class="input-has-icon-right">
-													<input type="text" id="deliveryDate2" class="form-control" ng-value="!(postJobForm.deliveryDate2) ? postJobForm.deliveryDate1 : postJobForm.deliveryDate2" placeholder="{{pageData.annonceStep1Translation.AND_TEXT}}" ng-model="postJobForm.deliveryDate2" ng-change="setDeliveryDate2()" datepicker>
-													<label for="deliveryDate2" class="rel-icon"><img src="../assets/images/common/icons/general/calendar-destination.svg" width="18px" height="18px" alt=""></label>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="delivery-day-time day-time custom-select-menu" ng-if="!postJobForm.deliveryDate2 || postJobForm.deliveryDate1 == postJobForm.deliveryDate2">
-										<div class="form-group form-group-lg">
-											<div class="dropdown">
-												<a href="javascript:void(0);" class="dropdown-toggle form-control" id="deliveryTimeDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ pageData.annonceStep1Translation.CRENEAU_HORAIRE_LIVRAISON }}: {{ pageData.annonceStep1Translation.TIME_SLOTS[postJobForm.deliveryDayTime] }}</a>
-											    <ul class="list-striped dropdown-menu" aria-labelledby="deliveryTimeDropdown">
-											        <li ng-repeat="dayTime in dayTimeSlots">
-											        	<label ng-class="{'active' : postJobForm.deliveryDayTime == dayTime}" class="vcheck vradio"><input ng-value="dayTime" ng-model="postJobForm.deliveryDayTime" type="radio" name="deliveryDayTime"><span>{{ pageData.annonceStep1Translation.TIME_SLOTS[dayTime] }}</span></label>
-											        </li>
-											    </ul>
-											</div>
-										</div>
-									</div>
-									<div ng-if="showLocationType">
-										<div>
-											<div class="form-group form-group-lg custom-select-menu" ng-class="{'has-error': (!postJobForm.deliveryLocationType && errors.deliveryLocationType)}">
-												<!-- <label>{{pageData.annonceStep1Translation.TYPE_OF_LOCATION}}</label> -->
-																		
-												<div class="dropdown">
-													<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ pageData.annonceStep1Translation.LOCATION_TYPE[postJobForm.deliveryLocationType] || pageData.annonceStep1Translation.TYPE_OF_LOCATION}}</a>
-												    <ul class="list-striped dropdown-menu">
-												        <li ng-repeat="item in locationTypes">
-												        	<label ng-class="{'active' : postJobForm.deliveryLocationType == item}" class="vcheck vradio"><input ng-value="item" ng-model="postJobForm.deliveryLocationType" type="radio" name="deliveryLocationType"><span>{{pageData.annonceStep1Translation.LOCATION_TYPE[item]}}</span></label>
-												        </li>
-												    </ul>
-												</div>
-											</div>											
-										</div>
-										<div class="row row-narrow" ng-if="(postJobForm.deliveryLocationType == locationTypes[1])">
-											<div class="col-sm-6">
-												<div class="form-group form-group-lg custom-select-menu" ng-class="{'has-error': (!postJobForm.deliveryFloors && errors.deliveryFloors)}">
-													<!-- <label>{{pageData.annonceStep1Translation.SELECT_ETAGE}}</label> -->
-												
-													<div class="dropdown">
-														<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ postJobForm.deliveryFloors || pageData.annonceStep1Translation.SELECT_ETAGE}}</a>
-													    <ul class="dropdown-menu list-striped">
-													    	<li>
-													        	<label class="vcheck">{{pageData.annonceStep1Translation.SELECT_ETAGE}}</label>
-													        </li>
-													        <li ng-repeat="item in buildingStoriesArray">
-													        	<label ng-class="{'active' : postJobForm.deliveryFloors == item}" class="vcheck vradio"><input ng-value="item" ng-model="postJobForm.deliveryFloors" type="radio" name="deliveryFloors"><span>{{item}}</span></label>
-													        </li>
-													    </ul>
-													</div>
-												</div>
-											</div>
-											<div class="col-sm-6" ng-class="{'has-error': (!postJobForm.ascenceur2 && errors.ascenceur2)}">
-												<!-- <label class="control-label">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label> -->
-												<div class="form-group form-group-lg custom-select-menu">
-													<div class="dropdown">
-														<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown">{{(postJobForm.ascenceur2 == 1 ? pageData.commonTranslations.YES : postJobForm.ascenceur2 == 0 ? pageData.commonTranslations.NO : '') || (pageData.annonceStep1Translation.SELECT_LIFT)}}</a>
-													    <ul class="dropdown-menu list-striped">
-													    	<li><label class="vcheck cursor-default">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label></li>
-													        <li>
-													        	<label ng-class="{'active' : postJobForm.ascenceur2 == 1}" class="vcheck vradio"><input ng-value="1" type="radio" name="ascenceur2" ng-model="postJobForm.ascenceur2"><span>{{pageData.commonTranslations.YES}}</span></label>
-													        </li>
-													        <li>
-													        	<label ng-class="{'active' : postJobForm.ascenceur2 == 0}" class="vcheck vradio"><input ng-value="0" type="radio" name="ascenceur2" ng-model="postJobForm.ascenceur2"><span>{{pageData.commonTranslations.NO}}</span></label>
-													        </li>
-													    </ul>
-													</div>
-												</div>
-												<!-- <label class="question-label">{{pageData.annonceStep1Translation.SELECT_LIFT}}</label>
-												<span class="pull-right btn-group">
-													<label class="vcheck vcheck-inline vradio btn" ng-class="{'active' : postJobForm.ascenceur2 == 1}"><input type="radio" ng-value="1" name="ascenceur2" ng-model="postJobForm.ascenceur2"><span>{{pageData.commonTranslations.YES}}</span></label>
-													<label class="vcheck vcheck-inline vradio btn" ng-class="{'active' : postJobForm.ascenceur2 == 0}"><input type="radio" ng-value="0" name="ascenceur2" ng-model="postJobForm.ascenceur2"><span>{{pageData.commonTranslations.NO}}</span></label>
-												</span> -->
-											</div>
-										</div>
-									</div>
-
-									<div ng-if="(postJobForm.deliveryLocationType == locationTypes[0] || postJobForm.deliveryLocationType == locationTypes[1])" ng-class="{'has-error': (postJobForm.deliveryLiftTruck == undefined && errors.deliveryLiftTruck)}">
-										<!-- <label for="" class="control-label">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label> -->
-										<div class="form-group form-group-lg custom-select-menu">
-											<div class="dropdown">
-												<a href="javascript:void(0);" class="dropdown-toggle form-control" data-toggle="dropdown">{{(postJobForm.deliveryLiftTruck == 1 ? pageData.commonTranslations.YES : postJobForm.deliveryLiftTruck == 0 ? pageData.commonTranslations.NO : '') || (pageData.annonceStep1Translation.FURNITURE_LIFT_2)}}</a>
-											    <ul class="dropdown-menu list-striped">
-											        <li>
-											        	<label class="vcheck">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label>
-											        </li>
-											        <li>
-											        	<label ng-class="{'active' : postJobForm.deliveryLiftTruck == 1}" class="vcheck vradio"><input ng-value="1" type="radio" name="deliveryLiftTruck" ng-model="postJobForm.deliveryLiftTruck"><span>{{pageData.commonTranslations.YES}}</span></label>
-											        </li>
-											        <li>
-											        	<label ng-class="{'active' : postJobForm.deliveryLiftTruck == 0}" class="vcheck vradio"><input ng-value="0" type="radio" name="deliveryLiftTruck" ng-model="postJobForm.deliveryLiftTruck"><span>{{pageData.commonTranslations.NO}}</span></label>
-											        </li>
-											    </ul>
-											</div>
-										</div>
-
-										<!-- <label class="question-label">{{pageData.annonceStep1Translation.FURNITURE_LIFT_2}}</label>
-										<span class="pull-right btn-group">
-											<label class="btn vcheck vcheck-inline vradio" ng-class="{'active' : postJobForm.deliveryLiftTruck == 1 }"><input type="radio" ng-value="1" name="deliveryLiftTruck" ng-model="postJobForm.deliveryLiftTruck"><span>{{pageData.commonTranslations.YES}}</span></label>
-											<label class="btn vcheck vcheck-inline vradio" ng-class="{'active' : postJobForm.deliveryLiftTruck == 0 }"><input type="radio" ng-value="0" name="deliveryLiftTruck" ng-model="postJobForm.deliveryLiftTruck"><span>{{pageData.commonTranslations.NO}}</span></label>
-										</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<h4 class="info-section-title"><span class="section-title">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA42}}</span> <em>({{pageData.commonTranslations.RECOMMANDED}})</em></h4>
-						</div>
-						<div class="content-box-gray info-section">
-							<div class="row row-narrow">
-								<div class="col-sm-6">
-									<textarea cols="30" rows="13" class="additional-info form-control" ng-model="postJobForm.details"></textarea>
-								</div>
-								<div class="col-sm-6">
-									<div class="description-alert alert alert-danger">
-										- {{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA44}}
-									</div>
-									<div class="form-group instructions">
-										<h4 class="text-bold text-lg title">{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA47}}</h4>
-										<p>- {{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA48}}</p>
-										<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA49}} {{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA50}}</p>
-										<p>- {{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA51}}</p>
-										<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA52}}</p>
-										<p>- {{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA53}}</p>
-										<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA54}}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<h4 class="section-title photo-section-title" ng-bind-html="pageData.annonceStep1Translation.INFORMATION_SECTION_PARA45"></h4>
-						<div class="content-box-gray photo-section">
-							<div class="row">
-								<div class="pull-md-left">
-									<form name="imagesForm">
-										<ul class="list-inline photo-list">
-											<img ng-if="pageData.selectedImg" ng-src="pageData.selectedImg" alt="">
-											<li class="first-item photo-item add-photo-btn btn btn-primary btn-lg" ng-if="postJobForm.images.length < 5"><label><input type="file" image-uploader name="image" ng-model="pageData.imageData" accept="image/*" maxsize="{{maxSizeToUpload}}" ng-change="parepareImagesArray()" class="hide" do-not-parse-if-oversize><span>{{pageData.annonceStep1Translation.UPLOAD}}</span></label></li>
-											
-											<li class="photo-item" ng-repeat="i in postJobForm.images" ng-if="postJobForm.images.length">
-												<a class="image-link" data-toggle="modal" data-target="#photoViewer" href="javascript:void(0);" ng-click="setImageForModel(i)"><img ng-src="data:{{i.type}};base64,{{i.base64}}" alt="{{i.name}}"></a><a class="remove-icon" href="javascript:void(0)" ng-click="pageData.selectedImageIndex = $index" data-target="#deleteImageConfirmation" data-toggle="modal">Supprimer</a>
-											</li>
-										</ul>
-									</form>
-								</div>
-								<div class="col-md-6">
-									<p>{{pageData.annonceStep1Translation.INFORMATION_SECTION_PARA46}}</p>
-								</div>
-							</div>
-						</div>
-						<!-- <form name="imagesForm">
-							<ul class="list-inline photo-list">
-								<img ng-if="pageData.selectedImg" ng-src="pageData.selectedImg" alt="">
-								<li class="first-item photo-item add-photo-btn" ng-if="postJobForm.images.length < 5"><label><input type="file" image-uploader name="image" ng-model="pageData.imageData" accept="image/*" maxsize="{{maxSizeToUpload}}" ng-change="parepareImagesArray()" class="hide" do-not-parse-if-oversize><span>{{pageData.annonceStep1Translation.UPLOAD}}</span></label></li>
-								
-								<li class="photo-item" ng-repeat="i in postJobForm.images" ng-if="postJobForm.images.length">
-									<a class="image-link" data-toggle="modal" data-target="#photoViewer" href="javascript:void(0);" ng-click="setImageForModel(i)"><img ng-src="data:{{i.type}};base64,{{i.base64}}" alt="{{i.name}}"></a><a class="remove-icon" href="javascript:void(0)" ng-click="pageData.selectedImageIndex = $index" data-target="#deleteImageConfirmation" data-toggle="modal"></a>
-								</li>
-							</ul>	
-						</form> -->
-						<hr class="simple">
-						<div class="form-group" ng-if="!userDetails.pseudo">
-							<label class="vcheck"><input type="checkbox" name="check" ng-model="postJobForm.agree1"><span><em></em>{{pageData.annonceStep1Translation.AGEE_TO_RECIEVE_FRETBAY_OFFERS}}</span></label>
-						</div>
-						<div class="form-group" ng-class="{'has-error': (errors.agree2 || (!postJobForm.agree2 && pageData.formSubmit))}">
-							<label class="vcheck"><input type="checkbox" name="check" ng-model="postJobForm.agree2"><span><em></em>{{pageData.annonceStep1Translation.LABEL_I_ACCEPT +" "+pageData.annonceStep1Translation.FRETBAY_TERMS}} </span></label>
-						</div>
-						<p class="text-small">{{pageData.annonceStep1Translation.SECTION_VALIDATION_PARA1}}</p>
-						<p class="text-small">{{pageData.annonceStep1Translation.SEE_ALSO_THE+" "+pageData.annonceStep1Translation.PRIVACY_REGULATION_COMPLIANCE}}</p>
-						<!-- <form name="imagesForm">
-							<ul class="photo-list list-inline">
-								<li class="first-item photo-item btn btn-lg add-photo-btn"><a href="#">+</a></li>
-								<li class="photo-item"><a data-toggle="modal" href="#photoViewer"><img width="53px" height="39px" src="../assets/images/common/icons/general/image.svg" alt=""></a><a class="remove-icon" href="javascript:void(0)" ng-click="deleteOfferImage(i, pageData.id_offer, pageData.idsess, $index)"><span class="fa fa-times"></span></a></li>
-								<li class="photo-item"><a data-toggle="modal" href="#photoViewer"><img width="53px" height="39px" src="../assets/images/common/icons/general/image.svg" alt=""></a><a class="remove-icon" href="javascript:void(0)" ng-click="deleteOfferImage(i, pageData.id_offer, pageData.idsess, $index)"><span class="fa fa-times"></span></a></li>
-								<li class="photo-item"><a data-toggle="modal" href="#photoViewer"><img width="53px" height="39px" src="../assets/images/common/icons/general/image.svg" alt=""></a><a class="remove-icon" href="javascript:void(0)" ng-click="deleteOfferImage(i, pageData.id_offer, pageData.idsess, $index)"><span class="fa fa-times"></span></a></li>
-								<li class="photo-item"><a data-toggle="modal" href="#photoViewer"><img width="53px" height="39px" src="../assets/images/common/icons/general/image.svg" alt=""></a><a class="remove-icon" href="javascript:void(0)" ng-click="deleteOfferImage(i, pageData.id_offer, pageData.idsess, $index)"><span class="fa fa-times"></span></a></li>
-							</ul>
-						
-							<ul class="list-inline hidden">
-								<li ng-repeat="i in imagesArray">
-									<label>
-						
-										<input type="file" image-uploader name="image{{i}}" ng-model="postJobForm.images[i]" accept="image/*" maxsize="{{maxSizeToUpload}}" class="hide" do-not-parse-if-oversize>
-										<img ng-if="postJobForm.images[i] && postJobForm.images[i].base64" ng-src="data:{{postJobForm.images[i].type}};base64,{{postJobForm.images[i].base64}}" alt="{{postJobForm.images[i].name}}" width="53px" height="39px">
-										<img width="53px" height="39px" ng-if="!postJobForm.images[i] || !postJobForm.images[i].base64" src="../assets/images/common/icons/general/image.svg"  alt="">
-									</label>
-								</li>
-							</ul>	
-						</form> -->
-						
-						<!-- <p class="text-with-icon"><img class="rel-icon" src="../assets/images/common/icons/general/cog.svg" width="17px" height	="17px" alt=""> <a href="javascript:void(0)" class="text-primary btn-link">Special services ?</a></p>
-						<p><strong>I will consider bids for the following service types</strong></p>
-						<p>
-							<label class="vradio vcheck-inline my-10 vcheck" ng-model="postJobForm.specialServices"><input type="radio" name="services"><span><em></em></span> White Glove</label>
-							<label class="vradio vcheck-inline my-10 vcheck" ng-model="postJobForm.specialServices"><input type="radio" name="services"><span><em></em></span> Mover, Loading Service (customer packs/wraps, mover loads)</label>
-							<label class="vradio vcheck-inline my-10 vcheck" ng-model="postJobForm.specialServices"><input type="radio" name="services"><span><em></em></span>  Mover, Self Service (customer packs/wraps, customer loads)</label>
-						</p> -->
-						<!-- <h4 class="text-black">Validation</h4> -->
-
-						<div class="action-btns">
-							<!-- <span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span> -->
-							<a class="btn btn-link text-mute btn-back pull-xs-left" ng-if="postJobForm.mainCatId != 2" ng-click="managePostJobStep('articles')">{{pageData.annonceStep1Translation.BACK}}</a>
-							<a class="btn btn-link text-mute btn-back pull-xs-left" ng-if="postJobForm.mainCatId == 2" ng-click="managePostJobStep('formulaDemenagementSection')">{{pageData.annonceStep1Translation.BACK}}</a>
-							<!-- <a class="btn btn-lg btn-primary btn-standard" ng-click="managePostJobStep('descriptionSection')">{{pageData.annonceStep1Translation.CONTINUE}}</a> -->
-
-							<button ng-disabled="pageData.postJobInProcess" class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-if="!pageData.idsess" ng-click="managePostJobStep('postJob'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}  <span ng-if=" pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							<button ng-disabled="pageData.postJobInProcess" class="btn btn-danger btn-standard btn-validate btn-tall btn-lg text-bold" ng-if="!pageData.pro && pageData.idsess" ng-click="managePostJobStep('postJob'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.VALIDATE}}  <span ng-if=" pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							<a class="btn btn-lg btn-danger btn-standard btn-validate btn-tall btn-lg text-bold" ng-if="pageData.pro && pageData.idsess" ng-click="managePostJobStep('shipperPro'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.VALIDATE}}</a>
-						</div>
-
-						<!-- <div class="action-btns">
-							<span class="resetAll-section"><a href="javascript:void(0)" class="btn btn-link btn-reset text-mute" ng-click="resetAll()">{{pageData.annonceStep1Translation.GO_BACK_TO_TOP}}</a></span>
-							<a class="btn btn-link text-mute btn-back" ng-click="managePostJobStep('descriptionSection')">{{pageData.annonceStep1Translation.BACK}}</a>
-							<button ng-disabled="pageData.postJobInProcess" class="btn btn-lg btn-primary btn-standard" ng-if="!pageData.pro" ng-click="managePostJobStep('postJob'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}  <span ng-if=" pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							<a class="btn btn-lg btn-primary btn-standard" ng-if="pageData.pro" ng-click="managePostJobStep('shipperPro'); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}</a>
-						</div> -->
-					</div>
-
-					<!-- <div ng-if="currentStep == 'postJob'" class="content-box-light-shadow content-box-bordered content-box-padding postjob-loading-screen">
-						<img src="../assets/images/common/icons/general/loader.gif" alt=""> loading....
-					</div> -->
-					<div ng-if="currentStep == 'shipperPro'" class="content-box-light-shadow content-box-bordered content-box-padding">
-						<div class="row">
-							<div class="col-sm-6">
-								<h4><h4>{{pageData.annonceStep1Translation.LOADING_PLACE_PRO}}</h4></h4>
-								<div class="form-group"><label class="vcheck"><input type="checkbox" name="sender_enterprise" checked="" ng-model="postJobForm.sender_enterprise"><span><em></em>{{pageData.annonceStep1Translation.ADDRESS_PROFESSIONAL}}</span></label></div>
-								<div class="form-group" ng-if="postJobForm.sender_enterprise" ng-class="{'has-error': (errors.sender_company || (!postJobForm.sender_company && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_company" placeholder="{{pageData.annonceStep1Translation.ENTERPRISE}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.sender_first_name || (!postJobForm.sender_first_name && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_first_name" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.PRENOM}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.sender_last_name || (!postJobForm.sender_last_name && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_last_name" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.NOM}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.sender_telephone || (!postJobForm.sender_telephone && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_telephone" only-digits placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.TELEPHONE}}">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_mobile" only-digits placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.MOBILE}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.sender_email || errors.sender_emailInvalid || (!postJobForm.sender_email && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.sender_email" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.EMAIL}}">
-								</div>
-								<!-- <div class="form-group form-group-lg" ng-class="{'has-error': (errors.loadingAddress || (!pageData.loadingAddressAutoComplete && pageData.formSubmit))}">
-									<input class="form-control" type="text" g-places-autocomplete="" placeholder="{{pageData.annonceStep1Translation.ADDRESS}}" options="autocompleteOptions" ng-model="pageData.loadingAddressAutoComplete" ng-change="setLoadingAddress()" ng-if="currentStep == 'shipperPro'" />
-									<span class="help-block" ng-if="errors.loadingAddress">{{pageData.annonceStep1Translation.INVALID_ADDRESS}}</span>
-								</div> -->
-							</div>
-							<div class="col-sm-6">
-								<h4>{{pageData.annonceStep1Translation.PLACE_OF_DELIVERY_PRO}}</h4>
-								<div class="form-group"><label class="vcheck"><input type="checkbox" name="recipient_enterprise" checked="" ng-model="postJobForm.recipient_enterprise"><span><em></em>{{pageData.annonceStep1Translation.ADDRESS_PROFESSIONAL}}</span></label></div>
-								<div class="form-group" ng-if="postJobForm.recipient_enterprise" ng-class="{'has-error': (errors.recipient_company || (!postJobForm.recipient_company && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_company" placeholder="{{pageData.annonceStep1Translation.ENTERPRISE}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.recipient_first_name || (!postJobForm.recipient_first_name && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_first_name" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.PRENOM}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.recipient_last_name || (!postJobForm.recipient_last_name && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_last_name" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.NOM}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.recipient_telephone || (!postJobForm.recipient_telephone && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_telephone" only-digits placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.TELEPHONE}}">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_mobile" only-digits placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.MOBILE}}">
-								</div>
-								<div class="form-group" ng-class="{'has-error': (errors.recipient_email || errors.recipient_emailInvalid || (!postJobForm.recipient_email && pageData.formSubmit))}">
-									<input type="text" class="form-control" ng-model="postJobForm.recipient_email" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.EMAIL}}">
-								</div>
-								<!-- <div class="form-group form-group-lg" ng-class="{'has-error': (errors.deliveryAddress || (!pageData.deliveryAddressAutoComplete && pageData.formSubmit))}">
-									<input class="form-control" type="text" placeholder="{{pageData.annonceStep1Translation.voirDetails.ADDRESSED_TO}}" options="autocompleteOptions" g-places-autocomplete="" ng-change="setDeliveryAddress()" ng-model="pageData.deliveryAddressAutoComplete" ng-if="currentStep == 'shipperPro'" />
-									<span class="help-block" ng-if="errors.deliveryAddress">{{pageData.annonceStep1Translation.INVALID_ADDRESS}}</span>
-								</div> -->
-							</div>
-						</div>
-						<a class="btn btn-danger btn-standard btn-continue btn-tall btn-lg text-bold" ng-click="postJobPro(); pageData.formSubmit = true">{{pageData.annonceStep1Translation.CONTINUE}}</a>
-					</div>
-					<!-- 
-					 ____    _____    ____   ___   ____    _____   _____   ____  
-					|  _ \  | ____|  / ___| |_ _| / ___|  |_   _| | ____| |  _ \ 
-					| |_) | |  _|   | |  _   | |  \___ \    | |   |  _|   | |_) |
-					|  _ <  | |___  | |_| |  | |   ___) |   | |   | |___  |  _ < 
-					|_| \_\ |_____|  \____| |___| |____/    |_|   |_____| |_| \_\-->
-					<div class="content-box content-box-padding content-box-bordered step-box" ng-if="currentStep == 'register'">
-						<div class="register-content">
-							<!-- <div class="clearfix">
-								<span class="pull-right"><img src="../assets/images/common/icons/general/user.svg" width="18px" height="18px" alt=""><a href="javascript:void(0)" ng-click="managePostJobStep('login')" class="btn-link text-mute">{{pageData.annonceStep1Translation.I_ALREADY_HAVE_ACCOUNT}}</a></span>
-							</div> -->
-							
-							<div class="text-center">
-								<img class="login-icon" src="../assets/images/public/login/login.svg" alt="">
-							</div>
-								
-							<div class="form-header text-xs-center">
-								<div class="row">
-									<div class="col-sm-8">
-										<h3 class="text-bold title m-0">{{pageData.annonceStep1Translation.REGISTER_FRETBAY}}</h3>
-									</div>
-									<div class="col-sm-4 text-sm-right">
-										<span><img src="../assets/images/common/icons/general/user.svg" width="18px" height="18px" alt=""><a href="javascript:void(0)" ng-click="managePostJobStep('login')" class="btn-link text-mute">{{pageData.annonceStep1Translation.I_ALREADY_HAVE_ACCOUNT}}</a></span>
-									</div>
-								</div>
-							</div>
-							<div class="content-box-gray content-box-padding form-content">
-								<p class="text-center">{{pageData.annonceStep1Translation.REGISTER_FRETBAY_PARA1}}</p>
-								<!-- <div class="registeration-type form-group">
-								
-									<div class="btn-group clearfix">
-										<label class="vcheck btn vcheck-inline vradio" ng-class="{'active' : postJobForm.pro == 1}"><input type="radio" ng-value="1" name="pro" ng-model="postJobForm.pro"><span>Vous êtes un professionnel</span></label>
-										<label class="vcheck btn vcheck-inline vradio" ng-class="{'active' : postJobForm.pro == 0}"><input type="radio" ng-value="0" name="pro" ng-model="postJobForm.pro"><span>Vous êtes un particulier</span></label>
-									</div>
-								</div> -->
-								<p class="text-danger" ng-if="errors.registerFormError">{{errors.registerFormError}}</p>
-								<div class="text-left">
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.registerFormErrorEmail || errors.registerForm.email || errors.registerForm.emailInvalid || (!postJobForm.registerForm.email && pageData.registrationFormSubmit))}">
-										<div class="input-has-icon-left">
-											<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.EMAIL}}" ng-model="postJobForm.registerForm.email" ng-keydown="errors.registerFormErrorEmail = ''">
-											<span class="rel-icon"><img src="../assets/images/common/icons/general/email.svg" width="18px" height="18px" alt=""></span>
-										</div>
-										<span class="help-block" ng-if="errors.registerForm.emailInvalid">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INCORRENT_EMAIL_FORMAT}}</span>
-										<span class="help-block" ng-if="!postJobForm.registerForm.email && pageData.registrationFormSubmit">Champ obligatoire</span>
-										<span class="help-block" ng-if="errors.registerFormErrorEmail && postJobForm.registerForm.email">{{pageData.annonceStep1Translation.ERROR_MESSAGES[errors.registerFormErrorEmail]}}</span>
-									</div>
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.registerFormErrorPseudo || errors.registerForm.username || errors.registerForm.usernameInvalid || (!postJobForm.registerForm.username && pageData.registrationFormSubmit))}">
-										<div class="input-has-icon-left">
-											<input type="text" class="form-control" placeholder="Pseudo" ng-model="postJobForm.registerForm.username" maxlength="31" ng-keydown="errors.registerFormErrorPseudo = ''">
-											<span class="rel-icon"><img src="../assets/images/common/icons/general/user.svg" width="18px" height="18px" alt=""></span>
-										</div>
-										<span class="help-block" ng-if="errors.registerForm.usernameInvalid">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INCORRENT_USERNAME_FORMAT}}</span>
-										<span class="help-block" ng-if="!postJobForm.registerForm.username && pageData.registrationFormSubmit">Champ obligatoire</span>
-										<span class="help-block" ng-if="postJobForm.registerForm.username && errors.registerFormErrorPseudo">{{pageData.annonceStep1Translation.ERROR_MESSAGES[errors.registerFormErrorPseudo]}}</span>
-									</div>
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.registerForm.telephone || errors.registerForm.telephoneInvalid || (!postJobForm.registerForm.telephone && pageData.registrationFormSubmit))}">
-										<div class="custom-phone-menu-wrapper">
-											<div class="custom-phone-menu">
-												<ui-select ng-model="postJobForm.registerForm.phoneCodeObj"  title="Rechercher" required="">
-													<ui-select-match placeholder="Rechercher"><span class="flag flag-{{$select.selected.cc | lowercase}}"></span> {{$select.selected.pc}}</ui-select-match>
-													<ui-select-choices repeat="country in countryPhoneCodes | propsFilter: {cn: $select.search }">
-													<div><span class="flag flag-{{country.cc | lowercase}}"></span><span ng-bind-html="country.cn | highlight: $select.search"></span></div>
-													</ui-select-choices>
-												</ui-select>
-											</div>
-											<input type="text" class="form-control phone-field" only-digits maxlength="10" placeholder="Téléphone" ng-model="postJobForm.registerForm.telephone">
-										</div>
-										<span class="help-block" ng-if="errors.registerForm.telephoneInvalid">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INCORRENT_PHONE_NUMBER_FORMAT_2}}</span>
-										<span class="help-block" ng-if="!postJobForm.registerForm.telephone && pageData.registrationFormSubmit">Champ obligatoire</span>
-									</div>
+					<input type="button" name="next" class="next action-button" value="Next" />
+						</fieldset>
+						<fieldset>
+							<h2 class="fs-title">Diabetes type</h2>
+							<h3 class="fs-subtitle">What type of diabetes do you have?</h3>
+							<select>
+					  <option value="a">Diabetes Type A</option>
+					  <option value="b">Diabetes Type B</option>
+					</select>
+					  </br>
+							<input type="button" name="previous" class="previous action-button" value="Previous" />
+							<input type="button" name="next" class="next action-button" value="Next" />
+						</fieldset>
+					<fieldset>
+							<h2 class="fs-title">Treament Type</h2>
+							<h3 class="fs-subtitle"></h3>
+							<select>
+					  <option value="a">Insuline</option>
+					  <option value="b">Oral Treament</option>
+					</select>
+					  </br>
+							<input type="button" name="previous" class="previous action-button" value="Previous" />
+							<input type="button" name="next" class="next action-button" value="Next" />
+						</fieldset>
+					<fieldset>
+							<h2 class="fs-title">Average Fast Glucose</h2>
+							<h3 class="fs-subtitle"></h3>
+							<input type="number" name="quantity" min="30" max="50" placeholder="Average Fast Glucose?">
+					  </br>
+							<input type="button" name="previous" class="previous action-button" value="Previous" />
+							<input type="button" name="next" class="next action-button" value="Next" />
+						</fieldset>
+						<fieldset>
+							<h2 class="fs-title">Details</h2>
+							<h3 class="fs-subtitle">HBA1C</h3>
+							<input name="name" placeholder="HBAA1C" class="name" required />
+							<input type="button" name="previous" class="previous action-button" value="Previous" />
+							<input type="submit" name="submit" class="submit action-button" value="Calculate" />
+						</fieldset>
+					</form>
 
 
-									
-									<!-- <div class="form-group form-group-lg">
-										<div class="row row-narrow">
-											<div class="col-sm-3">
-												<div class="c-select">
-												 	<select class="form-control" ng-model="postJobForm.registerForm.phoneCountryCode">
-												 		<option value="33">+33</option>
-												 	</select>
-												 </div>
-											</div>
-											<div class="col-sm-9" ng-class="{'has-error': (errors.registerForm.telephone || errors.registerForm.telephoneInvalid || (!postJobForm.registerForm.telephone && pageData.registrationFormSubmit))}">
-												<input type="text" class="form-control" only-digits maxlength="10" placeholder="Téléphone" ng-model="postJobForm.registerForm.telephone">
-												<span class="help-block" ng-if="errors.registerForm.telephoneInvalid">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INCORRENT_PHONE_NUMBER_FORMAT_2}}</span>
-											</div>
-										</div>
-									</div> -->
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.registerForm.password || errors.registerForm.passwordLength || errors.registerForm.passwordSyntax || (!postJobForm.registerForm.password && pageData.registrationFormSubmit))}">
-										<div class="input-has-icon-left">
-											<input type="password" class="form-control" placeholder="Mot de passe" ng-model="postJobForm.registerForm.password">
-											<span class="rel-icon"><img src="../assets/images/common/icons/general/password.svg" width="18px" height="18px" alt=""></span>
-										</div>
-										<span class="help-block" ng-if="errors.registerForm.passwordLength">{{pageData.annonceStep1Translation.ERROR_MESSAGES.PASSWORD_GRATER_THAN_CHARACTERS}}</span>
-										<span class="help-block" ng-if="errors.registerForm.passwordSyntax">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INVALID_PASSWORD_FORMAT}}</span>
-										<span class="help-block" ng-if="!postJobForm.registerForm.password && pageData.registrationFormSubmit">Champ obligatoire</span>
-									</div>
-									<div class="form-group form-group-lg" ng-class="{'has-error': (errors.registerForm.password || errors.registerForm.confirmPasswordNotMatch || errors.registerForm.confirmPasswordSyntax || (!postJobForm.registerForm.confirmPassword && pageData.registrationFormSubmit))}">
-										<div class="input-has-icon-left">
-											<input type="password" class="form-control" placeholder="Confirmez le mot de passe" ng-model="postJobForm.registerForm.confirmPassword">
-											<span class="rel-icon"><img src="../assets/images/common/icons/general/password.svg" width="18px" height="18px" alt=""></span>
-										</div>
-										<span class="help-block" ng-if="errors.registerForm.confirmPasswordNotMatch">{{pageData.annonceStep1Translation.ERROR_MESSAGES.PASSWORD_DO_NOT_MATCH}}</span>
-										<span class="help-block" ng-if="errors.registerForm.confirmPasswordSyntax">{{pageData.annonceStep1Translation.ERROR_MESSAGES.INVALID_PASSWORD_FORMAT}}</span>
-										<span class="help-block" ng-if="!postJobForm.registerForm.confirmPassword && pageData.registrationFormSubmit">Champ obligatoire</span>
-									</div>
-								</div>
-							</div>
-								
-								
-							
-							<div class="action-btns">
-								<a href="javascript:void(0)" class="btn btn-link text-mute btn-back pull-xs-left" ng-click="managePostJobStep('addressInformation')">{{pageData.annonceStep1Translation.BACK}}</a>
-								<button ng-disabled="registerFormProcessing || pageData.postJobInProcess" class="btn btn-lg btn-danger btn-tall btn-standard" ng-click="register(postJobForm.registerForm)">Valider <span ng-if="registerFormProcessing || pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							</div>
-						</div>
-					</div>
-
-					<!-- 
-					 _        ___     ____   ___   _   _ 
-					| |      / _ \   / ___| |_ _| | \ | |
-					| |     | | | | | |  _   | |  |  \| |
-					| |___  | |_| | | |_| |  | |  | |\  |
-					|_____|  \___/   \____| |___| |_| \_|-->
-					<div class="content-box content-box-bordered content-box-padding step-box" ng-if="currentStep == 'login'">
-						<!-- <div class="clearfix">
-							<span class=" pull-right"><img src="../assets/images/common/icons/general/user.svg" width="18px" height="18px" alt=""><a ng-click="managePostJobStep('register')" href="javascript:void(0);" class="btn-link text-mute"> </a></span>
-						</div> -->
-						
-						<div class="login-content">
-							<div class="alert alert-danger" ng-if="pageData.showTransporterLoginError == 2">
-								<strong>Oups!</strong> Vous ne pouvez pas déposer une annonce avec un compte de transporteur. Veuillez créer un compte expéditeur en <a href="javascript:void(0)" ng-click="managePostJobStep('register');">cliquant ici</a>
-							</div>
-							<div class="text-center">
-								<div class="login-icon">
-									<img src="../assets/images/public/login/login.svg" alt="">
-								</div>
-							</div>
-							<div class="form-header text-xs-center">
-								<div class="row">
-									<div class="col-sm-8">
-										<h3 class="text-bold title-login m-0">Identification FretBay</h3>
-									</div>
-									<div class="col-sm-4 text-sm-right">
-										<span><img src="../assets/images/common/icons/general/user.svg" width="18px" height="18px" alt=""><a ng-click="managePostJobStep('register')" href="javascript:void(0);" class="btn-link text-mute">Je crée un compte </a></span>
-									</div>
-								</div>
-							</div>
-							<div class="content-box-gray content-box-padding form-content">
-								<p class="text-center">Renseignez votre adresse email ou votre nom d'utilisateur ainsi que votre mot de passe pour accéder à tous les services FretBay.</p>
-								<div class="form-group form-group-lg" ng-class="{'has-error': (errors.loginForm.email || errors.loginForm.emailInvalid || (!postJobForm.loginForm.email && pageData.loginFormSubmit))}">
-									<div class="input-has-icon-left">
-										<input type="text" class="form-control" placeholder="{{pageData.annonceStep1Translation.PLACEHOLDERS.USERNAME_OR_EMAIL}}" ng-keydown="errors.formErrorIncorrect = ''" ng-model="postJobForm.loginForm.email">
-										<span class="rel-icon"><img src="../assets/images/common/icons/general/email.svg" width="18px" height="18px" alt=""></span>
-									</div>
-									<span class="help-block" ng-if="!postJobForm.loginForm.email && pageData.loginFormSubmit">Champ obligatoire</span>
-								</div>
-								<div class="form-group form-group-lg" ng-class="{'has-error': (errors.loginForm.password || errors.formErrorIncorrect || (!postJobForm.loginForm.password && pageData.loginFormSubmit))}">
-									<div class="input-has-icon-left">
-										<input type="password" class="form-control" placeholder="{{pageData.annonceStep1Translation.YOUR_PASSWORD}}" ng-keydown="errors.formErrorIncorrect = ''" ng-model="postJobForm.loginForm.password">
-										<span class="rel-icon"><img src="../assets/images/common/icons/general/password.svg" width="18px" height="18px" alt=""></span>
-									</div>
-									<span class="help-block" ng-if="!postJobForm.loginForm.password && pageData.loginFormSubmit">Champ obligatoire</span>
-									<span class="help-block" ng-if="errors.formErrorIncorrect">
-									{{pageData.annonceStep1Translation.ERROR_MESSAGES[errors.formErrorIncorrect]}}</span>
-								</div>
-								<div class="clearfix mb-10">
-									<a href="https://fretbay.com/fr/oublie.php" target="_blank" class="btn-link pull-left text-mute">Mot de passe oublié ?</a> <!-- <a href="#" class="btn-link text-mute pull-right" ng-click="managePostJobStep('register')"></a> -->
-								</div>
-							</div>
-							<div class="action-btns">
-								<a href="#" class="btn-link btn text-mute btn-back pull-xs-left" ng-click="managePostJobStep('addressInformation')">Retour</a>
-								<button ng-disabled="loginFormProcessing || pageData.postJobInProcess" class="btn btn-lg btn-danger btn-tall btn-standard" ng-click="login(postJobForm.loginForm)">Valider <span ng-if="loginFormProcessing || pageData.postJobInProcess">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></span></button>
-							</div>
-						</div>
-					</div>
-
-					<!-- 
-					__     __  _____   ____    ___   _____  __   __        ____    _   _    ___    _   _   _____ 
-					\ \   / / | ____| |  _ \  |_ _| |  ___| \ \ / /       |  _ \  | | | |  / _ \  | \ | | | ____|
-					 \ \ / /  |  _|   | |_) |  | |  | |_     \ V /        | |_) | | |_| | | | | | |  \| | |  _|  
-					  \ V /   | |___  |  _ <   | |  |  _|     | |         |  __/  |  _  | | |_| | | |\  | | |___ 
-					   \_/    |_____| |_| \_\ |___| |_|       |_|         |_|     |_| |_|  \___/  |_| \_| |_____| -->
-					<div class="content-box content-box-padding verification-step" ng-if="currentStep == 'verifyPhone'">
-						<div class="row">
-							<div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2">
-								<form class="text-center" ng-submit="verificationCodeSubmit()">
-									<div class="verification-icon">
-										<img src="../assets/images/public/verification/verification.svg" alt="">
-									</div>
-									<h3 class="text-black">Vérifiez vôtre numéro de téléphone</h3>
-									<p class="text-mute">L'inscription ne prend pas plus d'une minute.</p>
-
-
-									<div class="form-group form-group-lg custom-phone-menu-wrapper" ng-if="!resendProcessing" ng-class="{'has-error': mobileError}">
-										<div class="custom-phone-menu">
-											<ui-select ng-model="verificationForm.phoneCodeObj"  title="Rechercher" required="">
-												<ui-select-match placeholder="Rechercher"><span class="flag flag-{{$select.selected.cc | lowercase}}"></span> {{$select.selected.pc}}</ui-select-match>
-												<ui-select-choices repeat="country in countryPhoneCodes | propsFilter: {cn: $select.search }">
-												<div><span class="flag flag-{{country.cc | lowercase}}"></span><span ng-bind-html="country.cn | highlight: $select.search"></span></div>
-												</ui-select-choices>
-											</ui-select>
-											<!-- <div class="dropdown">
-												<a href="javascript:void(0);" class="dropdown-toggle" id="selectCountry" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag flag-{{verificationForm.phoneCodeObj.cc | lowercase}}"></span> +{{verificationForm.phoneCodeObj.pc}}</a>
-													
-											</div> -->
-										</div>
-										<input type="text" class="form-control phone-field" ng-model="verificationForm.mobile" placeholder="Phone" maxlength="31">
-										<a href="javascript:void(0)" ng-click="resendVerificationCode()" class="resend-link btn-link">Renvoyer ?</a>
-										<span class="help-block" ng-if="errors.verificationForm.verificationCodeInvalid"></span>
-									</div>
-
-									<div class="form-group" ng-if="resendProcessing">
-										<span class="sending-status text-lg"><img class="icon-refresh" src="../assets/images/common/icons/general/refresh.gif" alt=""> <span class="text-mute">Renvoyer ?</span> +{{verificationForm.phoneCodeObj.pc}}<strong>{{verificationForm.mobile || userDetails.mobile}}</strong></span>
-									</div>
-
-									<div class="form-group form-group-lg" ng-class="{'has-error': verificationCodeError}">
-										<input type="text" class="form-control text-center code-field" placeholder="0000" maxlength="4" ng-model="verificationForm.verificationCode">
-									</div>
-
-									<p class="text-danger text-center custom-hide" ng-class="{'custom-active' : errors.formError}">{{errors.formError}}</p>
-									<p class="text-success text-center custom-hide" ng-class="{'custom-active' : smsResponse}">{{smsResponse}}</p>
-
-									<p>
-										<button ng-disabled="verficationProcessing" class="btn btn-standard btn-danger btn-lg text-bold btn-tall" type="submit">Vérifier <span ng-if="verficationProcessing">&nbsp;&nbsp; <span class="fa fa-refresh fa-spin"></span></button>
-									</p>
-									<p class="text-center">
-										<a class="btn-link" href="javascript:void(0);" ng-click="postJob()">Pas maintenant?</a>
-									</p>
-									
-								</form>
-							</div>
-						</div>
-					</div>
-					                                                                                             
-
-
-				</div>
-				<!-- 
-				 ____    ___   ____    _____   ____       _      ____  
-				/ ___|  |_ _| |  _ \  | ____| | __ )     / \    |  _ \ 
-				\___ \   | |  | | | | |  _|   |  _ \    / _ \   | |_) |
-				 ___) |  | |  | |_| | | |___  | |_) |  / ___ \  |  _ < 
-				|____/  |___| |____/  |_____| |____/  /_/   \_\ |_| \_\-->
-				                                                       
-				<div class="hidden-sm hidden-xs col-md-4 post-job-sidebar common-sidebar sidebar">
-					<!-- <p>Your Shippment</p> -->
-					
-											<div class="support text-center content-box-narrow-padding">
-
-						<h3 class="need-help-text text-uppercase text-black">Besoin d'aide ?</h3> <br>
-						<strong class="text-bold contact-label">Contactez‑nous par téléphone</strong>
-						<span class="h3 text-default text-black tel-number">{{pageData.commonTranslations.FRETBAY_PHONE_2}}*</span>
-						<span>*prix d’un appel local</span>
-					</div>
-					
-					<div class="content-box-light-shadow content-box-narrow-padding form-group hidden" ng-if="!postJobForm.mainCatId">
-						<div class="vtable">
-							<div style="width: 30px;">
-								<span class="h2 text-bold text-mute">?</span>
-							</div>
-							<div>
-								<span class="h4">Sélectionner Catégorie</span>
-							</div>
-						</div>
-					</div>
-
-					<!-- <div class="form-group content-box-light-shadow post-job-sidebar-details" ng-if="postJobForm.mainCatId"> -->
-					<div class="form-group content-box post-job-sidebar-details" ng-if="currentStep == 'addressInformation'">
-						<div ng-if="postJobForm.mainCatId">
-							<h4 class="category-title text-nowrap text-bold">
-								<span ng-if="postJobForm.mainCatId == 2" class="text-nowrap">Mon déménagement</span>
-								<span ng-if="postJobForm.mainCatId != 2" class="text-nowrap">Mon transport</span>
-								<!-- <span class="text-nowrap">{{pageData.categories[postJobForm.mainCatId] | html}}</span> -->
-								<!-- <br ng-if="postJobForm.subCatId1 && postJobForm.mainCatId == 3"> -->
-								<!-- <span ng-if="postJobForm.subCatId1 && postJobForm.mainCatId == 3" class="text-small text-nowrap">{{pageData.allCategories[postJobForm.mainCatId].subCategories[postJobForm.subCatId1].Nom}}</span> -->
-							</h4>
-						</div>
-
-						<div ng-if="(postJobForm.articles.length) || postJobForm.articles.length">
-							<!-- <p><span class="text-mute text-small">items details</span></p> -->
-
-							<ul class="list-unstyled">
-							    <li ng-if="postJobForm.articles.length" ng-repeat="items in postJobForm.articles track by $index">
-							    	<div class="content-box-light-padding articles-info">
-								        <div class="article-header">
-								            <h5 class="article-title text-bold mt-0">Article #{{$index + 1}}</h5>
-								        </div>
-								        <ul class="list-inline">
-								            <li class="badge badge-gray" ng-repeat="(key, item) in items">
-								                <span>{{pageData.annonceStep1Translation[""+key+"_placeholder"]}}</span>
-								                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'marque')">: {{item.model_make_id}}</span>
-								                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'modele')">: {{item.model_name}}</span>
-								                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'model_trim')">: {{item.model_trim}}</span>
-								                <span ng-if="(postJobForm.mainCatId == 19 && key == 'dimentions')">: {{pageData.annonceStep1Translation.DIM_SELECT_BOX[item]}}</span>
-								                <span ng-if="!(postJobForm.subCatId1 == 23 && (key == 'modele' || key == 'marque' || key == 'model_trim')) && !(postJobForm.mainCatId == 19 && key == 'dimentions')">: {{item}}</span></li>
-								        </ul>
-							        </div>
-							    </li>
-							    <li ng-if="!postJobForm.articles.length && !emptyObject(article)">
-							        <div class="article-header">
-							            <h5 class="article-title text-small">Article #{{$index + 1}}</h5>
-							        </div>
-							        <ul class="list-inline">
-							            <li class="badge badge-gray" ng-repeat="(key, item) in article">
-							                <span>{{pageData.annonceStep1Translation[""+key+"_placeholder"]}}</span>
-							                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'marque')">: {{item.model_make_id}}</span>
-							                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'modele')">: {{item.model_name}}</span>
-							                <span ng-if="(postJobForm.subCatId1 == 23 && key == 'model_trim')">: {{item.model_trim}}</span>
-							                <span ng-if="(postJobForm.mainCatId == 19 && key == 'dimentions')">: {{pageData.annonceStep1Translation.DIM_SELECT_BOX[item]}}</span>
-							                <span ng-if="!(postJobForm.subCatId1 == 23 && (key == 'modele' || key == 'marque' || key == 'model_trim')) && !(postJobForm.mainCatId == 19 && key == 'dimentions')">: {{item}}</span></li>
-							        </ul>
-							    </li>
-							</ul>
-
-							<!-- <ul class="list-inline">
-								<li class="badge badge-gray" ng-repeat="item in postJobForm.articles"><img width="18px" height="18px" ng-src="../assets/images/common/icons/category/white/{{postJobForm.mainCatId}}.svg?v=" alt=""> #{{$index + 1}}: <span ng-if="item.longeur || item.largeur || item.hauteur"> {{item.longeur +" x "}}{{item.largeur+ " x "}}{{item.hauteur}}cm</span></li>
-							</ul> -->
-						</div>
-						<div class="content-box-light-padding articles-info" ng-if="postJobForm.mainCatId == 2 && (postJobForm.volume)">
-							<p ng-if="showFormula" class="formula-info">Formule : <strong>{{pageData.annonceStep1Translation[postJobForm.formuleDem]}}</strong> <a class="info-icon" href="javascript:void(0);" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="{{pageData.annonceStep1Translation.FORMULA_INFO[postJobForm.formuleDem]}}"><img src="../assets/images/common/icons/general/icon-info.svg" alt=""></a></p>
-							<ul class="dem-articles list-unstyled">
-								<li class="dem-volume"><!-- <img width="18px" height="18px" ng-src="../assets/images/common/icons/category/white/{{postJobForm.mainCatId}}.svg?v=" alt=""> -->Volume : <span class="text-bold" ng-if="postJobForm.volume"> {{postJobForm.volume}}m<sup>3</sup></span></li>
-								<li ng-if="item.quantity > 0"><p class="mb-0"><span class="text-mute text-small">Inventaire de votre déménagement</span></p></li>
-								<li class="badge badge-gray" ng-repeat="item in pageData.volumeCalculator.items" ng-if="item.quantity > 0">{{item.title}}: {{item.quantity}}</li>
-							</ul>
-						</div>
-
-						<div class="job-details">
-							<div class="content-box-light-padding loading-details" ng-if="(postJobForm.loadingAddress)">
-								<!-- <p><span class="text-mute"></span></p> -->
-								<ul class="list-unstyled text-bold" ng-if="postJobForm.loadingAddress">
-									<li class="address-loading"><strong>{{postJobForm.loadingAddress}}</strong></li>
-								</ul>
-								<div ng-if="postJobForm.loadingDate1" class="vtable text-bold address-date-section mb-10 text-small" ng-if="postJobForm.loadingDate1">
-									<div ng-if="postJobForm.loadingDate1" class="address-calendar"><img src="../assets/images/common/icons/general/calendar.svg" width="15px" height="15px" alt=""></div>
-									<div ng-if="postJobForm.loadingDate1" class="address-date">{{postJobForm.loadingDate1}}</div>
-									<div ng-if="postJobForm.loadingDate2" class="address-to">et le</div>
-									<div ng-if="postJobForm.loadingDate2" class="address-date">{{postJobForm.loadingDate2}}</div>
-								</div>
-								<div class="job-info text-small">
-									<span ng-if="postJobForm.loadingLocationType">Type de lieu : <strong>{{postJobForm.loadingLocationType}}</strong></span>
-									<span ng-if="postJobForm.loadingFloors && postJobForm.loadingLocationType == 'Immeuble'"><br>Étage : <strong>{{postJobForm.loadingFloors}}</strong></span>
-									<span ng-if="postJobForm.loadingLocationType == 'Immeuble'">
-										<span ng-if="postJobForm.ascenceur == 1"><br>Ascenseur : <strong>{{pageData.commonTranslations.YES}}</strong></span>
-										<span ng-if="postJobForm.ascenceur == 0"><br>Ascenseur : <strong>{{pageData.commonTranslations.NO}}</strong></span>
-									</span>
-									<span ng-if="postJobForm.loadingLocationType == 'Immeuble' || postJobForm.loadingLocationType == 'Maison'">
-										<span ng-if="postJobForm.loadingLiftTruck == 1"><br>Monte-meuble : <strong>{{pageData.commonTranslations.YES}}</strong></span>
-										<span ng-if="postJobForm.loadingLiftTruck == 0"><br>Monte-meuble : <strong>{{pageData.commonTranslations.NO}}</strong></span>
-									</span>
-								</div>
-							</div>
-							<div class="content-box-light-padding delivery-details" ng-if="postJobForm.deliveryAddress">
-								<ul class="list-unstyled text-bold" ng-if="postJobForm.deliveryAddress">
-									<li class="address-delivery"><strong>{{postJobForm.deliveryAddress}}</strong></li>
-								</ul>
-								<div ng-if="postJobForm.deliveryDate1" class="vtable text-bold address-date-section mb-10 text-small" ng-if="postJobForm.deliveryDate1">
-									<div ng-if="postJobForm.deliveryDate1" class="address-calendar"><img src="../assets/images/common/icons/general/calendar.svg" width="15px" height="15px" alt=""></div>
-									<div ng-if="postJobForm.deliveryDate1" class="address-date">{{postJobForm.deliveryDate1}}</div>
-									<div ng-if="postJobForm.deliveryDate2" class="address-to">et le</div>
-									<div ng-if="postJobForm.deliveryDate2" class="address-date">{{postJobForm.deliveryDate2}}</div>
-								</div>
-								<div class="job-info text-small">
-									<span ng-if="postJobForm.deliveryLocationType">Type de lieu : <strong>{{postJobForm.deliveryLocationType}}</strong></span>
-									<span ng-if="postJobForm.deliveryFloors && postJobForm.deliveryLocationType == 'Immeuble'"><br>Étage : <strong>{{postJobForm.deliveryFloors}}</strong></span>
-									<span ng-if="postJobForm.deliveryLocationType == 'Immeuble'">
-										<span ng-if="postJobForm.ascenceur2 == 1"><br>Ascenseur : <strong>{{pageData.commonTranslations.YES}}</strong></span>
-										<span ng-if="postJobForm.ascenceur2 == 0"><br>Ascenseur : <strong>{{pageData.commonTranslations.NO}}</strong></span>
-									</span>
-									<span ng-if="postJobForm.deliveryLocationType == 'Immeuble' || postJobForm.deliveryLocationType == 'Maison'">
-										<span ng-if="postJobForm.deliveryLiftTruck == 1"><br>Monte-meuble : <strong>{{pageData.commonTranslations.YES}}</strong></span>
-										<span ng-if="postJobForm.deliveryLiftTruck == 0"><br>Monte-meuble : <strong>{{pageData.commonTranslations.NO}}</strong></span>
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="content-box-light-padding sidebar-information-box content-box-gray" ng-if="postJobForm.details">
-							<p class="text-bold">Informations</p>
-							<p class="two-rows-only text-small">{{postJobForm.details}}</p>
-						</div>
-					</div>
-
-					<div class="content-box-light-shadow content-box-narrow-padding form-group hiw-steps">
-						<article>
-							<h4 class="title text-bold">Publiez votre annonce</h4>
-							<p>Notre système associe votre déménagement avec ceux de nos autres ulisateurs Fretbay.</p>
-						</article>
-						<article>
-							<h4 class="title text-bold">Comparez les devis</h4>
-							<p>Des devis groupés à bas prix vous sont proposées par notre réseau de transporteurs professionnels.</p>
-						</article>
-						<article>
-							<h4 class="title text-bold">Sélectionnez un devis</h4>
-							<p>Fixez vos modalités de transport en communiquant avec le transporteur de votre choix.</p>
-						</article>
-						<article>
-							<h4 class="title text-bold">Évaluez la prestation</h4>
-							<p>Suite au déménagement donnez votre avis sur le service du déménageur et la qualité du transport groupé de vos biens.</p>
-						</article>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -2308,24 +471,119 @@
 	<!-- google-places -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0&libraries=places"></script>
 	<!-- angular -->
-	<script src="../assets/vendors/vendors.bundle.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/vendors/autocomplete.min.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/vendors/ng-slim-scroll.min.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/vendors/angular-sanitize.min.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/vendors/paging.min.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/vendors/select.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/js/common/helper.js?v=1558739244" type="text/javascript"></script>
-	<script src="../assets/js/common/helperVolumeCalculator.js?v=1558739244" type="text/javascript"></script>
-	<script src="../assets/js/common/helperArrays.js?v=1558739244" type="text/javascript"></script>
-	<script src="../assets/js/common/helperUploads.js?v=1558739244" type="text/javascript"></script>
-	<script src="../assets/js/common/helperDateTime.js?v=1558739244" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/vendors.bundle.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/autocomplete.min.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/ng-slim-scroll.min.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/angular-sanitize.min.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/paging.min.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/vendors/select.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/helper.js?v=1558903443" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/helperVolumeCalculator.js?v=1558903443" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/helperArrays.js?v=1558903443" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/helperUploads.js?v=1558903443" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/helperDateTime.js?v=1558903443" type="text/javascript"></script>
 	<!-- directives -->
-	<script src="../assets/js/common/fileUploader.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/fileUploader.js?v=0.0.5" type="text/javascript"></script>
 	<!-- page scripts -->
-	<script src="../assets/js/common/isotope.min.js?v=0.0.5" type="text/javascript"></script>
-	<script src="../assets/js/common/script.js?v=1558739244" type="text/javascript"></script>
-	<script src="../assets/js/controllers/shipper/annonceStep1Controller.js?v=1558739244" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/isotope.min.js?v=0.0.5" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/common/script.js?v=1558903443" type="text/javascript"></script>
+	<script src="https://fretbay.com/fr/assets/js/controllers/shipper/annonceStep1Controller.js" type="text/javascript"></script>
 	<!-- angular end -->
+
+	<script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <!-- jQuery easing plugin -->
+    <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
+
+    <script>
+
+        
+//jQuery time
+var current_fs, next_fs, previous_fs; //fieldsets
+var left, opacity, scale; //fieldset properties which we will animate
+var animating; //flag to prevent quick multi-click glitches
+
+$(".next").click(function(){
+	if(animating) return false;
+	animating = true;
+	
+	current_fs = $(this).parent();
+	next_fs = $(this).parent().next();
+	
+	//activate next step on progressbar using the index of next_fs
+	$("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+	
+	//show the next fieldset
+	next_fs.show(); 
+	//hide the current fieldset with style
+	current_fs.animate({opacity: 0}, {
+		step: function(now, mx) {
+			//as the opacity of current_fs reduces to 0 - stored in "now"
+			//1. scale current_fs down to 80%
+			scale = 1 - (1 - now) * 0.2;
+			//2. bring next_fs from the right(50%)
+			left = (now * 50)+"%";
+			//3. increase opacity of next_fs to 1 as it moves in
+			opacity = 1 - now;
+			current_fs.css({
+        'transform': 'scale('+scale+')',
+        'position': 'absolute'
+      });
+			next_fs.css({'left': left, 'opacity': opacity});
+		}, 
+		duration: 800, 
+		complete: function(){
+			current_fs.hide();
+			animating = false;
+		}, 
+		//this comes from the custom easing plugin
+		easing: 'easeInOutBack'
+	});
+});
+
+$(".previous").click(function(){
+	if(animating) return false;
+	animating = true;
+	
+	current_fs = $(this).parent();
+	previous_fs = $(this).parent().prev();
+	
+	//de-activate current step on progressbar
+	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+	
+	//show the previous fieldset
+	previous_fs.show(); 
+	//hide the current fieldset with style
+	current_fs.animate({opacity: 0}, {
+		step: function(now, mx) {
+			//as the opacity of current_fs reduces to 0 - stored in "now"
+			//1. scale previous_fs from 80% to 100%
+			scale = 0.8 + (1 - now) * 0.2;
+			//2. take current_fs to the right(50%) - from 0%
+			left = ((1-now) * 50)+"%";
+			//3. increase opacity of previous_fs to 1 as it moves in
+			opacity = 1 - now;
+			current_fs.css({'left': left});
+			previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
+		}, 
+		duration: 800, 
+		complete: function(){
+			current_fs.hide();
+			animating = false;
+		}, 
+		//this comes from the custom easing plugin
+		easing: 'easeInOutBack'
+	});
+});
+
+$(".submit").click(function(){
+	return false; 
+})
+
+
+$('#mySelect').selectpicker();
+    
+    </script>
+
 
 </body>
 </html>
