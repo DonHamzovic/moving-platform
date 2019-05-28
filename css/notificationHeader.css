@@ -119,6 +119,18 @@
 	border: 1px solid transparent;
 }
 
+#header ul>li {
+	color: #fff;
+	display: inline-block;
+	font-weight: 400;
+	vertical-align: middle;
+	margin: 0 !important;
+	padding: 0 12px;
+	font-size: 18px;
+	line-height: 42px;
+	border: 1px solid transparent;
+}
+
 #header ul>li.hasSub>a:after {
 	content: '\f0dd';
 	font-family: 'FontAwesome';
@@ -135,6 +147,11 @@
 }
 
 #header ul>li.buttoNu>a {
+	border-color: #fff;
+	border-radius: 40px;
+}
+
+#header ul>li.buttoNu {
 	border-color: #fff;
 	border-radius: 40px;
 }

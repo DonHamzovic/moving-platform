@@ -31,6 +31,11 @@
 	<meta property="article:author" content="https://www.facebook.com/168472786500639" />
 	<meta property="article:publisher" content="https://www.facebook.com/168472786500639" />
 
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
 		<style type="text/css">
 
 
@@ -154,14 +159,13 @@
 
 
 
+
 </style>
 	<title>Faites votre devis déménagement ou transport avec Kawai</title>
 	<link  href="css/lux_google_homepage.min.css"  ref="stylesheet" >
 
 
-	<meta property="og:image" content="https://fretbay.com/fr/https://fretbay.com/fr/images/home/footer-logo.png" />
-
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />=
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 
 	<!-- FOR SEO END -->
@@ -180,7 +184,13 @@
 		<script src="https://fretbay.com/fr/frv2/assets/js/controllers/common/headerController.js?v=1558903443"></script>
 
 
-	
+<style>
+
+.navbar-brand img {
+    width: 71px;
+}
+
+</style>	
 
 
 
@@ -196,7 +206,7 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-				<a class="navbar-brand" href="https://fretbay.com/fr/"><img src="https://fretbay.com/fr/frv2/assets/images/common/logos/logo-header.svg?v=0.0.0" alt=""><strong>FretBay</strong></a>
+				<a class="navbar-brand" href="https://fretbay.com/fr/"><img src="HatchfulExport-All/logo_transparent.png" alt=""><strong>Kawai</strong></a>
 			</div>
 	
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -218,25 +228,23 @@
 
 			<div class="container">
 					<form id="msform">
-						<ul id="progressbar" style="position: absolute;
+						<ul id="progressbar" style="
+						position: absolute;
 						background: #3D4E60;
 						margin-bottom: -60px;
 						padding-top: 21px;
 						color: #fff;
-						/* background: #3d4fe547; */
-						/* left: 900px; */
-						/* left: 900px; */
-						/* margin-right: 69px; */
 						margin-left: -626px;
 						padding-left: -146px;
-						width: 398%;
+						width: 431%;
 						margin-top: -49px;
-						padding-bottom: 6px;">
-								<li class="active">Age</li>
-								<li> Diabetes type</li>
-								<li>Treament type</li>
-								<li>Average Fast Glucose</>
-								<li>Average postprandial Glucose</> 
+						padding-bottom: 6px;
+						padding-left: 370px;
+						">
+								<li class="active"> Choix de la Catégorie</li>
+								<li> Ajout d'articles / volumes</li>
+								<li>Adresse, Informations / Photo</li>
+								
 						 </ul>
 						</form>
 				</div>
@@ -250,19 +258,21 @@
 						
 						<!-- fieldsets -->
 						<fieldset>
-							<h2 class="fs-title">PATIENT AGE</h2>
-							<h3 class="fs-subtitle">This is step 1</h3>
-							<input type="number" name="quantity" min="30" max="50" placeholder="Age?">
-
-			
-
-							<select >
-									<option ><i class="fas fa-camera"></i></option>
-									<option ><i class="fas fa-camera"></i></option>
-									<option ><i class="fas fa-camera"></i></option>
-									<option ><i class="fas fa-camera"></i></option>
-									<option ><i class="fas fa-camera"></i></option>
-									
+							<h2 class="fs-title"> Choix de la Catégorie</h2>
+							
+							<select id="form_group_category_select" name="data[Listing][category_id]" class="selectpicker" data-dropup-auto="false">
+									<option value="0"  selected="selected" data-content="<i class='fa fa-bed'></i> Meubles et articles généraux">Meubles et articles généraux</option>
+									<option value="9"  data-content="<i class='fa fa-archive'></i> Caisses/Cartons">Caisses/Cartons</option>
+									<option value="6"  data-content="<i class='fa fa-car'></i> Voitures">Voitures</option>
+									<option value="7"  data-content="<i class='fa fa-motorcycle'></i> Motos">Motos</option>
+									<option value="1"  data-content="<i class='fa fa-bus'></i> Autres véhicules">Autres véhicules</option>
+									<option value="2"  data-content="<i class='fa fa-home'></i> Déménagements">Déménagements</option>
+									<option value="3"  data-content="<i class='fa fa-truck'></i> Transport de marchandises">Transport de marchandises</option>
+									<option value="4"  data-content="<i class='fa fa-ship'></i> Bateaux">Bateaux</option>
+									<option value="10"  data-content="<i class='fa fa-cogs'></i> Pièces de véhicule">Pièces de véhicule</option>
+									<option value="11"  data-content="<i class='fa fa-music'></i> Pianos">Pianos</option>
+									<option value="8"  data-content="<i class='fa fa-paw'></i> Animaux">Animaux</option>
+									<option value="5"  data-content="<i class='fa fa-cog'></i> Autres">Autres</option>
 								  </select>
 
 
@@ -427,28 +437,7 @@
 		    	</div>
 			</div>
 
-					<!-- Google Tag Manager (noscript) -->
-			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZKVVTQ"
-			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-			<!-- End Google Tag Manager (noscript) -->
-			
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33460216-1"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-
-			  gtag('config', 'UA-33460216-1');
-			</script>
-			<script type="text/javascript">
-			    window.smartlook||(function(d) {
-			    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-			    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-			    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-			    })(document);
-			    smartlook('init', '6abe2f60d54d716fc55805616635d2b77a1f0fb8');
-			</script>
+		
 						<style>
 			.page-loader {
 				position: fixed;

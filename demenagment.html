@@ -1,0 +1,2824 @@
+
+
+
+<!DOCTYPE html>`
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="description" content="Transport et Déménagement pour Déménagement 44m3">
+<meta name="Keywords" content="Détail de l'offre">
+<meta name="robots" content="index, follow, all">
+<meta name="Language" content="fr">
+<meta name="Author" content="fretbay.com">
+<meta name="revisit-after" content="3">
+<meta name="Identifier-URL" content="https://fretbay.com/">
+<meta name="Classification" content="Transport et déménagement">
+<meta name="Creation_Date" content="23/01/2008">
+<meta name="verify-v1" content="tNz0ODT49ruqP+0vtQerZIxCtVrZwKacOLhGmkce/z8=" >
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<meta name="google-site-verification" content="Q0xsUwljztwvKZzNB0e48NeVhh4RM4Vfk1e_ii_f7UY" />
+
+<base href="https://fretbay.com/fr/">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+<script src="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.js"></script>
+<script src="https://cdn.klokantech.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
+<link rel="stylesheet" href="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.css" />
+<style>
+	.leaflet-top, .leaflet-bottom,
+	.leaflet-control {
+		z-index: 999;
+	}
+	.leaflet-container {
+		border: 1px solid rgba(0,0,0,0.09);
+	}
+</style>
+<!-- Leaflet.MarkerCluster -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/leaflet.markercluster.js'></script>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/MarkerCluster.css' rel='stylesheet' />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/MarkerCluster.Default.css' rel='stylesheet' />
+<script src="https://www.mapbox.com/mapbox.js/assets/data/realworld.388.js"></script>
+
+<title>Transport et Déménagement - Déménagement 44m3</title>
+<link rel="shortcut icon" type="image/png" href="transporter/images/iconFBGood.ico" />
+<link rel="stylesheet" type="text/css" href="transporter/css/bootstrap.min.css?ver=2.9.1"/>
+<link rel="stylesheet" type="text/css" href="transporter/css/jquery-ui.css?ver=2.9.1"/>
+<link rel="stylesheet" type="text/css" href="transporter/css/custom.css?ver=2.9.1"/>
+<link rel="stylesheet" type="text/css" href="transporter/css/screen.css?ver=2.9.1"/>
+<link rel="stylesheet" type="text/css" href="transporter/css/font-awesome.min.css?ver=2.9.1"/>
+
+<link rel="stylesheet" type="text/css" href="plugins/timepicker/jquery-ui-timepicker-addon.min.css?ver=2.9.1"/>
+<script type="text/javascript" src="transporter/js/jquery-latest.min.js?v=1.3.5"></script>
+<!--<script src="https://cdn.socket.io/socket.io-1.3.2.js"></script>-->
+<script type="text/javascript">
+	var currentLang = 'fr';
+</script>
+
+
+</head>
+<body class="has-js offer-details-page" onLoad="initializeOpen()">
+
+
+
+<script>
+
+$(function(){
+ 
+  loadNotifications();
+});
+
+function loadNotifications(){
+  $.ajax( {
+    url: 'https://fretbay.com/fr/inc/headerAjax.php', 
+    type: 'POST',
+    data:{idsess: $('#currentLoggedInUserIdsess').val()},
+    success: function(data) {
+
+      $('#notificationSection').replaceWith(data);
+      pingText();
+    }
+  });
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay/css/notificationHeader.css" />
+<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay/css/space.css" />
+<link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/font-awesome.min.css?v=1.0" />
+<script type="text/javascript" src="https://fretbay.com/fr/js/notificationHeader.js?v=0.0.6" ></script>
+
+        <div class="headSpace active"></div>
+        <header id="header" class="btnNav inPHeader"  style="height: 91px;" >
+          <div class="container">
+            <div class="row">
+              <div id="logo" class="col-sm-1"> <a href="#"> <img id="idlogo" src="C:/Users/Dell/Desktop/Programming notes/Fretbay/HatchfulExport-All/logo_transparent.png" widht="68" height="79" alt="Logo"> </a>
+                <button class="btn" id="menu-btn2"> <i class="fa fa-bars"></i> </button>
+              </div>
+              <!-- Begin Navigation Wrapper -->
+              <div id="nav2" class="col-md-8 col-sm-11">
+                <ul class="list-unstyled list-inline">
+                  <li class="buttoNu"> Demande de devis</li>
+                  <li> <a href="#/annonces.php">Trouver des chargements</a></li>
+
+                                    <li> <a href="#/le-déménagement-FretBay" >Comment ça marche ?</a></li>
+                           
+                                </ul>
+              </div>
+              <!-- Ends Navigation Wrapper -->
+              <div class="col-md-3 notifiMenu text-right">
+                <ul class="list-unstyled list-inline">
+                  <li> <a href="#/etape.php">S'inscrire</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+		
+        <input type="hidden" id="mapKey"   value="" />
+        <input type="hidden" id="mapStyles"   value="" />
+        <input type="hidden" id="globalRestApiUrl"   value="https://fretbay.com/api/v1/" />
+        <input type="hidden" id="googleApiKey"   value="AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0" />
+        <input type="hidden" id="globalSiteUrl"   value="https://fretbay.com" />
+        <input type="hidden" id="globalNodeServerUrl"   value="https://frs.fretbay.com" />
+        <input type="hidden" id="currentLoggedInUserId" 	value="" />
+        <input type="hidden" id="currentLoggedInUserIdsess" value="" />
+        <noscript>
+         <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=1175508309142096&ev=PageView
+        &noscript=1"/>
+        </noscript>
+                
+
+		
+<script type="text/javascript">
+	(function(){
+	var service = "GS.d";
+	var config = {
+	pa : "21828",
+	si : "1",
+	u : document.location.href,
+	r : document.referrer,
+	uf_postal_code : "",
+	hd_m : "",/* EMAIL HASH MD5 */
+
+	//DO NOT CHANGE BELOW
+	rand : (new Date()).getTime()
+	};
+	var configParams = [];
+	for(var v in config){
+	configParams .push(v+'='+encodeURIComponent(config[v]));
+	}
+	var sddanJS=document.createElement('script');
+	sddanJS.async = true;
+	sddanJS.type = "text/javascript"; 
+	sddanJS.src='https://js.sddan.com/'+service+'?'+ configParams.join('&');
+	document.getElementsByTagName('head')[0].appendChild(sddanJS);
+	})();
+</script>
+
+
+<script src="transporter/js/transporterSocketNode.js?t=1559019156"></script>
+
+<div class="clearfix"></div>
+<!--clearfix-->
+
+
+<!--characters-section-->
+<div class="clearfix"></div>
+<!--clearfix-->
+<section class="content">
+
+  <div class="row">
+    <div class="container mod">
+      <ul class="nbrd">
+									  <li><a href="index.php?idsess="><div class="pull-left">Accueil</div> <i></i></a></li>
+									  <li><a href="annonces.php?idsess="><em></em> <div class="pull-left">Trouver un chargement</div> <i></i></a></li>
+									  <li><a href="javascript:void(0);" class="nolink"><em></em> <div class="pull-left">Déménagements</div> <i></i></a></li>
+									  <li><a href="javascript:void(0);" class="nolink"><em></em> <div class="pull-left">Déménagements</div> <i></i></a></li>
+									  <li>
+										<p><em></em> Déménagement 44m3</p>
+									  </li>
+									</ul>    </div>
+    <!--container-->
+  </div>
+  <!--row-->
+  <div class="clearfix"></div>
+  <!--clearfix-->
+
+
+  <div class="container">
+
+    
+
+			<div class="clearfix"></div>
+        <section class="non-logx">
+        <h2>Je suis un transporteur, déménageur et je souhaite proposer mes services.</h2>
+        <div class="col-md-6 col-sm-6">
+          <h4>Pas encore inscrit ?</h4>
+          <p>L'inscription est rapide et gratuite</p>
+          <a href="#/transporter/inscription-transporteur" class="btn1">S'inscrire</a><div class="clearfix"></div>
+        </div><!--col-md-6-->
+        <div class="col-md-6 col-sm-6">
+          <h4>Déjà inscrit</h4>
+          <p>Authentifiez vous et proposez votre devis</p>
+          <a href="#/conec.php" class="btn1 btn-b">Cliquez ici</a><div class="clearfix"></div>
+        </div><!--col-md-6-->
+        <div class="clearfix"></div>
+      </section><!--non-logx-->
+	    <input type="hidden" value="{"expiration":false,"flag":"0"}">
+
+    	
+    
+    <section class="top-titles" style="margin-bottom:10px;">
+          
+          <div class="col-md-8 col-sm-8 mr-l">
+            <h3>Déménagement 44m3</h3>
+            
+                        	<img src="transporter/images/catSmallIco/demenagement.png" alt="Image" /> 
+            	            
+            Déménagements          </div>
+         
+         <div class="col-md-4 col-sm-4 mr-r">          
+         	<a href="#/annonces.php?idsess=" class="t-linl">Revenir à la liste des annonces</a>
+         	          </div>
+          
+         <div class="clearfix"></div>
+         <strong class="action-btns"> 
+		 		  
+         <div class="clearfix"></div> 
+         </strong>
+        </section>
+	
+	
+    <div class="clearfix"></div>
+
+    	
+    
+    <section class="mid-info-sec">
+      
+      <section class="top-braed"> 
+      <a href="javascript:void(0);"><b>Référence :</b> 329952</a> <span>|</span> 
+      <a href="javascript:void(0);"><b>Vues :</b>  5</a> <span>|</span> 
+      <a href="javascript:void(0);"><b>Postée le :</b> 25/05/2019</a> <span>|</span>  <a href="javascript:void(0);" class="exp-red"> <i class="glyphicon glyphicon-warning-sign"></i> Expire dans 27 jours</a>      <div class="clearfix"></div>
+      </section>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-8 col-sm-8 mr-l">
+      
+        <section class="mes-det">
+          
+          <div class="col-md-2 col-sm-2 mr-l col-xs-6">
+          
+                    		<a href="javascript:void(0);" class="mes-t"><img src="transporter/images/catMedium/demenagement.png" class="img-responsive" alt="Image" /></a>                
+		            
+          </div>
+          
+          <div class="col-md-3 col-sm-3 col-xs-6">
+           
+            <div class="desc-box">
+              <p>
+			  	<b>Versailles</b> (78000) <br />
+                Ile-de-France - France<br />
+                <b><span style="font-size: 11px;">Le </span><strong class="dateOffer">22/06</strong></b><br />
+                    
+	
+		
+			Immeuble, 6ème            
+            Sans ascenseur            
+				
+	                                <br>
+                Besoin de monte-meuble ? Non                              </p>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <div class="map-ic"> <a href="javascript:void(0);"><img src="transporter/images/a-icon.png" alt="Image" /></a> <a href="javascript:void(0);"><img src="transporter/images/ar.png" alt="Image" /></a> <a href="javascript:void(0);"><img src="transporter/images/b-icon.png" alt="Image" /></a> <br />
+              <i>543 km<br>4h53</i> 
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="desc-box">
+              <p>
+			  	<b>Saint-Etienne</b> (42000)<br />
+                Auvergne-Rhone-Alpes - France<br />
+                <b><span style="font-size: 11px;">Le </span><strong class="dateOffer">23/06</strong></b><br /> 
+                
+     
+        
+		
+			Immeuble, 7ème 
+
+            Sans ascenseur            
+				
+	                                <br>
+				Besoin de monte-meuble ? Non                              </p>
+            </div>
+
+          </div>
+
+          <div class="clearfix"></div>
+
+          <section class="ifo-panel">
+            <h5>Informations supplémentaires:</h5>
+            <div class="sc-voc">
+            
+            <p id="messageText-1">    
+	<div id="textContent-1">
+	Date fixe, je dois déménager le week-end du 22 juin.<br />
+stationnement aisé pour chargement et déchargement.    
+        
+    </div>
+    
+	    
+    </p>
+            <span id="messageTextForTranslation-1" style="display:none;">Date fixe, je dois déménager le week-end du 22 juin.<br />
+stationnement aisé pour chargement et déchargement.</span>
+            <div class="clearfix"></div>
+            
+            </div>
+          </section>
+			    
+	   			<span class="pull-left translation-lin" id="appendTranslation-1">
+			<a href="javascript:void(0);" class="trid pull-left" onClick="translateMessage(1);"> Traduire </a>	
+			</span>
+	    
+	 
+		
+	    
+	    	<div class="trs trs-cont" id="translationContainer-1"><span id="appendMessageTranslation-1"></span> <a href="javascript:void(0);" onclick="hideTranslation(1);">&times;</a></div>
+	    
+	
+		
+	 
+        </section>
+	
+	
+  </div>
+
+      <div class="col-md-4 col-sm-4 mr-r mr-l ddr">
+
+        <section class="qun">
+            <center><h4>Détails</h4></center>
+            <div class="modal fade new-pop" id="formuleDemPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Formule déménagement</h4>
+      </div>
+      <div class="popup-content modal-body popup01">
+      	<p>Trois formules sont généralement proposées par la plupart des entreprises de déménagement. C'est votre participation plus ou moins active aux opérations d'emballage et de préparation qui fait la différence. </p><h5>Formule Le déménagement camion avec chauffeur </h5><p>Vous faites la mise en carton, le démontage des meubles et la protection des objets fragiles. Vous fournissez personnes de votre entourage pour charger et décharger. Le déménageur ne viendra qu'avec le camion et vous aidera à charger et décharger le camion. </p><h5>Formule Le déménagement économique </h5><p>Vous faites la mise en carton, le démontage des meubles et la protection des objets fragiles. Le déménageur s’occupera de la manutention avec le nombre de déménageurs nécessaires pour effectuer le chargement déchargement. </p><h5>Formule Le déménagement standard</h5><p>Vous faites la mise en carton. Le déménageur s’occupe d’une partie de démontage et montage des meubles en plus de l’aide au chargement et déchargement du camion. Ils protègent les objets fragiles. Généralement il y a au moins deux déménageurs. </p><h5>Formule Le déménagement complet </h5><p>C'est la formule " clé en main " : vous laissez la maison/ l’appartement tel qu’il est. Les déménageurs s’occupent de tout (emballage, mise en carton, démontage, etc).</p>        
+        <a href="javascript:void(0);" data-dismiss="modal" class="btn1 anchor-btn btnclose">Fermer la fenêtre</a> 
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+</div>
+         
+          <p><strong>Catégorie 		:</strong> <span>Déménagements</span></p>
+          <p><strong>Sous-catégorie    :</strong> <span>Déménagements</span></p>
+          <p><strong>Volume 			:</strong> <span>44 m3</span></p>
+                              <p><strong>Formule			:</strong> <span class="pull-left">Camion avec chauffeur</span> 
+          <a href="javascript:void(0);" data-toggle="modal" data-target="#formuleDemPopup"><strong>(Aide ?)</strong></a></p>
+          <div class="clearfix"></div>
+
+	        </section>
+
+      </div>
+      <!--col-md-4-->
+      <div class="clearfix"></div>
+      <!--clearfix-->
+    </section>
+    <!--mid-info-sec-->
+    <div class="clearfix"></div>
+    <!--clearfix-->
+    <section class="mian-sec msec">
+      <div class="clearfix"></div>
+      <!--clearfix-->
+
+      <div class="col-md-12 mr-r mr-l col-sm-12 left-main-section">
+        <section id='tabSectionOffer' class="tabsas clearfix">
+          <ul class="tabs">
+            <li  id="mapsTab" class="active"><a href="#tab1" data-toggle="tab">Cartographie</a></li>
+            <li id="offersTab" class="ovflow"><a href="#tab2" data-toggle="tab" onclick="removeNotifications('bid')">Devis
+                        	<span id="bidsCounter">(5)</span>
+                        <i id="noti-bid" class="num-couner-top" style="display:none ">0</i>
+            </a></li>
+
+          	            	<li id="messagesTab" class="ovflow"><a href="#tab3" data-toggle="tab" onclick="removeNotifications('message')">Messages <span id="messagesCounter">(3)</span>
+            	<i id="noti-message" class="num-couner-top" style="display:none ">0</i></a></li>
+          	
+          </ul>
+
+          <div class="tab_container tab-content">
+
+            <div class="tab_content tab-pane active" id="tab1">
+                          <section class="tabsas-one">
+                
+                <section class="map">
+                  <div id="mapCanvas" style="height:500px;"></div>
+                </section>
+				
+                <section class="distance">
+					                  	<p class="pull-left">Estimation de la distance du trajet: <b><span class="glyphicon glyphicon-map-marker iconsc bicc"></span> 543 km</b></p>
+                  	                  <p class="pull-right"><b><span class="glyphicon glyphicon-time iconsc"></span> 4h53</b></p>
+                                  </section>
+
+                <div class="clearfix"></div>
+
+              </section>
+              <!-- this field is used for mailing purpose -->
+              				<input type="hidden" id="distance-in-km" value="543">
+              <div class="clearfix"></div>
+
+            </div>
+            <!--TAB CONTENT 1-->
+
+            <div class="tab_content tab-pane" id="tab2">
+
+            	
+    
+    
+                  <section class="table-outer" id="bidsTable">
+                    <table class="table-cart table table-responsive table-bordered table-striped">
+                     
+                       
+						 
+                          <tr id="bidRecord-788855" class="danger">
+							<td><p class="las">2 jours</p></td>
+							<td>
+                            <a target="_blank" href="#/profil-des-transporteurs/AMDTRANSPORT/" data-html="true" id="pop" data-toggle="popover" data-content="AMDTRANSPORT">
+                            <strong class="unames">
+							AMDTRANS <img src="transporter/images/van3.png" alt="Image" />
+                            </strong>
+                            </a>
+                            &nbsp;
+                           
+							<div class="hastol transRating">  
+                                            <div class="score-callback" data-score="0"> </div>
+                                            <div class="toolstips">Pas encore d'évaluation!</div> 
+                                          </div>                             
+                            </td>
+							<td><strong>650 &euro;</strong><br />
+							  <a href="javascript:void(0);" data-toggle="modal" data-target="#bidDetailsPopup-788855">Voir détail</a></td>
+							<td><p class="expiredBidTxt">Expirée</p></td>
+						  </tr>
+                          
+                          <div id="bidDetailsPopup-788855" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Devis (Déménagement 44m3) pour Transport Déménagements</h4>
+      </div>
+      <div class="popup-content popup01 modal-body">
+        <b class="set">Titre de l'annonce : Déménagement 44m3</b>
+        <div class="bid-details">
+          <div class="left-info">
+            <p><b>Date de l'offre: </b> 26/05/2019<br />
+              cette offre est valide jusqu'au <strong>26/05/2019</strong> 
+                            </p>
+            <div class="clearfix"></div>
+            <!--clearfix--> 
+          </div>
+          <!--left-info-->
+          <div class="right-info">
+            <a>Expirée</a>            <p>Statut du devis: </p>
+          </div>
+          <!--right-info-->
+          <div class="clearfix"></div>
+          <!--clearfix-->
+          <ul class="listsx">
+            <li><strong>Chargement :</strong>              
+              <p>
+                Le 22/06/19              </p>              
+            </li>
+            <li><strong>Livraison :</strong>
+              <p>
+                Le 23/06/19              </p> 
+            </li>
+            <li><strong>Déménageur / Transporteur :</strong>
+              <p>
+			  <a target="_blank" href="profil-des-transporteurs/AMDTRANSPORT">
+			  <b>AMDTRANSPORT</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
+              </a>
+              </p>
+            </li>
+            <li><strong>Type de véhicule :</strong>
+              <p>
+                 Autre              </p>
+            </li>
+            
+            <!-- formula demenagement bid popup-->
+                          	
+                <li><strong>Formule de déménagement proposée :</strong>
+                  <p>
+                    Camion avec chauffeur                  </p>
+                </li>
+                  	
+                          
+            
+          </ul>
+          <div class="clearfix"></div>
+          <!--clear-->
+          <div class="left-info wid-modifys">
+            <p><b>Informations / conditions de transport: </b> Non spécifié</p>
+            <br />
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+          <!--left-info-->
+          <div class="clearfix"></div>
+          <!--clear-->
+          
+          <div class="left-info">
+            <p>Cliquez sur "Accepter ce devis" afin de réserver avec cette entreprise en payant uniquement <b><span id="per788855"></span></b> Il vous restera à payer <b><span id="restant788855"></span></b></p>
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+           
+          <!--left-info-->
+          <div class="right-info"> <span>Prix Total TTC: <b>650&euro;</b></span> </div>
+          <!--right-info--> 
+        </div>
+        <!--bid-details-->
+        <div class="clear"></div>
+        
+        		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--clearfix--> 
+    </div>
+    <div class="clearfix"></div>
+    <!--popup-content--> 
+  </div>
+  <div class="clearfix"></div>
+  <!--popup-body--> 
+</div>
+
+<span style="display:none;" class="timers" id="bidTimer_788855" time="-133893"></span>
+<span class="clearfix"></span>
+<!--popup-->                          
+                       
+						 
+                          <tr id="bidRecord-789299" class="success">
+							<td><p class="las">17 heures</p></td>
+							<td>
+                            <a target="_blank" href="#/profil-des-transporteurs/Per2018/" data-html="true" id="pop" data-toggle="popover" data-content="Per2018">
+                            <strong class="unames">
+							Per2018 <img src="transporter/images/van3.png" alt="Image" />
+                            </strong>
+                            </a>
+                            &nbsp;
+                           
+							<div class="hastol transRating">  
+                                            <div class="score-callback" data-score="1.7"> </div>
+                                            <div class="toolstips">1.7/5 Médiocre</div> 
+                                          </div>                             
+                            </td>
+							<td><strong>1400 &euro;</strong><br />
+							  <a href="javascript:void(0);" data-toggle="modal" data-target="#bidDetailsPopup-789299">Voir détail</a></td>
+							<td></td>
+						  </tr>
+                          
+                          <div id="bidDetailsPopup-789299" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Devis (Déménagement 44m3) pour Transport Déménagements</h4>
+      </div>
+      <div class="popup-content popup01 modal-body">
+        <b class="set">Titre de l'annonce : Déménagement 44m3</b>
+        <div class="bid-details">
+          <div class="left-info">
+            <p><b>Date de l'offre: </b> 27/05/2019<br />
+              cette offre est valide jusqu'au <strong>02/06/2019</strong> 
+                            <span id="showExpiryTimer_789299"></span>
+                            </p>
+            <div class="clearfix"></div>
+            <!--clearfix--> 
+          </div>
+          <!--left-info-->
+          <div class="right-info">
+            <a class="bg-green">Active </a>            <p>Statut du devis: </p>
+          </div>
+          <!--right-info-->
+          <div class="clearfix"></div>
+          <!--clearfix-->
+          <ul class="listsx">
+            <li><strong>Chargement :</strong>              
+              <p>
+                Le 22/06/19              </p>              
+            </li>
+            <li><strong>Livraison :</strong>
+              <p>
+                Le 23/06/19              </p> 
+            </li>
+            <li><strong>Déménageur / Transporteur :</strong>
+              <p>
+			  <a target="_blank" href="profil-des-transporteurs/Per2018">
+			  <b>Per2018</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
+              </a>
+              </p>
+            </li>
+            <li><strong>Type de véhicule :</strong>
+              <p>
+                Van              </p>
+            </li>
+            
+            <!-- formula demenagement bid popup-->
+                          	
+                <li><strong>Formule de déménagement proposée :</strong>
+                  <p>
+                    Economique                  </p>
+                </li>
+                  	
+                          
+            
+          </ul>
+          <div class="clearfix"></div>
+          <!--clear-->
+          <div class="left-info wid-modifys">
+            <p><b>Informations / conditions de transport: </b> Dear customer, we are an experienced removal company. Our quote includes: 3 vans 16m³+20m³+20m³/3000kg , 5 hardworking porters, furniture protection, loading and unloading from room to room.Customs clearance. Our office is available from Monday to Sunday 24/7. I would like to provide my best service to you too and please do not hesitate to contact me if you have any query. Thank you very much! Regards, Cristian</p>
+            <br />
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+          <!--left-info-->
+          <div class="clearfix"></div>
+          <!--clear-->
+          
+          <div class="left-info">
+            <p>Cliquez sur "Accepter ce devis" afin de réserver avec cette entreprise en payant uniquement <b><span id="per789299"></span></b> Il vous restera à payer <b><span id="restant789299"></span></b></p>
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+           
+          <!--left-info-->
+          <div class="right-info"> <span>Prix Total TTC: <b>1400&euro;</b></span> </div>
+          <!--right-info--> 
+        </div>
+        <!--bid-details-->
+        <div class="clear"></div>
+        
+        		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--clearfix--> 
+    </div>
+    <div class="clearfix"></div>
+    <!--popup-content--> 
+  </div>
+  <div class="clearfix"></div>
+  <!--popup-body--> 
+</div>
+
+<span style="display:none;" class="timers" id="bidTimer_789299" time="455251"></span>
+<span class="clearfix"></span>
+<!--popup-->                          
+                       
+						 
+                          <tr id="bidRecord-788573" class="danger">
+							<td><p class="las">2 jours</p></td>
+							<td>
+                            <a target="_blank" href="#/profil-des-transporteurs/Handzel/" data-html="true" id="pop" data-toggle="popover" data-content="Handzel">
+                            <strong class="unames">
+							Handzel <img src="transporter/images/van3.png" alt="Image" />
+                            </strong>
+                            </a>
+                            &nbsp;
+                           
+							<div class="hastol transRating">  
+                                            <div class="score-callback" data-score="5"> </div>
+                                            <div class="toolstips">5/5 Irréprochable</div> 
+                                          </div>                             
+                            </td>
+							<td><strong>1430 &euro;</strong><br />
+							  <a href="javascript:void(0);" data-toggle="modal" data-target="#bidDetailsPopup-788573">Voir détail</a></td>
+							<td><p class="expiredBidTxt">Expirée</p></td>
+						  </tr>
+                          
+                          <div id="bidDetailsPopup-788573" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Devis (Déménagement 44m3) pour Transport Déménagements</h4>
+      </div>
+      <div class="popup-content popup01 modal-body">
+        <b class="set">Titre de l'annonce : Déménagement 44m3</b>
+        <div class="bid-details">
+          <div class="left-info">
+            <p><b>Date de l'offre: </b> 25/05/2019<br />
+              cette offre est valide jusqu'au <strong>27/05/2019</strong> 
+                            </p>
+            <div class="clearfix"></div>
+            <!--clearfix--> 
+          </div>
+          <!--left-info-->
+          <div class="right-info">
+            <a>Expirée</a>            <p>Statut du devis: </p>
+          </div>
+          <!--right-info-->
+          <div class="clearfix"></div>
+          <!--clearfix-->
+          <ul class="listsx">
+            <li><strong>Chargement :</strong>              
+              <p>
+                Le 22/06/19              </p>              
+            </li>
+            <li><strong>Livraison :</strong>
+              <p>
+                Le 23/06/19              </p> 
+            </li>
+            <li><strong>Déménageur / Transporteur :</strong>
+              <p>
+			  <a target="_blank" href="profil-des-transporteurs/Handzel">
+			  <b>Handzel</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
+              </a>
+              </p>
+            </li>
+            <li><strong>Type de véhicule :</strong>
+              <p>
+                 Autre              </p>
+            </li>
+            
+            <!-- formula demenagement bid popup-->
+                          	
+                <li><strong>Formule de déménagement proposée :</strong>
+                  <p>
+                    Camion avec chauffeur                  </p>
+                </li>
+                  	
+                          
+            
+          </ul>
+          <div class="clearfix"></div>
+          <!--clear-->
+          <div class="left-info wid-modifys">
+            <p><b>Informations / conditions de transport: </b> Non spécifié</p>
+            <br />
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+          <!--left-info-->
+          <div class="clearfix"></div>
+          <!--clear-->
+          
+          <div class="left-info">
+            <p>Cliquez sur "Accepter ce devis" afin de réserver avec cette entreprise en payant uniquement <b><span id="per788573"></span></b> Il vous restera à payer <b><span id="restant788573"></span></b></p>
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+           
+          <!--left-info-->
+          <div class="right-info"> <span>Prix Total TTC: <b>1430&euro;</b></span> </div>
+          <!--right-info--> 
+        </div>
+        <!--bid-details-->
+        <div class="clear"></div>
+        
+        		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--clearfix--> 
+    </div>
+    <div class="clearfix"></div>
+    <!--popup-content--> 
+  </div>
+  <div class="clearfix"></div>
+  <!--popup-body--> 
+</div>
+
+<span style="display:none;" class="timers" id="bidTimer_788573" time="-73809"></span>
+<span class="clearfix"></span>
+<!--popup-->                          
+                       
+						 
+                          <tr id="bidRecord-789477" class="success">
+							<td><p class="las">13 heures</p></td>
+							<td>
+                            <a target="_blank" href="#/profil-des-transporteurs/FRED16/" data-html="true" id="pop" data-toggle="popover" data-content="FRED16">
+                            <strong class="unames">
+							FRED16 <img src="transporter/images/van3.png" alt="Image" />
+                            </strong>
+                            </a>
+                            &nbsp;
+                           
+							<div class="hastol transRating">  
+                                            <div class="score-callback" data-score="4.3"> </div>
+                                            <div class="toolstips">4.3/5 Excellent</div> 
+                                          </div>                             
+                            </td>
+							<td><strong>1495 &euro;</strong><br />
+							  <a href="javascript:void(0);" data-toggle="modal" data-target="#bidDetailsPopup-789477">Voir détail</a></td>
+							<td></td>
+						  </tr>
+                          
+                          <div id="bidDetailsPopup-789477" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Devis (Déménagement 44m3) pour Transport Déménagements</h4>
+      </div>
+      <div class="popup-content popup01 modal-body">
+        <b class="set">Titre de l'annonce : Déménagement 44m3</b>
+        <div class="bid-details">
+          <div class="left-info">
+            <p><b>Date de l'offre: </b> 27/05/2019<br />
+              cette offre est valide jusqu'au <strong>02/06/2019</strong> 
+                            <span id="showExpiryTimer_789477"></span>
+                            </p>
+            <div class="clearfix"></div>
+            <!--clearfix--> 
+          </div>
+          <!--left-info-->
+          <div class="right-info">
+            <a class="bg-green">Active </a>            <p>Statut du devis: </p>
+          </div>
+          <!--right-info-->
+          <div class="clearfix"></div>
+          <!--clearfix-->
+          <ul class="listsx">
+            <li><strong>Chargement :</strong>              
+              <p>
+                Le 22/06/19              </p>              
+            </li>
+            <li><strong>Livraison :</strong>
+              <p>
+                Le 23/06/19              </p> 
+            </li>
+            <li><strong>Déménageur / Transporteur :</strong>
+              <p>
+			  <a target="_blank" href="profil-des-transporteurs/FRED16">
+			  <b>FRED16</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
+              </a>
+              </p>
+            </li>
+            <li><strong>Type de véhicule :</strong>
+              <p>
+                 Autre              </p>
+            </li>
+            
+            <!-- formula demenagement bid popup-->
+                          	
+                <li><strong>Formule de déménagement proposée :</strong>
+                  <p>
+                    Camion avec chauffeur                  </p>
+                </li>
+                  	
+                          
+            
+          </ul>
+          <div class="clearfix"></div>
+          <!--clear-->
+          <div class="left-info wid-modifys">
+            <p><b>Informations / conditions de transport: </b> Bonjour 
+je peux vous mettre en place deux camions de 25/27m3 avec chauffeur. Poids max de chargement 2400kg.
+Chaque camion est equipe d une dizaine de sangles de transport Votre demande est elle toujours d actualite?
+Cdt
+Yael K</p>
+            <br />
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+          <!--left-info-->
+          <div class="clearfix"></div>
+          <!--clear-->
+          
+          <div class="left-info">
+            <p>Cliquez sur "Accepter ce devis" afin de réserver avec cette entreprise en payant uniquement <b><span id="per789477"></span></b> Il vous restera à payer <b><span id="restant789477"></span></b></p>
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+           
+          <!--left-info-->
+          <div class="right-info"> <span>Prix Total TTC: <b>1495&euro;</b></span> </div>
+          <!--right-info--> 
+        </div>
+        <!--bid-details-->
+        <div class="clear"></div>
+        
+        		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--clearfix--> 
+    </div>
+    <div class="clearfix"></div>
+    <!--popup-content--> 
+  </div>
+  <div class="clearfix"></div>
+  <!--popup-body--> 
+</div>
+
+<span style="display:none;" class="timers" id="bidTimer_789477" time="470834"></span>
+<span class="clearfix"></span>
+<!--popup-->                          
+                       
+						 
+                          <tr id="bidRecord-788660" class="success">
+							<td><p class="las">2 jours</p></td>
+							<td>
+                            <a target="_blank" href="#/profil-des-transporteurs/fretEU/" data-html="true" id="pop" data-toggle="popover" data-content="fretEU">
+                            <strong class="unames">
+							fretEU <img src="transporter/images/van3.png" alt="Image" />
+                            </strong>
+                            </a>
+                            &nbsp;
+                           
+							<div class="hastol transRating">  
+                                            <div class="score-callback" data-score="4.2"> </div>
+                                            <div class="toolstips">4.2/5 Excellent</div> 
+                                          </div>                             
+                            </td>
+							<td><strong>2250 &euro;</strong><br />
+							  <a href="javascript:void(0);" data-toggle="modal" data-target="#bidDetailsPopup-788660">Voir détail</a></td>
+							<td></td>
+						  </tr>
+                          
+                          <div id="bidDetailsPopup-788660" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Devis (Déménagement 44m3) pour Transport Déménagements</h4>
+      </div>
+      <div class="popup-content popup01 modal-body">
+        <b class="set">Titre de l'annonce : Déménagement 44m3</b>
+        <div class="bid-details">
+          <div class="left-info">
+            <p><b>Date de l'offre: </b> 25/05/2019<br />
+              cette offre est valide jusqu'au <strong>31/05/2019</strong> 
+                            <span id="showExpiryTimer_788660"></span>
+                            </p>
+            <div class="clearfix"></div>
+            <!--clearfix--> 
+          </div>
+          <!--left-info-->
+          <div class="right-info">
+            <a class="bg-green">Active </a>            <p>Statut du devis: </p>
+          </div>
+          <!--right-info-->
+          <div class="clearfix"></div>
+          <!--clearfix-->
+          <ul class="listsx">
+            <li><strong>Chargement :</strong>              
+              <p>
+                Le 22/06/19              </p>              
+            </li>
+            <li><strong>Livraison :</strong>
+              <p>
+                Le 23/06/19              </p> 
+            </li>
+            <li><strong>Déménageur / Transporteur :</strong>
+              <p>
+			  <a target="_blank" href="profil-des-transporteurs/fretEU">
+			  <b>fretEU</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
+              </a>
+              </p>
+            </li>
+            <li><strong>Type de véhicule :</strong>
+              <p>
+                Camion 40m3 ou plus              </p>
+            </li>
+            
+            <!-- formula demenagement bid popup-->
+                          	
+                <li><strong>Formule de déménagement proposée :</strong>
+                  <p>
+                    Camion avec chauffeur                  </p>
+                </li>
+                  	
+                          
+            
+          </ul>
+          <div class="clearfix"></div>
+          <!--clear-->
+          <div class="left-info wid-modifys">
+            <p><b>Informations / conditions de transport: </b> Non spécifié</p>
+            <br />
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+          <!--left-info-->
+          <div class="clearfix"></div>
+          <!--clear-->
+          
+          <div class="left-info">
+            <p>Cliquez sur "Accepter ce devis" afin de réserver avec cette entreprise en payant uniquement <b><span id="per788660"></span></b> Il vous restera à payer <b><span id="restant788660"></span></b></p>
+            <div class="clearfix"></div>
+            <!--clear--> 
+          </div>
+           
+          <!--left-info-->
+          <div class="right-info"> <span>Prix Total TTC: <b>2250&euro;</b></span> </div>
+          <!--right-info--> 
+        </div>
+        <!--bid-details-->
+        <div class="clear"></div>
+        
+        		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--clearfix--> 
+    </div>
+    <div class="clearfix"></div>
+    <!--popup-content--> 
+  </div>
+  <div class="clearfix"></div>
+  <!--popup-body--> 
+</div>
+
+<span style="display:none;" class="timers" id="bidTimer_788660" time="285436"></span>
+<span class="clearfix"></span>
+<!--popup-->                          
+                                        
+                    </table>
+                  </section>
+                  
+                                    <div class="clearfix"></div>
+                  <!--clearfix--> 
+	
+	            </div>
+            <!--tab_content 2-->
+
+                            <div class="tab_content tab-pane" id="tab3">
+
+                  <section class="tabsas-two">
+
+                        <div class="clearfix"></div>
+
+                        <section class="mes-section" id="appendMessages">
+
+                            
+                        </section>
+
+                  </section>
+                                </div>
+            
+            <!--tab_content 3-->
+
+          </div>
+
+          
+        </section>
+        <!--tabsas-->
+      </div>
+      <!--col-md-8-->
+
+            <!--col-md-4-->
+      <div class="clearfix"></div>
+      <!--clearfix-->
+    </section>
+    <!--mian-sec-->
+    <!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+
+    <div class="modal fade " id="customBidSuccessPopup">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header clearfix">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    				
+    			</div>
+    			<div class="modal-body">
+    					<div class="modal-box formBox vtable">    					
+	    					<div class="modal-box-text">
+
+	    						Merci pour votre offre! Cette réservation immédiate expire dans <span class="reserveBidTimeRemaining"></span>. Votre offre sera proposée automatiquement au client si la réservation immédiate ne trouve pas prenneur.
+	    						<br>
+								Si votre offre est acceptée, vous recevrez un email de confirmation.
+	    					</div>
+    					</div>
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+
+    <div class="modal fade loadingConfirmationPopup" id="loadingConfirmationPopup">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header clearfix">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    				<h4>Start Your Loading Process</h4>
+    				<span class="pull-right modalhead-right-text">Status : <strong class="text-blue"><img src="images/offer_truck_blue.png" alt=""> Loading</strong> Ref : <span class="text-red">329952</span></span>
+    			</div>
+    			<div class="modal-body">
+    				<div class="modal-box">
+    					<div class="modal-box formBox vtable">
+	    					<div class="left-icon-section">
+	    						<img src="images/offer_truck_green.png" alt="">
+	    					</div>
+	    					<div class="modal-box-text">
+	    						<h3>Accept Loading Date </h3>
+	    						<div class="form-group"><input type="checkbox" id="loadingDateCheck">
+	    						<label id="loadingDateCheckLabel" for="loadingDateCheck">Are you sure you can make loading on <strong class="date-text">01/01/1970</strong></label></div>
+	    						<div class="form-group"><label>Delivery Time </label>
+			                    	<div class="input-icon right input-inline">
+			    						<select class="form-control select" id="expected_time">
+				                        	<option value="">Select expected loading time</option>
+				                        	<option value="09-12">09-12</option>
+				                            <option value="12-15">12-15</option>
+				                            <option value="15-18">15-18</option>
+				                        </select>
+			    						<i class="fa fa-caret-down"></i>
+			    					</div>
+		    					</div>
+	    					</div>
+    					</div>
+	                    <p><textarea id="trackingDescription" class="form-control" placeholder="Comment Here!"></textarea></p>
+    					<button type="button" class="btn btn-blue btn1" onClick="processLoadingDatesConfirmation();">Remporter ce transport</button>
+    				</div>
+    			</div>
+
+    		</div>
+    	</div>
+    </div>
+    <span id="relatedListingsSection"></span>
+    
+    <!--ottom-sec-->
+  </div>
+  <!--container-->
+  <div class="clearfix"></div>
+  <!--clearfix-->
+  <div class="clearfix"></div>
+
+  <style>
+  
+  .white {
+      color:white;
+  }
+  </style>
+
+  	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create','UA-33460216-1','auto');
+ga('send','pageview');
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay//css/footer.css"/>
+    <!-- Begin Footer Wrapper -->
+    <div id="fretbayfooter">
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <div class="col-lg-12 footerLogo">
+                                <a href="#/index.php"><img src="C:/Users/Dell/Desktop/Programming notes/Fretbay/HatchfulExport-All/logo_transparent.png" width="143" height="165" alt="Logo" class="f-logo"></a>
+                            </div>
+                        </div>
+                    </div><!--/ Footer Column -->
+                    
+                    <div class="col-md-10 top-right-footersection white">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h2> Kawai vous aide </h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Rechercher un transporteur
+                                    </li>
+                                    <li>
+                                        Je suis un transporteur
+                                    </li>
+                                    <li>
+                                        <!--<a class="pageS" href="#stepsNew">Comment ça marche ?</a>-->
+                                        Comment ça marche ?
+                                    </li>
+                                    <li>
+                                        Foire aux questions<
+                                    </li>
+                                </ul>
+                            </div><!--/ Footer Column -->
+                            
+                            <div class="col-sm-3"> 
+                                <h2>L'entreprise</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Qui sommes-nous ?
+                                    </li>
+                                    <li>
+                                        Combattre le marché noir
+                                    </li>
+                                                                        <li>
+                                        Presse et médias
+                                    </li>
+                                                                    <li>
+                                       Recrutement
+                                    </li>
+                                                                        <li>
+                                        Blog
+                                    </li>
+                                                                </ul>
+                            </div><!--/ Footer Column -->
+                            
+                            <div class="col-sm-3">
+                                <h2>Nos conseils</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                      Conseils déménagement
+                                    </li>
+                                    <li>
+                                       Déménagement d'entreprise
+                                    </li><!--
+                                    <li>
+                                        <a href="#">Check-list déménagement</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Conseils transporteurs</a>
+                                    </li>-->
+                                    <li>
+                                       Déménageurs
+                                    </li>
+                                    <li>
+                                        eBay Vendeurs
+                                    </li>
+                                    <!-- no available link for prevention-arnaque -->
+                                    <li>
+                                        Prévention Arnaque
+                                    </li>
+                                </ul>
+                            </div><!--/ Footer Column -->
+                            
+                            <div class="col-sm-3">
+                                <h2>Service Client</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Témoignages clients
+                                    </li>
+                                    <li>
+                                      Charte qualité
+                                    </li>
+                                    <li>
+                                       Vie privée
+                                    </li>
+                                    <li>
+                                        Nous contacter
+                                    </li>
+                                </ul>
+                            </div><!--/ Footer Column -->
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div><!--/ Footer Main -->
+        
+        <div class="footer-middle">
+            <div class="container">
+                
+            </div>
+        </div>
+
+        <div class="footer-copyright"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6"  style=" color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                        
+                             <h1> Kawai International </h1>
+                        </div>
+                        
+                        <!-- Begin Social Icon Wrapper -->
+                        <div class="col-lg-6 no-padding fretbaysocial-ico">
+                            <ul class="list-unstyled list-inline">
+                                <li class="li">
+                                    <a href="# target="_blank">LinkedIn</a>
+                                </li>
+                                <li class="tw">
+                                    <a href="#" target="_blank">Twitter</a>
+                                </li>
+                                <li class="fb">
+                                    <a href="#" target="_blank">Facebook</a>
+                                </li>
+                                <li class="gp">
+                                    <a href="#" target="_blank">Google Plus</a>
+                                </li>
+                                <li class="yt">
+                                    <a href="#" target="_blank">YouTube</a>
+                                </li>
+                                <li class="wp">
+                                    <a href="#" target="_blank">WikiPedia</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Ends Social Icon Wrapper -->
+                    <div class="clearfix"></div>
+                                                </div>
+            </div><!--/ Copyrights -->
+    </div>
+    <!-- Ends Footer Wrapper -->
+    <!--Mobile Footer Start-->
+    <div id="fretbaymobFooter" class="homeFoot">
+            <div class="container text-center">
+                <div class="logo">
+                    <img src="https://fretbay.com/fr/images/logo-video.png"  width="68" height="79">
+                </div>
+                <ul class="list-unstyled list-inline">
+                    <li>
+                        <a href="#/presse.php">Presse</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#/blog/index.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#/qui-sommes-nous">Qui sommes-nous ?</a>
+                    </li>
+                    <li>
+                        <a href="#/contact">Nous contacter</a>
+                    </li>
+                    <li>
+                        <a href="#/condition.php"> Conditions Générales</a>
+                    </li>
+                </ul>
+                <!-- Begin Social Icon Wrapper -->
+                <!-- mob footer start -->
+                
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                
+                <!-- mob footer end -->
+                <!-- Ends Social Icon Wrapper -->
+                
+            </div>
+        </div>
+        <!--Mobile Footer Ends-->
+        
+    
+    
+    
+    <script type="text/javascript">
+    adroll_adv_id = "ZZO6B2HY75EEHM6AYG3EEZ";
+    adroll_pix_id = "ZB7VAQCP3ZHTFDRG5YIZW7";
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com":"http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+    jQuery(document).ready(function($) {
+      if (typeof jQuery.ajax != "undefined" && typeof fetchTrustPilotStatistics != "undefined"){
+        fetchTrustPilotStatistics();
+      }
+    });
+    window.globalSiteUrl = 'https://fretbay.com';
+</script>
+    <!-- Market Shot scripts --> 
+    <script type="text/javascript" src="https://fretbay.com/fr/js/marketshot/marketshot.js?v=0.3"/></script>
+    <script async src="//live.marketshot.com/js/mics/pixel-track.js?partner=fry0417"></script>
+    <script type="text/javascript" src="https://fretbay.com/fr/js/footer/common-scripts.js?v=0.3"/></script>
+
+  <script type="text/javascript">
+/* ADDED BY FSG FOR IE8 CARET POSITION WORK-ARROUND*/
+function doGetCaretPosition(ctrl) {
+	var CaretPos = 0;	// IE Support
+	if (document.selection) {
+		ctrl.focus ();
+		var Sel = document.selection.createRange();
+		Sel.moveStart ('character', -ctrl.value.length);
+		CaretPos = Sel.text.length;
+	}else if (ctrl.selectionStart || ctrl.selectionStart == '0'){
+		// Firefox support
+		CaretPos = ctrl.selectionStart;
+	}
+	return (CaretPos);
+}
+/* ADDED BY FSG FOR IE8 CARET POSITION WORK-ARROUND*/
+
+function addOffersTag(tag)
+{
+	var caretPos = doGetCaretPosition(document.getElementById("descriptionOfferBid"));
+	var textAreaTxt = $("#descriptionOfferBid").val();
+	var txtToAdd = tag;
+	
+	$("#descriptionOfferBid").val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos));
+	$("#descriptionOfferBid").focus();
+	setCaretPosition("descriptionOfferBid", caretPos + txtToAdd.length);
+}
+
+
+function setCaretPosition(elemId, caretPos)
+{
+	var elem = document.getElementById(elemId);
+	if(elem != null) {
+		if(elem.createTextRange) {
+			var range = elem.createTextRange();
+			range.move('character', caretPos);
+			range.select();
+		}
+		else {
+			if(elem.selectionStart) {
+				elem.focus();
+				elem.setSelectionRange(caretPos, caretPos);
+			}
+			else
+				elem.focus();
+		}
+	}
+}
+
+function loadBidTemplateSavedValues(bidId) {
+	$('#bidTmpId').val($('#templateId-'+bidId).val());
+	$('#templateName').val($('#templateName-'+bidId).val());
+	$('#descriptionOfferBid').val($('#description-'+bidId).val());
+	$('#TypeVehicule').val($('#vehicleType-'+bidId).val());
+	
+	$(".field-con").hide();
+	$("#ajobtn").addClass("active");
+	$("#gerbtn").removeClass("active");
+	$(".bid-tags").show();
+	$("#saveBidTemplate").show();
+}
+
+
+$(document).ready(function() {
+    $('#saveBidTemplate').on("click",function(){
+		var bidId 			= $('#bidTmpId').val();
+		var templateName 	= $('#templateName').val();
+		var descBidTmp 		= $('#descriptionOfferBid').val();
+		var TypeVehicule 	= $('#TypeVehicule').val();
+		var idsess 			= $('#idsess').val();
+		
+		/*
+		* Validations start for bid template
+		*/
+		var check = true;
+		if( templateName == '' ) {
+			$('#templateName').addClass('err-field');
+			$('#templateName').blur(function(){
+				if( $('#templateName').val() == '' ) {
+					$('#templateName').addClass('err-field');
+				}
+				else {
+					$('#templateName').removeClass('err-field');
+				}
+			});
+			check = false;
+		}
+		
+		if( descBidTmp == '' ) {
+			$('#descriptionOfferBid').addClass('err-field');
+			$('#descriptionOfferBid').blur(function(){
+				if( $('#descriptionOfferBid').val() == '' ) {
+					$('#descriptionOfferBid').addClass('err-field');
+				}
+				else {
+					$('#descriptionOfferBid').removeClass('err-field');
+				}
+			});
+			check = false;
+		}
+		
+		if( TypeVehicule == '' ) {
+			$('#TypeVehicule').addClass('error-select');
+			$('#TypeVehicule').blur(function(){
+				if( $('#TypeVehicule').val() == '' ) {
+					$('#TypeVehicule').addClass('error-select');
+				}
+				else {
+					$('#TypeVehicule').removeClass('error-select');
+				}
+			});
+			check = false;
+		}
+		
+		if( check == false ) {
+			return false;
+		}
+		/*
+		* Validations end for bid template
+		*/
+		
+		$.ajax({
+			type: "POST",
+			url: "transporter/ajax/bidTemplate/insertBidTemplate.php",
+			data: {
+				'idsess' 		: idsess,
+				'description' 	: descBidTmp,
+				'templateName' 	: templateName,
+				'vehicleType' 	: TypeVehicule,
+				'idTemplate'	: bidId
+				},
+			success: function(data) {
+				// update all bid templates and move to all templates tab
+				if( data == 200 ) {
+					$('.bid-temp').html('<center><img src="transporter/images/windows8circleloader.GIF" /></center>');
+					//alert('done');
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplates.php",
+						data: {
+							'idsess' 		: idsess,
+							'currentLang'	: currentLang
+						},
+						success: function(data) {
+							$('#bidTemplatePopup').html(data);
+							$(".field-con").show();
+							$("#gerbtn").addClass("active");
+							$("#ajobtn").removeClass("active");
+							$(".bid-tags").hide();
+							$("#saveBidTemplate").hide();
+							reloadAgain();
+							
+							if( bidId == "" ) {
+								showSuccessMessageBidTemp('success', 'Le modèle de devis à été ajouté avec succès.');
+							}
+							else {
+								showSuccessMessageBidTemp('success', 'Le modèle de devis à été mis à jour avec succès.');
+							}
+							
+							$("#gerbtn").click(function(){
+								$(".field-con").show();
+								$("#gerbtn").addClass("active");
+								$("#ajobtn").removeClass("active");
+								$(".bid-tags").hide();
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								$("#saveBidTemplate").hide();
+							});
+							$("#ajobtn").click(function(){
+								$('#bidTmpId').val('');
+								$('#templateName').val('');
+								$('#descriptionOfferBid').val('');
+								$('#TypeVehicule').val('');
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								
+								$(".field-con").hide();
+								$("#ajobtn").addClass("active");
+								$("#gerbtn").removeClass("active");
+								$(".bid-tags").show();
+								$("#saveBidTemplate").show();
+							});
+						}
+					});
+					
+					// ajax call for bid template dropdown
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplatesDD.php",
+						data: {
+							'idsess' 		: idsess
+						},
+						success: function(data) {
+							$('#regionf').html(data);
+						}
+					});
+				}
+				else {
+					//alert('error in transaction');
+				}
+			}
+		});
+		
+	});
+});
+
+function reloadAgain() {
+	$('#saveBidTemplate').on("click",function(){
+		var bidId 			= $('#bidTmpId').val();
+		var templateName 	= $('#templateName').val();
+		var descBidTmp 		= $('#descriptionOfferBid').val();
+		var TypeVehicule 	= $('#TypeVehicule').val();
+		var idsess 			= $('#idsess').val();
+		
+		/*
+		* Validations start for bid template
+		*/
+		var check = true;
+		if( templateName == '' ) {
+			$('#templateName').addClass('err-field');
+			$('#templateName').blur(function(){
+				if( $('#templateName').val() == '' ) {
+					$('#templateName').addClass('err-field');
+				}
+				else {
+					$('#templateName').removeClass('err-field');
+				}
+			});
+			check = false;
+		}
+		
+		if( descBidTmp == '' ) {
+			$('#descriptionOfferBid').addClass('err-field');
+			$('#descriptionOfferBid').blur(function(){
+				if( $('#descriptionOfferBid').val() == '' ) {
+					$('#descriptionOfferBid').addClass('err-field');
+				}
+				else {
+					$('#descriptionOfferBid').removeClass('err-field');
+				}
+			});
+			check = false;
+		}
+		
+		if( TypeVehicule == '' ) {
+			$('#TypeVehicule').addClass('error-select');
+			$('#TypeVehicule').blur(function(){
+				if( $('#TypeVehicule').val() == '' ) {
+					$('#TypeVehicule').addClass('error-select');
+				}
+				else {
+					$('#TypeVehicule').removeClass('error-select');
+				}
+			});
+			check = false;
+		}
+		
+		if( check == false ) {
+			return false;
+		}
+		/*
+		* Validations end for bid template
+		*/
+		
+		$.ajax({
+			type: "POST",
+			url: "transporter/ajax/bidTemplate/insertBidTemplate.php",
+			data: {
+				'idsess' 		: idsess,
+				'description' 	: descBidTmp,
+				'templateName' 	: templateName,
+				'vehicleType' 	: TypeVehicule,
+				'idTemplate'	: bidId,
+				'currentLang'	: currentLang 
+				},
+			success: function(data) {
+				// update all bid templates and move to all templates tab
+				if( data == 200 ) {
+					$('.bid-temp').html('<center><img src="transporter/images/windows8circleloader.GIF" /></center>');
+					//alert('done');
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplates.php",
+						data: {
+							'idsess' 		: idsess,
+							'currentLang'	: currentLang
+						},
+						success: function(data) {
+							$('#bidTemplatePopup').html(data);
+							$(".field-con").show();
+							$("#gerbtn").addClass("active");
+							$("#ajobtn").removeClass("active");
+							$(".bid-tags").hide();
+							$("#saveBidTemplate").hide();
+							reloadAgain();
+							
+							if( bidId == "" ) {
+								showSuccessMessageBidTemp('success', 'Le modèle de devis à été ajouté avec succès.');
+							}
+							else {
+								showSuccessMessageBidTemp('success', 'Le modèle de devis à été mis à jour avec succès.');
+							}
+							
+							$("#gerbtn").click(function(){
+								$(".field-con").show();
+								$("#gerbtn").addClass("active");
+								$("#ajobtn").removeClass("active");
+								$(".bid-tags").hide();
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								$('#noBidMessage').css('display','block');
+								$("#saveBidTemplate").hide();
+							});
+							$("#ajobtn").click(function(){
+								$('#bidTmpId').val('');
+								$('#templateName').val('');
+								$('#descriptionOfferBid').val('');
+								$('#TypeVehicule').val('');
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								$('#noBidMessage').css('display','none');
+								
+								$(".field-con").hide();
+								$("#ajobtn").addClass("active");
+								$("#gerbtn").removeClass("active");
+								$(".bid-tags").show();
+								$("#saveBidTemplate").show();
+							});
+						}
+					});
+					
+					// ajax call for bid template dropdown
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplatesDD.php",
+						data: {
+							'idsess' 		: idsess,
+							'currentLang'	: currentLang
+						},
+						success: function(data) {
+							$('#regionf').html(data);
+						}
+					});
+				}
+				else {
+					//alert('error in transaction');
+				}
+			}
+		});
+		
+	});
+}
+
+function deleteBidTemplate(idTemplate) {
+	var idsess = $('#idsess').val();
+	var result = confirm("Êtes-vous sûr de vouloir supprimer ce modèle ??");
+	if (result==true) {
+		$('.bid-temp').html('<center><img src="transporter/images/windows8circleloader.GIF" /></center>');
+		$.ajax({
+			type: "POST",
+			url: "transporter/ajax/bidTemplate/deleteBidTemplate.php",
+			data: {
+				'idsess' 		: idsess,
+				'idTemplate' 	: idTemplate
+			},
+			success: function(data) {
+				if( data == 200 ) {
+					// deleted successfully
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplates.php",
+						data: {
+							'idsess' 		: idsess,
+							'currentLang'	: currentLang
+						},
+						success: function(data) {
+							$('#bidTemplatePopup').html(data);
+							$(".field-con").show();
+							$("#gerbtn").addClass("active");
+							$("#ajobtn").removeClass("active");
+							$(".bid-tags").hide();
+							$("#saveBidTemplate").hide();
+							reloadAgain();
+							
+							showSuccessMessageBidTemp('success', 'Le modèle de devis à été supprimé avec succès.');
+							
+							$("#gerbtn").click(function(){
+								$(".field-con").show();
+								$("#gerbtn").addClass("active");
+								$("#ajobtn").removeClass("active");
+								$(".bid-tags").hide();
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								$('#noBidMessage').css('display','block');
+								$("#saveBidTemplate").hide();
+							});
+							$("#ajobtn").click(function(){
+								$('#bidTmpId').val('');
+								$('#templateName').val('');
+								$('#descriptionOfferBid').val('');
+								$('#TypeVehicule').val('');
+								$('#TypeVehicule').removeClass('error-select');
+								$('#descriptionOfferBid').removeClass('err-field');
+								$('#templateName').removeClass('err-field');
+								$('#noBidMessage').css('display','none');
+								
+								$(".field-con").hide();
+								$("#ajobtn").addClass("active");
+								$("#gerbtn").removeClass("active");
+								$(".bid-tags").show();
+								$("#saveBidTemplate").show();
+							});
+						}
+					});
+					
+					// ajax call for bid template dropdown
+					$.ajax({
+						type: "POST",
+						url: "transporter/ajax/bidTemplate/loadBidTemplatesDD.php",
+						data: {
+							'idsess' 		: idsess
+						},
+						success: function(data) {
+							$('#regionf').html(data);
+						}
+					});
+				}
+				else {
+					// error in delete process
+					alert('could not delete');
+				}
+			}
+		});
+	}
+}
+
+
+
+function showSuccessMessageBidTemp(type, messageText) {
+	//if($.trim(type)!='')
+	//{
+		var alertContainer	= '<div class="alert alert-success alert-dismissible" role="alert">'+
+									'<button type="button" class="close2" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'+
+									'<span id="alertMessageTextBidTemp">'+messageText+'</span>'+
+							  '</div>';
+		
+		$('#alertMessageBidTemp').html(alertContainer);	
+		$('#alertMessageBidTemp').slideDown(null,null,function(){ 
+			setTimeout(function()
+			{
+				$("#alertMessageBidTemp").slideUp();
+			},3000); 
+		});
+	//}
+}
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="bidTemplatePopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Cette fonctionnalité vous permet de CREER DES MODÈLES DE DEVIS pour pouvoir être plus rapide</h4>
+      </div>
+      <div class="clearfix"></div>
+      <div class="modal-body bid-temp">
+        <p>Gérer vos modèles ou ajouter un modèle de devis</p>
+        <div class="clearfix"></div>
+        <button type="button" class="btn btn1" id="gerbtn">Gérer les modèles</button>
+        <button type="button" class="btn btn1" id="ajobtn">Ajouter un modèle</button>
+        <div class="clearfix"></div>
+        
+        <div id="alertMessageBidTemp"></div>
+        <div class="clearfix"></div>
+        
+        <div id="noBidMessage">'Vous n'avez pas de devis sauvegardé pour le moment.<br/> Cliquez sur "Ajouter un modèle" et bénéficiez de cette fonctionnalité. </div>        
+        <!--field-con-->
+        <div class="clearfix"></div>
+        <div class="bid-tags">
+          <div class="col-md-8 col-sm-8">
+            <p>Ajouter un modèle de devis</p>
+            <br />
+            <input type="hidden" name="bidTmpId" id="bidTmpId" />
+            <label>Nom du modèle : </label>
+            <input type="text" name="templateName" id="templateName" class="form-control" />
+            <br />
+            <label>Information supplémentaires et conditions : </label>
+            <textarea class="form-control" id="descriptionOfferBid" name="descriptionOfferBid" rows="5"></textarea>
+            <br />
+            <label>Type de véhicule :</label>
+            <div class="search-box mar-bottom">
+              <div class="size-container">
+                <select name="TypeVehicule" id="TypeVehicule">
+						<option disabled="disabled" selected="selected" value="">Sélectionnez un type</option>
+						<option value="1">Voiture</option>
+						<option value="2">Remorque couverte</option>
+						<option value="3">Camion 9 m3</option>
+						<option value="4">Camion 20 m3</option>
+                        <option value="11">Camion 30 m3</option>
+						<option value="5">Camion 40 m3 ou plus</option>
+						<option value="6">Camion de déménagement</option>
+						<option value="11">Convoyeur automobile</option>
+						<option value="7">Remorque pour voitures</option>
+						<option value="8">Remorque découverte</option>
+						<option value="9">Remorque Pour Chevaux</option>
+						<option value="10">Van</option>
+						<option value="0">Autres</option>
+                </select>
+              </div>
+              <!--size-container--> 
+            </div>
+          </div>
+          <!--col-md-8--> 
+          <div class="col-md-4 col-sm-4">
+            <strong>Ajouter des étiquettes: </strong>
+            <div class="clearfix"></div>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[ReferenceNo]');" title="This is Ref. No">+ Réf. </a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[ListingName]');" title="This is Listing name">+ Nom annonce</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[LoadingDate]');" title="This is Loading Date">+ Date chargement</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[LoadingCity]');" title="This is Loading City">+ Ville chargement</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[LoadingRegion]');" title="This is Loading Region">+ Région chargement</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[LoadingPostalCode]');" title="This is Loading Postal Code">+ CP chargement</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[DeliveryDate]');" title="This is Delivery Date">+ Date livraison</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[DeliveryCity]');" title="This is Delivery City">+ Ville livraison</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[DeliveryRegion]');" title="This is Delivery Region">+ Région livraison</a>
+            <a href="javascript:void(0);" class="btags" onclick="addOffersTag('[DeliveryPostalCode]');" title="This is Delivery Postal Code">+ CP livraison</a>
+          </div>
+          <!--col-md-4--> 
+        </div>
+        <!--bid-tags--> 
+      </div>
+      <div class="clearfix"></div>
+      <div class="modal-footer">
+        <button type="button" id="saveBidTemplate" class="btn btn1">Enregistrer</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal -->
+<div class="modal fade" id="templateMessage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  
+  <div class="modal-dialog">
+    
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Cette fonctionnalité vous permet de CREER DES MODÈLES DE MESSAGES pour pouvoir être plus rapide</h4>
+      </div>
+      
+      <div class="clearfix"></div>
+     
+      <div class="modal-body">
+        
+        <p><b>Gérer vos modèles ou ajouter un modèle de message</b></p>
+        <div class="clearfix"></div>
+        <button type="button" class="btn btn1" id="gerbtn2" onclick="loadMessageTemplatesManage();">Gérer les modèles</button>
+        <button type="button" class="btn btn1" id="ajobtn2" onclick="loadMessageTemplatesInsert();">Ajouter un modèle</button>
+        <div class="clearfix"></div>
+        
+        <div id="alertMessage" style="display:none;"></div>
+        
+        <div id="messageTemplatesMainContent"></div>
+       
+      </div>
+     
+      <div class="clearfix"></div>
+      
+    </div>
+  
+  </div>
+
+</div>
+  <div id="reportAbuse" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Signaler un abus</h4>
+      </div>
+      <div class="popup-content popup01 modal-body detailss"> <b class="set">Veuillez indiquer le motif de votre signalement ?</b>
+
+        <ul class="radios">
+          <li>
+            <label class="label_radio mod r_on" for="ref1-">
+            <input type="radio" id="ref1-" onclick="checkThisRadio(1)" name="reportAbuseTransporter" checked="checked">
+            <p>Message répétitif.</p>
+            </label>
+          </li>
+          <li>
+            <label class="label_radio mod" for="ref2-">
+            <input type="radio" id="ref2-" onclick="checkThisRadio(2)" name="reportAbuseTransporter">
+            <p>Message dénigrant (moi ou un confrère)</p>
+            </label>
+          </li>
+          <li>
+            <label class="label_radio mod" for="ref3-">
+            <input type="radio" id="ref3-" onclick="checkThisRadio(3)" name="reportAbuseTransporter">
+            <p>Langage abusif ou inapproprié</p>
+            </label>
+          </li>
+          <li>
+            <label class="label_radio mod" for="ref4-">
+            <input type="radio" id="ref4-" onclick="checkThisRadio(4)" name="reportAbuseTransporter">
+            <p>Violation des conditions générales (prix, nom, coordonnées).</p>
+            </label>
+          </li>
+        </ul>
+        <b class="set">Merci pour votre signalement, nos modérateurs vont traiter cet abus rapidement.</b>
+        <div class="clearfix"></div>
+        <button name="btn" class="btn1 mar-set black2 button-exit" data-dismiss="modal">Annuler</button>
+        <button name="btn" onclick="reportAbuse()" class="btn1">Envoyer</button>
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+  <!--popup--> 
+</div>
+<!--popup-overlay-->   <div aria-hidden="false" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="ratingModal" class="modal fade">
+  
+  <div class="modal-dialog">
+    
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h4 id="myModalLabel" class="modal-title">Mode de calcul des évaluations transporteurs</h4>
+      </div>
+      
+      <div class="clearfix"></div>
+     
+      <div class="modal-body">
+        
+        <p>Les évaluations sont laissées par les membres expéditeurs avec lesquels le transporteur a réalisé une transaction, et ce après que le transport a eut lieu.</p><br /><p>L’évaluation peut être <b>positive</b> (+1 point), <b>neutre</b> (0 point) ou <b>négative</b> (-1). Les <b>annulations</b> entraînent une pénalité d’un point (-1) au même titre qu’une évaluation négative. Le total des points accumulés est divisé par la totalité des évaluations déposées,  puis rapporté sur une note de 0 à 5.</p><br /><p>Cette note reflète la réputation du transporteur au sein de la Communauté FretBay et aide ses futurs clients à se forger leur opinion sur sa société.</p><br /><p>Vous l'avez compris, plus une société de transport remporte des enchères, plus elle a des chances de voir sa réputation augmenter !</p><br /><p>Continuez d’être actif sur FretBay pour ne manquer aucune opportunité !</p>        
+
+        <div class="clearfix"></div>
+		<div class="col-md-2 col-sm-2"></div>
+		<div class="col-md-8 col-sm-8">
+        <div class="clearfix"></div>
+      </div>
+     <div class="col-md-2 col-sm-2"></div>
+      <div class="clearfix"></div>
+      <p>Comme vous pouvez le constater, plus vous remportez d’enchères, plus vous avez de chances de voir votre réputation augmenter ! Continuez d’être actif sur FretBay pour ne manquer aucune opportunité, nous vous souhaitons le plus grand succès !</p>
+	  <div class="clearfix"></div>
+	  <center class="tbtns">
+      <button name="btn" onclick="closeThisPopup('ratingModal');" class="btn btn-black">Retour à l’annonce</button>
+      <a href="transporteur/profil/&tabReference=evaluation">
+      <button name="btn" class="btn btn-red">Voir mes évaluations</button>
+      </a>
+	 </center>
+    </div>
+  
+  </div>
+
+</div>
+
+</div>
+  <div class="modal fade new-pop" id="listingInformationDetailsPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Détails</h4>
+      </div>
+      
+      
+      <div class="popup-content modal-body popup01">
+       
+        <div class="col-md-12 col-sm-12">
+           
+            <section class="qun-multi">
+                       
+          <p><strong>Catégorie 		:</strong> <span>Déménagements</span></p>
+          <p><strong>Sous-catégorie    :</strong> <span>Déménagements</span></p>
+          <p><strong>Volume 			:</strong> <span>44 m3</span></p>
+                              <p><strong>Formule			:</strong> <span class="pull-left">Camion avec chauffeur</span> 
+          <a href="javascript:void(0);" data-toggle="modal" data-target="#formuleDemPopup"><strong>(Aide ?)</strong></a></p>
+          <div class="clearfix"></div>
+
+	              <div class="clearfix"></div>
+    
+            </section>
+        
+        </div>
+		
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+</div>
+  <div class="modal fade new-pop" id="bidReservedAlertPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="popup-content modal-body popup01">
+        <p>Ouups vous avez manquer cette opportunité de peu. Un de vos confrères à cliqué plus vite que vous. Restez connecté et soyez réactive sur les annonces.</p> 
+        <span id="bidReservedAlertBtn">
+        <a href="javascript:void(0);" data-dismiss="modal" class="btn1 anchor-btn btnclose">Fermer la fenêtre</a> 
+        </span>
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+</div>
+   <div class="modal fade new-pop" id="bidReservedSuccessPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="popup-content modal-body popup01">
+        <p>Félicitation, vous avez remporté cette annonce.</p>
+        <span id="bidReservedSuccessBtn">
+        <a href="javascript:void(0);" data-dismiss="modal" class="btn1 anchor-btn btnclose">Fermer la fenêtre</a> 
+        </span>
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+</div>
+  <div class="modal fade new-pop" id="ibanPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" style="display:none;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Vos informations bancaire</h4>
+      </div>
+      <div class="popup-content modal-body popup01">
+      	<p>
+          Dans le cadre d'un contrat immédiat concernant un client professionnel, celui-ci règle la totalité du transport à FretBay qui se charge de vous payer par virement suite à une livraison de qualité. Ceci afin de vous garantir le paiement intégral en temps et en heure une fois la prestation effectuée.
+        </p>
+        <br/>
+		
+        <section class="act-tab">
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">Code pays</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="country_code" id="country_code" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-country_code" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+        
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">Code banque</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="national_bank_code" id="national_bank_code" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-national_bank_code" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+        
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">Code guichet</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="brance_code" id="brance_code" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-brance_code" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+        
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">Numéro de compte</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="account_number" id="account_number" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-account_number" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+        
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">Clé RIB</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="national_check_digit" id="national_check_digit" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-national_check_digit" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+
+             <!-- Swift Code -->
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <label class="al-label">BIC/Swift Code</label>
+            </div>
+            <div class="col-md-6 col-sm-12 mr-l mr-r">
+                <input type="text" name="swift_code" id="swift_code" class="form-control sin-inp profilField" placeholder=""  value="" />
+                <span id="error-swift_code" class="error-message"></span>
+            </div>
+            <div class="clearfix"></div>
+        
+        </section>
+        
+        <a href="javascript:void(0);" onClick="insertUpdateUserPaymentAccounts('');"  id="userPaymentAccounts-button" class="btn1 anchor-btn btnclose">Valider</a> 
+        <a href="javascript:void(0);" data-dismiss="modal" class="btn1 anchor-btn btnclose">Fermer la fenêtre</a> 
+        <div class="clearfix"></div>
+        <br />
+      </div>
+      <!--popup-content--> 
+    </div>
+    <!--popup-body--> 
+  </div>
+</div>
+  <div class="modal fade" id="suplimerDevisPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"> <span aria-hidden="true">×</span> <span class="sr-only">Close</span> </button>
+                    <!-- <h4 class="modal-title" id="myModalLabel1" style="display: none;">M6</h4> -->
+                </div>
+                <!--modal-header-->
+                <div class="modal-body popup-content">
+                    <input type="hidden" id="suplimerDevis-idBid" value="">
+                    <input type="hidden" id="suplimerDevis-idOffer" value="">
+                    <input type="hidden" id="suplimerDevis-idsess" value="">
+                    <p>Pour plus de transparence merci de nous communiquer la raison de la suppression de votre offre. Celle-ci sera communiquer directement au client.</p>
+                    <br>
+                    <h4>Raison de la suppression</h4>
+                    <div class="radio-option">
+                        <input type="radio" name="reasonForDeletion" reason="Bonjour, j'ai retiré mon devis parce que je peux vous proposer un devis plus avantageux pour vous. Compte tenu le prix compétitif, n'hésitez pas à le valider rapidement. Merci. Cordialement" id="reason1" checked>
+                        <label class="radio-label" for="reason1">Je vais proposer un devis moins cher</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" name="reasonForDeletion" reason="Bonjour, Je suis navré mais je me vois dans l'obligation de retirer mon devis puisque celui-ci a été validé par un autre client avant vous. Par conséquent, je ne veux pas me retrouver avec des doublons sur mon agenda. Si entre temps j'ai des changements ou annulations, je me permettrais de vous re-proposer mes services. Merci de votre compréhension. Cordialement" id="reason2">
+                        <label class="radio-label" for="reason2">Mon agenda est plein</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" name="reasonForDeletion" reason="Bonjour, Je suis navré mais je me vois dans l'obligation de retirer mon devis puisque je rencontre un empêchement pour honorer le devis proposé. Si entre temps mon problème est résolu, je me permettrais de vous re-proposer mes services. Merci de votre compréhension. Cordialement" id="reason3">
+                        <label class="radio-label" for="reason3">Dû à un empêchement</label>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button class="btn btn-theme" type="submit" onclick="suplimerDevisModal(
+                        $('#suplimerDevis-idBid').val(),
+                        $('#suplimerDevis-idOffer').val(),
+                        $('#suplimerDevis-idsess').val()
+                        )">Valider <span id="suplimer-loader" style="display: none"><i class="fa fa-circle-o-notch fa-spin fa-fw"></i><span class="sr-only">Loading...</span></span></button>
+                    </div>
+                </div>
+                <!--modal-body-->
+            </div>
+            <!--modal-content-->
+        </div>
+    </div>
+</section>
+
+<div style="display: none;" class="popup-overlay2" id="loader-overlay">
+        <center>
+            <img alt="Loader Image" src="https://fretbay.com/fr/transporter/images/loader.gif"><br>
+            <span class="loader-text">Chargement en cours, nous travaillons dur pour écourter votre attente...<br>Plus que quelques secondes à patienter...</span>
+        </center>
+    </div>
+
+<!-- -->
+<input type="hidden" id="comRate"  				value="0.1700" />
+<input type="hidden" id="reference" 			value="329952" />
+<input type="hidden" id="idsess"   				value="" />
+<input type="hidden" id="categoryId"   			value="2" />
+<input type="hidden" id="idS"   				value="290138" />
+<input type="hidden" id="idT"   				value="" />
+<input type="hidden" id="u_t"   				value="" />
+<input type="hidden" id="reportAbuseType"   	value="1" />
+<input type="hidden" id="messageId"   			value="0" />
+
+<input type="hidden" id="listingLatCharge"   	value="48.7987" />
+<input type="hidden" id="listingLongCharge"   	value="2.13673" />
+<input type="hidden" id="listingLatLivr"   		value="45.4595" />
+<input type="hidden" id="listingLongLivr"   	value="4.3846" />
+
+<input type="hidden" id="listingPaysd"   		value="France" />
+<input type="hidden" id="listingVilled"   		value="Versailles" />
+<input type="hidden" id="listingCpd"   			value="78000" />
+<input type="hidden" id="listingRegiond"   		value="Ile-de-France" />
+
+<input type="hidden" id="listingPaysf"   		value="France" />
+<input type="hidden" id="listingVillf"   		value="Saint-Etienne" />
+<input type="hidden" id="listingCpf"   			value="42000" />
+<input type="hidden" id="listingRegionf"   		value="Auvergne-Rhone-Alpes" />
+
+<input type="hidden" id="listingArticle"   		value="Déménagement 44m3" />
+
+<input type="hidden" id="transEvaluation"		value="0" />
+
+<input type="hidden" id="reserveBidPrice"   	value="" />
+<input type="hidden" id="reserveBidSeconds"   	value="8023" />
+
+<input type="hidden" id="reserveBidPosting"   	value="0" />
+<input type="hidden" id="reserveBidPostingLeft" value="0" />
+
+<input type="hidden" id="telCheck"   			value="" />
+<input type="hidden" id="userOffers"   			value="329952" />
+
+<input type="hidden" id="ibanPro"   			value="" autocomplete="off" />
+
+<input type="hidden" id="proListing"   			value="0" autocomplete="off" />
+<input type="hidden" id="customBids"   			value="0" autocomplete="off" />
+<input type="hidden" id="proListingClosing"   	value="0" autocomplete="off" />
+<input type="hidden" id="date_fix"   			value="1970-01-01" autocomplete="off" />
+
+<input type="hidden" id="loading_date"   		value="1970-01-01" autocomplete="off" />
+<input type="hidden" id="delivery_date"   		value="1970-01-01" autocomplete="off" />
+<input type="hidden" id="delivery_date_e"   	value="1970-01-01" autocomplete="off" />
+
+<input type="hidden" id="bid_node_notifications" value="1" name="bid_node_notifications" autocomplete="off"/>
+<input type="hidden" id="reception_phase_seconds" value="" name="reception_phase_seconds" autocomplete="off"/>
+
+<div class="hidden" id="relatedListingsJson"></div>
+<input type="hidden" id="imaginaryContentSkipBeat">
+<input type="hidden" id="conf_od_v1" value="1">
+
+<!-- IDENTIFYING NODEJS PING FOR SAME TAB FOR SAME USER -->
+<input type="hidden" id="nodeJsPingIdentifier" value="0">
+
+<input type="hidden" id="minimumBidPrice" value="0">
+
+<div id="offerDetailsTranslations" style="display:none;">{"VEUILLEZ_VOUS_PLAT":"Veuillez s'il vous pla\u00eet saisir un prix","SELECT_ATLEAST_ONE_OPTION":"S\u00e9lectionnez au moins une option","PROPOSER_MON_OFFRE":"Proposer mon offre","OFFRE_AVEC_LE_MEME_PRIX":"Offre avec le m\u00eame prix d\u00e9j\u00e0 effectu\u00e9.","SUPPRIMER_OFFRE":"Supprimer Offre","IL_NY_A_PAS_OFFRE_SUR_CETTE_ANNONCE_MOMENT":"Il n'y a pas d'offre sur cette annonce pour le moment.","ENVOYER":"Envoyer","DEJA_SIGNALE":"D\u00e9j\u00e0 signal\u00e9","VEUILLEZ_SELECTIONNEZ_UNNE_RAISON":"Veuillez s\u00e9lectionner une raison d'abus","VOTRE_MESSAGE_A_BIEN_ETE_AJOUTE":"Votre message a bien \u00e9t\u00e9 ajout\u00e9","VOTRE_MESSAGE_A_BIEN_ETE_MIS_A_JOUTE":"Votre message a bien \u00e9t\u00e9 mis \u00e0 jour","ARE_YOU_SURE_YOU_WANT_TO_DELETE":"\u00cates-vous s\u00fbr de vouloir le supprimer ?","VOTRE_MESSAGE_A_BIEN_ETE_SUPPRIMER":"Votre message a bien \u00e9t\u00e9 supprim\u00e9","VEUILLEZ_COCHER_LA_CASE_POUR_REMPORTER_CE_TRANSPORTER":"Veuillez cocher la case pour remporter ce transporteur","EN_CLIQUANT_SURE_OK_VOUS_CONDITIONS":"En cliquant sur OK vous vous engagez \u00e0 honorer ce transport dans les conditions de transport inscrit sur l'annonce incluant le prix et les dates de transport. \u00cates-vous s\u00fbre de vouloir valider ?","FERMER_LA_FENETRE":"Fermer la fen\u00eatre","LOW_BID_PRICE_ERROR":"Le devis ne peux pas \u00eatre moins cher que"}</div>
+
+
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyAYOrPJu6E4FJp7mP20xPbiU4FQGYQQU-0"></script>
+
+<script type="text/javascript" src="transporter/js/jquery.raty.min.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/bootstrap.min.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/jquery.placeholder.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/jquery-ui.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/offer-details-translation.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/offer-details-common.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/jquery.raty.min.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/offerDetailsJsNode.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/js/simple.carousel.js?v=1.3.5"></script>
+<script type="text/javascript" src="plugins/timepicker/jquery-ui-timepicker-addon.min.js?v=1.3.5"></script>
+<script type="text/javascript" src="transporter/include/conferencing-src/js/conference.js?v=1.3.5"></script>
+<link rel="stylesheet" type="text/css" href="transporter/include/conferencing-src/css/call_mover.css?ver=2.9.1"/>
+<div class="modal fade conference-modal in" id="conference-msg" style="display: none;" aria-hidden="false">
+			 <div class="modal-dialog">
+			   <div class="modal-content">
+			     <div class="modal-body">
+			     Votre demande à été transmise au déménageur. Un mail vous confirmera le rendez-vous dans les plus briefs delais.<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			     </div>
+			   </div>
+			 </div>
+			</div>
+<script>
+var _offerdetails = {
+	"pseudo" : "",
+	"isVisible" : "1",
+	"idsess" : "",
+	"user_type" : "",
+	"is_message_visible" : 1,
+	"od" : {
+		"expiry" : "",
+		"categorie" : "2",
+		"id_offer" : "329952",
+		"listingReceptionExpirySeconds" : "",
+		"offerDetails_datePublish" : "2019-05-25 09:06:12",
+		"pro" : "0",
+		"listingDuration_id" : "",
+		"article" : "Déménagement 44m3",
+		"categorieName" : "Déménagements",
+ 	},
+};
+
+var only_transporter_bids = 0;
+var bids_number = 5;
+var debug_bids = (window.location.hash === "#debug_bids") ? 1 : 0;
+
+if (typeof transporter_offer_details !== "undefined" && typeof transporter_offer_details === "object") {
+	transporter_offer_details.setTranslation({"VEUILLEZ_VOUS_PLAT":"Veuillez s'il vous pla\u00eet saisir un prix","SELECT_ATLEAST_ONE_OPTION":"S\u00e9lectionnez au moins une option","PROPOSER_MON_OFFRE":"Proposer mon offre","OFFRE_AVEC_LE_MEME_PRIX":"Offre avec le m\u00eame prix d\u00e9j\u00e0 effectu\u00e9.","SUPPRIMER_OFFRE":"Supprimer Offre","IL_NY_A_PAS_OFFRE_SUR_CETTE_ANNONCE_MOMENT":"Il n'y a pas d'offre sur cette annonce pour le moment.","ENVOYER":"Envoyer","DEJA_SIGNALE":"D\u00e9j\u00e0 signal\u00e9","VEUILLEZ_SELECTIONNEZ_UNNE_RAISON":"Veuillez s\u00e9lectionner une raison d'abus","VOTRE_MESSAGE_A_BIEN_ETE_AJOUTE":"Votre message a bien \u00e9t\u00e9 ajout\u00e9","VOTRE_MESSAGE_A_BIEN_ETE_MIS_A_JOUTE":"Votre message a bien \u00e9t\u00e9 mis \u00e0 jour","ARE_YOU_SURE_YOU_WANT_TO_DELETE":"\u00cates-vous s\u00fbr de vouloir le supprimer ?","VOTRE_MESSAGE_A_BIEN_ETE_SUPPRIMER":"Votre message a bien \u00e9t\u00e9 supprim\u00e9","VEUILLEZ_COCHER_LA_CASE_POUR_REMPORTER_CE_TRANSPORTER":"Veuillez cocher la case pour remporter ce transporteur","EN_CLIQUANT_SURE_OK_VOUS_CONDITIONS":"En cliquant sur OK vous vous engagez \u00e0 honorer ce transport dans les conditions de transport inscrit sur l'annonce incluant le prix et les dates de transport. \u00cates-vous s\u00fbre de vouloir valider ?","FERMER_LA_FENETRE":"Fermer la fen\u00eatre","LOW_BID_PRICE_ERROR":"Le devis ne peux pas \u00eatre moins cher que","NUM_BIDS":{"THERE_ARE":"Il y a","NUMBER_OF_BIDS":"offre(s) sur cette annonce."}});
+}
+
+
+$(function() {
+	
+	reloadMessages($('#reference').val(), $('#idsess').val(), 1);
+	loadRelatedListings();
+  	$('input, textarea').placeholder();
+
+});
+
+
+$('#checkAll').click(function () {
+  $(':checkbox.checkItem').prop('checked', this.checked);
+});
+
+$('#rep-one').click(function () {
+  $('.rows-one .bod, .rows-one .bod2').addClass("chng-color");
+  $('.reply-sec').toggle();
+  $('.reply-sec2, .reply-sec3, .reply-sec4').hide();
+});
+
+$('#rep-one2').click(function () {
+  $('.rows-two .bod, .rows-two .bod2').addClass("chng-color");
+  $('.reply-sec2').toggle();
+  $('.reply-sec, .reply-sec3, .reply-sec4').hide();
+});
+
+$('#rep-one3').click(function () {
+  $('.rows-three .bod, .rows-three .bod2').addClass("chng-color");
+  $('.reply-sec3').toggle();
+  $('.reply-sec2, .reply-sec, .reply-sec4').hide();
+});
+
+$('#rep-one4').click(function () {
+  $('.rows-four .bod, .rows-four .bod2').addClass("chng-color");
+  $('.reply-sec4').toggle();
+  $('.reply-sec2, .reply-sec3, .reply-sec').hide();
+});
+  $(document).ready(function(){
+      $('.label_check, .label_radio').click(function(){
+      setupLabel();
+      });
+     // setupLabel();
+      function setupLabel() {
+      if ($('.label_check input').length) {
+          $('.label_check').each(function(){
+          $(this).removeClass('c_on');
+      });
+          $('.label_check input:checked').each(function(){
+          $(this).parent('label').addClass('c_on');
+      });
+  };
+      if ($('.label_radio input').length) {
+          $('.label_radio').each(function(){
+          $(this).removeClass('r_on');
+      });
+          $('.label_radio input:checked').each(function(){
+          $(this).parent('label').addClass('r_on');
+       });
+    };
+  };
+  });
+
+$(".timepicker").timepicker({
+	altField: "#trigger_timepicker"
+});
+ $(function() {
+$( "#datepicker" ).datepicker();
+});
+ $(function() {
+$( "#date17" ).datepicker();
+});
+ $(function() {
+$( "#date15" ).datepicker();
+});
+ $(function() {
+$( "#date16" ).datepicker();
+});
+ $(function() {
+$( "#date18" ).datepicker();
+});
+ $(function() {
+$( "#date19" ).datepicker();
+});
+ $(function() {
+$( "#date20" ).datepicker();
+});
+
+$("#sin-one").click(function(){
+	$(".sigle-datepicker").show("slow")
+	$(".sigle-datepicker2").hide("slow")
+});
+$("#sin-one2").click(function(){
+	$(".sigle-datepicker2").show("slow")
+	$(".sigle-datepicker").hide("slow")
+});
+$("#sin-one3").click(function(){
+	$(".sigle-datepicker3").show("slow")
+	$(".sigle-datepicker4").hide("slow")
+});
+$("#sin-one4").click(function(){
+	$(".sigle-datepicker4").show("slow")
+	$(".sigle-datepicker3").hide("slow")
+});
+$("#reserveOfferRadio").click(function(){
+	$("#reserveOfferRadio").addClass("r_on");
+	$("#postOfferRadio").removeClass("r_on");
+	$("#reserveOfferContent").show();
+	$("#offerPrixContent").hide();
+});
+$("#postOfferRadio").click(function(){
+	$("#postOfferRadio").addClass("r_on");
+	$("#reserveOfferRadio").removeClass("r_on");
+	$("#reserveOfferContent").hide();
+	$("#offerPrixContent").show();
+});
+
+$(document).ready(function() {
+
+	//Default Action
+
+	$('#gerbtn').click();
+
+	$('#bidPopupLoadLink').click(function(){
+		$('#TypeVehicule').removeClass('error-select');
+		$('#descriptionOfferBid').removeClass('err-field');
+		$('#templateName').removeClass('err-field');
+	});
+
+});
+$("#gerbtn").click(function(){
+	$(".field-con").show();
+	$("#gerbtn").addClass("active");
+	$("#ajobtn").removeClass("active");
+	$(".bid-tags").hide();
+	$('#TypeVehicule').removeClass('error-select');
+	$('#descriptionOfferBid').removeClass('err-field');
+	$('#templateName').removeClass('err-field');
+	$('#noBidMessage').css('display','block');
+	$("#saveBidTemplate").hide();
+});
+$("#ajobtn").click(function(){
+	$('#bidTmpId').val('');
+	$('#templateName').val('');
+	$('#descriptionOfferBid').val('');
+	$('#TypeVehicule').val('');
+	$('#TypeVehicule').removeClass('error-select');
+	$('#descriptionOfferBid').removeClass('err-field');
+	$('#templateName').removeClass('err-field');
+	$('#noBidMessage').css('display','none');
+
+	$(".field-con").hide();
+	$("#ajobtn").addClass("active");
+	$("#gerbtn").removeClass("active");
+	$(".bid-tags").show();
+	$("#saveBidTemplate").show();
+});
+
+$(document).ready(function() {
+
+	//disable reserve bid button by default
+	//$('#btnReserve').attr("disabled", "disabled");
+
+	//Default Action
+	$(".tab_content2").hide(); //Hide all content
+	$("ul.tabs2 li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content2:first").show(); //Show first tab content
+	//On Click Event
+	$("ul.tabs2 li").click(function() {
+		$("ul.tabs2 li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content2").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+});
+
+   $.fn.raty.defaults.path = 'transporter/images';
+
+  $(function() {
+
+	  $('#transRatingStart').raty({
+		  halfShow : true,
+		  numberMax : 5,
+		  readOnly   : true,
+		  score    : 0		});
+
+
+		$('.score-callback').raty({
+			  readOnly   : true,
+			  hints : [['', ''], ['', ''], ['', ''], ['', ''], ['', '']],
+		score: function() {
+		  return $(this).attr('data-score');
+		}
+		});
+
+
+
+  });
+
+$(".log-te nav ul li:nth-child(3) a").click(function(event){
+        event.preventDefault();
+	$(".fixed-section-boxes").toggle()
+});
+$("a.cls").click(function(event){
+        event.preventDefault();
+	$(".fixed-section-boxes").hide("slide", { direction: "up" }, 500);
+});
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) { // this refers to window
+        $(".offerDetails-StickyBar").removeClass("stickybar-offerdetails")
+        $(".offerDetails-StickyBar").addClass("stickybar2")
+    }
+});
+$(window).scroll(function() {
+    if ($(this).scrollTop() <= 100) { // this refers to window
+        $(".offerDetails-StickyBar").addClass("stickybar-offerdetails")
+        $(".offerDetails-StickyBar").removeClass("stickybar2")
+    }
+});
+
+
+//********* uar **************
+
+$('.filefieldcontainer .imgLarge').on('click',function(){
+
+	var src = $(this).attr('data-name');
+	var valSrc = $(this).attr('src');
+
+	var img = '<img id="popupLargeImage" src="../global/media/listings/' + src + '" class="img-responsive"/>';
+
+	//Start of new code
+	var index = $(this).parent('li').index();
+	var html = '';
+	html += img;
+	html += '<div style="height:25px;clear:both;display:block;">';
+	html += '<a class="controls next pop-next" href="'+ (index+2) + '"></a>';
+	html += '<a class="controls previous pop-prev" href="' + (index) + '"></a>';
+	html += '</div>';
+	//End of new code
+
+
+	$('#photoPreview').modal();
+	$('#photoPreview').on('shown.bs.modal', function(){
+			$('#photoPreview .modal-body').html(html);
+	});
+	$('#photoPreview').on('hidden.bs.modal', function(){
+			$('#photoPreview .modal-body').html('');
+	});
+
+	var newPrevIndex 	= index;
+	var newNextIndex 	= parseInt(newPrevIndex) + 2;
+	var total = $('ul.row li').length + 1;
+
+	var delay			= 1000;
+
+	setTimeout(function(){
+
+		if(total === newNextIndex || parseInt(newNextIndex) == parseInt(total) || parseInt(newNextIndex) > parseInt(total)){
+			newNextIndex = 1;
+
+		}
+		if(newPrevIndex === 0){
+
+		   newPrevIndex =  parseInt(total)-1;
+		}
+
+		if($(this).hasClass('previous')){
+
+			$(this).attr('href', newPrevIndex);
+			$('a.next').attr('href', newNextIndex);
+		}
+		else{
+			$('a.previous').attr('href', newPrevIndex);
+			$('a.next').attr('href', newNextIndex);
+		}
+
+	},delay);
+
+});
+$(document).on('click', 'a.controls', function(){
+
+	//this is where we add our logic
+	var index = $(this).attr('href');
+	var src = $('ul.row li:nth-child('+ index +') img').attr('data-name');
+	//var src = $('#imgg'+ index).attr('src');
+	var newSrc = '../global/media/listings/'+src;
+
+	$('#popupLargeImage').attr('src', newSrc);
+
+	var total = $('ul.row li').length + 1 ;
+
+	/// some coe
+	var newPrevIndex = parseInt(index) - 1;
+	var newNextIndex = parseInt(newPrevIndex) + 2;
+
+	if(total === newNextIndex){
+
+		newNextIndex = 1;
+	}
+	if(newPrevIndex === 0){
+		// $('a.previous').hide();
+		newPrevIndex =  parseInt(total)-1;
+	}
+
+	if($(this).hasClass('previous')){
+
+		$(this).attr('href', newPrevIndex);
+		$('a.next').attr('href', newNextIndex);
+	}
+	else{
+		$(this).attr('href', newNextIndex);
+		$('a.previous').attr('href', newPrevIndex);
+	}
+
+	return false;
+});
+
+function loadRelatedListings(){
+
+	$.ajax( {
+    url: 'transporter/ajax/offerDetailsAjax.php',
+    type: 'POST',
+    data:{
+    	idsess: $('#idsess').val(), 
+    	oid: $('#reference').val(), 
+    	telCheck: $('#telCheck').val(), 
+    	type: 'loadRelatedListings',
+    	currentLang : currentLang
+    },
+    success: function(data) {
+
+    	data = JSON.parse(data);
+
+    	if(data.status == 1){
+
+    		var idsess = $('#idsess').val();
+
+    		var res = data.message;
+      		$('#relatedListingsSection').replaceWith(res.relatedListingsContent);
+
+      		console.log(res.relatedListingsContent);
+
+      		$('.allRelatedListings').click(function(){
+
+				$('.listing_groupage').show();
+				$('.listing_retour').show();
+			});
+
+			$('.groupageRelatedListings').click(function(){
+
+				$('.listing_groupage').show();
+				$('.listing_retour').hide();
+			});
+
+			$('.retourRelatedListings').click(function(){
+
+				$('.listing_groupage').hide();
+				$('.listing_retour').show();
+			});
+
+			/* Adding markers for related loadings */
+
+
+			arr = res.relatedListings;
+
+			// for new logic
+
+			if(arr.length) {
+				var markers = L.markerClusterGroup();
+				for (var i = 0; i < arr.length; i++) {
+				    var a = arr[i];
+				    var title = a['article'];
+				    var marker = L.marker(new L.LatLng(a['latitude_chargement'], a['longitude_chargement']), { title: title });
+				    marker.bindPopup(title);
+				    markers.addLayer(marker);
+				}
+
+				map.addLayer(markers);				
+			}
+
+
+
+			/*
+						
+			if(arr && arr.length){
+
+				var infowindow = new google.maps.InfoWindow();
+
+				var marker, i;
+
+				for (i = 0; i < arr.length; i++) {
+
+				  marker = new google.maps.Marker({
+
+					position: new google.maps.LatLng(arr[i].latitude_chargement, arr[i].longitude_chargement),
+					map: map,
+					icon: $('#globalSiteUrl').val()+'/fr/images/map/common-pin.png?v=1.2'
+
+				  });
+
+				//marker.setIcon = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+				  google.maps.event.addListener(marker, 'click', (function(marker, i) {
+
+					return function() {
+					  infowindow.setContent('<a style="font-weight:bold;" href="https://fretbay.com/fr/'+replaceCharcters(arr[i].article)+'-'+arr[i].id_offer+'-'+idsess+'.html'+'">' + truncateString(arr[i].article) +'</a><br/>de ' + arr[i].villed + ' '+arr[i].cpd + '<br/>à ' + arr[i].villf + ' ' + arr[i].cpf + '<br/><a style="color:blue; display:block; float:right;" href="https://fretbay.com/fr/'+replaceCharcters(arr[i].article)+'-'+arr[i].id_offer+'-'+idsess+'.html'+'">Voir annonce</a>');
+					  infowindow.open(map, marker);
+					}
+				  })(marker, i));
+				}
+			}*/
+      	}
+    }
+  });
+}
+</script>
+
+
+
+
+<div class="modal fade" id="photoPreview" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog pic-modal sh-n-pop" style="margin-top: 20px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Photos</h4>
+        <div class="clearfix"></div>
+      </div>
+      <!--modal-header-->
+      <div class="modal-body sh-opup"> 
+        
+      </div>
+          </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+
+<script>
+
+function showHideDayTimings(dayType){ 
+	if(dayType == 'full_day'){
+		$('.half-day').show();
+	}else if(dayType == 'half_day'){
+		$('.half-day').hide();
+	}
+}
+</script>
+
+</body>
+</html>
