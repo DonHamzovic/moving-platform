@@ -1,7 +1,4 @@
-
-
-
-<!DOCTYPE html>`
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
@@ -24,11 +21,14 @@
 
 <base href="https://fretbay.com/fr/">
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
 <script src="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.js"></script>
 <script src="https://cdn.klokantech.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
 <link rel="stylesheet" href="https://cdn.klokantech.com/mapbox-gl-js/v0.43.0/mapbox-gl.css" />
+
+<link rel="shortcut icon" href="HatchfulExport-All/favicon.png">
 <style>
 	.leaflet-top, .leaflet-bottom,
 	.leaflet-control {
@@ -86,8 +86,8 @@ function loadNotifications(){
 }
 </script>
 
-<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay/css/notificationHeader.css" />
-<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay/css/space.css" />
+<link rel="stylesheet" type="text/css" href="C:/Projects/v2/moving-platform/css/notificationHeader.css" />
+<link rel="stylesheet" type="text/css" href="C:/Projects/v2/moving-platform/css/space.css" />
 <link rel="stylesheet" type="text/css" href="https://fretbay.com/fr/css/font-awesome.min.css?v=1.0" />
 <script type="text/javascript" src="https://fretbay.com/fr/js/notificationHeader.js?v=0.0.6" ></script>
 
@@ -95,7 +95,7 @@ function loadNotifications(){
         <header id="header" class="btnNav inPHeader"  style="height: 91px;" >
           <div class="container">
             <div class="row">
-              <div id="logo" class="col-sm-1"> <a href="#"> <img id="idlogo" src="C:/Users/Dell/Desktop/Programming notes/Fretbay/HatchfulExport-All/logo_transparent.png" widht="68" height="79" alt="Logo"> </a>
+              <div id="logo" class="col-sm-1"> <a href="#"> <img id="idlogo" src="C:/Projects/v2/moving-platform/HatchfulExport-All/logo_transparent.png" widht="68" height="79" alt="Logo"> </a>
                 <button class="btn" id="menu-btn2"> <i class="fa fa-bars"></i> </button>
               </div>
               <!-- Begin Navigation Wrapper -->
@@ -127,39 +127,10 @@ function loadNotifications(){
         <input type="hidden" id="globalNodeServerUrl"   value="https://frs.fretbay.com" />
         <input type="hidden" id="currentLoggedInUserId" 	value="" />
         <input type="hidden" id="currentLoggedInUserIdsess" value="" />
-        <noscript>
-         <img height="1" width="1" 
-        src="https://www.facebook.com/tr?id=1175508309142096&ev=PageView
-        &noscript=1"/>
-        </noscript>
+        
                 
 
 		
-<script type="text/javascript">
-	(function(){
-	var service = "GS.d";
-	var config = {
-	pa : "21828",
-	si : "1",
-	u : document.location.href,
-	r : document.referrer,
-	uf_postal_code : "",
-	hd_m : "",/* EMAIL HASH MD5 */
-
-	//DO NOT CHANGE BELOW
-	rand : (new Date()).getTime()
-	};
-	var configParams = [];
-	for(var v in config){
-	configParams .push(v+'='+encodeURIComponent(config[v]));
-	}
-	var sddanJS=document.createElement('script');
-	sddanJS.async = true;
-	sddanJS.type = "text/javascript"; 
-	sddanJS.src='https://js.sddan.com/'+service+'?'+ configParams.join('&');
-	document.getElementsByTagName('head')[0].appendChild(sddanJS);
-	})();
-</script>
 
 
 <script src="transporter/js/transporterSocketNode.js?t=1559019156"></script>
@@ -176,8 +147,8 @@ function loadNotifications(){
   <div class="row">
     <div class="container mod">
       <ul class="nbrd">
-									  <li><a href="index.php?idsess="><div class="pull-left">Accueil</div> <i></i></a></li>
-									  <li><a href="annonces.php?idsess="><em></em> <div class="pull-left">Trouver un chargement</div> <i></i></a></li>
+									  <li><a ><div class="pull-left">Accueil</div> <i></i></a></li>
+									  <li><a ><em></em> <div class="pull-left">Trouver un chargement</div> <i></i></a></li>
 									  <li><a href="javascript:void(0);" class="nolink"><em></em> <div class="pull-left">Déménagements</div> <i></i></a></li>
 									  <li><a href="javascript:void(0);" class="nolink"><em></em> <div class="pull-left">Déménagements</div> <i></i></a></li>
 									  <li>
@@ -201,12 +172,12 @@ function loadNotifications(){
         <div class="col-md-6 col-sm-6">
           <h4>Pas encore inscrit ?</h4>
           <p>L'inscription est rapide et gratuite</p>
-          <a href="#/transporter/inscription-transporteur" class="btn1">S'inscrire</a><div class="clearfix"></div>
+          <a  class="btn1">S'inscrire</a><div class="clearfix"></div>
         </div><!--col-md-6-->
         <div class="col-md-6 col-sm-6">
           <h4>Déjà inscrit</h4>
           <p>Authentifiez vous et proposez votre devis</p>
-          <a href="#/conec.php" class="btn1 btn-b">Cliquez ici</a><div class="clearfix"></div>
+          <a  class="btn1 btn-b">Cliquez ici</a><div class="clearfix"></div>
         </div><!--col-md-6-->
         <div class="clearfix"></div>
       </section><!--non-logx-->
@@ -224,7 +195,7 @@ function loadNotifications(){
             Déménagements          </div>
          
          <div class="col-md-4 col-sm-4 mr-r">          
-         	<a href="#/annonces.php?idsess=" class="t-linl">Revenir à la liste des annonces</a>
+         	<a  class="t-linl">Revenir à la liste des annonces</a>
          	          </div>
           
          <div class="clearfix"></div>
@@ -439,7 +410,7 @@ stationnement aisé pour chargement et déchargement.</span>
                           <tr id="bidRecord-788855" class="danger">
 							<td><p class="las">2 jours</p></td>
 							<td>
-                            <a target="_blank" href="#/profil-des-transporteurs/AMDTRANSPORT/" data-html="true" id="pop" data-toggle="popover" data-content="AMDTRANSPORT">
+                            <a target="_blank"  data-html="true" id="pop" data-toggle="popover" data-content="AMDTRANSPORT">
                             <strong class="unames">
 							AMDTRANS <img src="transporter/images/van3.png" alt="Image" />
                             </strong>
@@ -491,7 +462,7 @@ stationnement aisé pour chargement et déchargement.</span>
             </li>
             <li><strong>Déménageur / Transporteur :</strong>
               <p>
-			  <a target="_blank" href="profil-des-transporteurs/AMDTRANSPORT">
+			  <a target="_blank" >
 			  <b>AMDTRANSPORT</b> <img src="https://fretbay.com/fr/transporter/images/user-icon.png" alt="Image" />
               </a>
               </p>
@@ -557,7 +528,7 @@ stationnement aisé pour chargement et déchargement.</span>
                           <tr id="bidRecord-789299" class="success">
 							<td><p class="las">17 heures</p></td>
 							<td>
-                            <a target="_blank" href="#/profil-des-transporteurs/Per2018/" data-html="true" id="pop" data-toggle="popover" data-content="Per2018">
+                            <a target="_blank"  data-html="true" id="pop" data-toggle="popover" data-content="Per2018">
                             <strong class="unames">
 							Per2018 <img src="transporter/images/van3.png" alt="Image" />
                             </strong>
@@ -676,7 +647,7 @@ stationnement aisé pour chargement et déchargement.</span>
                           <tr id="bidRecord-788573" class="danger">
 							<td><p class="las">2 jours</p></td>
 							<td>
-                            <a target="_blank" href="#/profil-des-transporteurs/Handzel/" data-html="true" id="pop" data-toggle="popover" data-content="Handzel">
+                            <a target="_blank"  data-html="true" id="pop" data-toggle="popover" data-content="Handzel">
                             <strong class="unames">
 							Handzel <img src="transporter/images/van3.png" alt="Image" />
                             </strong>
@@ -794,7 +765,7 @@ stationnement aisé pour chargement et déchargement.</span>
                           <tr id="bidRecord-789477" class="success">
 							<td><p class="las">13 heures</p></td>
 							<td>
-                            <a target="_blank" href="#/profil-des-transporteurs/FRED16/" data-html="true" id="pop" data-toggle="popover" data-content="FRED16">
+                            <a target="_blank"  data-html="true" id="pop" data-toggle="popover" data-content="FRED16">
                             <strong class="unames">
 							FRED16 <img src="transporter/images/van3.png" alt="Image" />
                             </strong>
@@ -917,7 +888,7 @@ Yael K</p>
                           <tr id="bidRecord-788660" class="success">
 							<td><p class="las">2 jours</p></td>
 							<td>
-                            <a target="_blank" href="#/profil-des-transporteurs/fretEU/" data-html="true" id="pop" data-toggle="popover" data-content="fretEU">
+                            <a target="_blank"  data-html="true" id="pop" data-toggle="popover" data-content="fretEU">
                             <strong class="unames">
 							fretEU <img src="transporter/images/van3.png" alt="Image" />
                             </strong>
@@ -1157,7 +1128,7 @@ ga('create','UA-33460216-1','auto');
 ga('send','pageview');
 </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Desktop/Programming notes/Fretbay//css/footer.css"/>
+<link rel="stylesheet" type="text/css" href="C:/Projects/v2/moving-platform/css/footer.css"/>
     <!-- Begin Footer Wrapper -->
     <div id="fretbayfooter">
         <div class="footer-main">
@@ -1166,7 +1137,7 @@ ga('send','pageview');
                     <div class="col-md-2">
                         <div class="row">
                             <div class="col-lg-12 footerLogo">
-                                <a href="#/index.php"><img src="C:/Users/Dell/Desktop/Programming notes/Fretbay/HatchfulExport-All/logo_transparent.png" width="143" height="165" alt="Logo" class="f-logo"></a>
+                                <a href="#/index.php"><img src="C:/Projects/v2/moving-platform/HatchfulExport-All/logo_transparent.png" width="143" height="165" alt="Logo" class="f-logo"></a>
                             </div>
                         </div>
                     </div><!--/ Footer Column -->
